@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TekServiceInterfaces_Tests' do
+  pod 'TekServiceInterfaces', :path => '../'
+  
+  
+end
