@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		207EC30EF69B2B5E45A3C4C1A5BE0158 /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EBB56E3389FB12A0E12EB45505D5F /* IBannerResult.swift */; };
-		21F10AFFC92B7EC5C2F0EFD78E69E66C /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B70BFB1E86A8136B08A7CC69300C0D4 /* INotification.swift */; };
-		37977A9A01B15FD5E83172539AF8EB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		557B33DD6B4E2F591363959F5859572D /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14672291E79C7EC15CFD3A8B393EB71B /* IBanner.swift */; };
+		068423094EC8ECD6329E8A89B496A3D1 /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE28C8BB4467FF0A0A735BFB7FEBEB5 /* IBenefit.swift */; };
+		1090BA32A5FDC56D8B88769E2FE0FCE4 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1810E2A960A7ECC757785CEF004FFD /* IAppliedPromotion.swift */; };
+		171F19A5B127466DC12B9C7267012450 /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2FC34980FB7C91A22146ABDAAE7D47 /* IVoucher.swift */; };
+		24BE9057A341AAC99D8BDE5CB7F92CA9 /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62A7ABDFBFE8B75E92F49B6FA1B8A3 /* IDefinition.swift */; };
+		28743AF9EC6C9092814BA7852E7FC792 /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B92BC112D7424802C09316259B2974 /* ITimeRange.swift */; };
+		2E1D6E2CBD4FE2F164AB8E520B0BAF18 /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877FC45C0F23DAFB796917A3A59BC96 /* IBannerResult.swift */; };
 		5674D9A0DA3A5855F5C3B5AA2EB2F53E /* Pods-TekServiceInterfaces_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7381B9A48DF9A899DC000CCDF9A51166 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4AFA364CFD3C5BD2028BEE891D8E3 /* IStnService.swift */; };
-		74A56EAE130F4A4F651440638606002D /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8270FC5654CA725E40A869C55CBE /* IExtraDataNotification.swift */; };
-		9BB2AB109C7178BBF36B7F89D4E1C64F /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B7EE2E7FB854679A934138F388E27 /* TekServiceInterfaces-dummy.m */; };
-		9CBCA4D10E12C875FDF9E46E21BC066A /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A0208958ECDB9311AC27A5143F5AC /* INotificationResult.swift */; };
-		A421F383C3405374B56A6841545C7F32 /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDC5600E5CB87253A839EC1D8698E29 /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B371F5A5947C7D25CD76CF600E99615D /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB8FD5AF34AA173A7044C689E7A3601 /* IPageBuilderService.swift */; };
-		C805A97440A29AE7009CEF7EBB2B29F6 /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CECD7CBDA00882F24887815F7351AFA /* IOrderNotificationData.swift */; };
+		56B8AA38C3FB332CE91BAA0E7BDA8C72 /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411071C5BD4146301A95535A9CA0E50 /* INotification.swift */; };
+		6A965A1E803FEB53EA527664A4A08D7F /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241D1081498F0BACEDFCF400DCDB683 /* IMoney.swift */; };
+		7445222E48E81AB211DF667A086F53C0 /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00134366A7389ED64D7DC667ED9641B /* IBanner.swift */; };
+		779B0E220C11790A140EDC5B256716D3 /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B1CE671C2AC86B72E71CB17524D944 /* ICondition.swift */; };
+		89A57E06008BC94E6D6F947DA71E1E72 /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1A50126EC290BB0331FF19D2158E2A /* IOrderNotificationData.swift */; };
+		89E91885FE5CDD84F5DF32541F40076B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93B95BC84862878F8233EF08A73423DC /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8B8B2396955C15E3168582D274EB9 /* INotificationResult.swift */; };
+		BCB11F0020531E66B6330A198F47D4EB /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7619BC8D786F3F15483984B07866FD66 /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C268187B7541B634A050F6980F2A0482 /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E0E766E39500AF46BBD3DDC079E36 /* IExtraDataNotification.swift */; };
+		CAEEF7B12AA74A79F2AB0E5EB05F4732 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 140F06DF0C00E3672A47E1F09CB47812 /* TekServiceInterfaces-dummy.m */; };
+		D76DA757F718CBEFD22BACC307F5FD8C /* IPPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */; };
 		DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */; };
+		E087726E590F26E91FE2D081A714C250 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD9FF165250FB6B5D272B249501DD0 /* IStnService.swift */; };
+		F11A9B20B246A4318893D22A8104B1BF /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25111A9B87AE8AED206A5065E821043 /* IItem.swift */; };
 		F4A29FFF252A1BF27FD4DF2ED597320B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F6299177702905488A8195B6AFB6A634 /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38781488470612C9507E4CC41A9BF4 /* IPageBuilderService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,45 +43,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		094B8270FC5654CA725E40A869C55CBE /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
-		14672291E79C7EC15CFD3A8B393EB71B /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
-		2B70BFB1E86A8136B08A7CC69300C0D4 /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
+		028925A1F711DB7D465913170116021B /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
+		10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPPMService.swift; sourceTree = "<group>"; };
+		140F06DF0C00E3672A47E1F09CB47812 /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
+		2A4BEFE3CF56D80ACD0C9B6C9B155515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2F2FC34980FB7C91A22146ABDAAE7D47 /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34B1AB84E8C749B026414568DFEE3B1A /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
-		389CDC91FF48A75003AB15743EEA9F7B /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
+		3815B927967E59268333C802D29A0737 /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
+		3F4FA7AFA678072F041EC5CF3DC0D811 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
 		40561BEB7AF0677429C35160038DF2A9 /* Pods-TekServiceInterfaces_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-Info.plist"; sourceTree = "<group>"; };
-		46158D7BE10D0ED0F5569BCD76330320 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		49285D2A6F3701B8F71CDDFCA129D364 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
-		5CECD7CBDA00882F24887815F7351AFA /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
+		4411071C5BD4146301A95535A9CA0E50 /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
+		4B913FCF29DB928A3F8EC3C686AF2586 /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
+		5877FC45C0F23DAFB796917A3A59BC96 /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
 		60388570966F25DDA5A14C83A1CDE303 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A1810E2A960A7ECC757785CEF004FFD /* IAppliedPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
+		6D38781488470612C9507E4CC41A9BF4 /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
 		6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TekServiceInterfaces_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F1A50126EC290BB0331FF19D2158E2A /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
 		7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TekServiceInterfaces_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B8B7EE2E7FB854679A934138F388E27 /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
+		70E8B8B2396955C15E3168582D274EB9 /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
+		7241D1081498F0BACEDFCF400DCDB683 /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
+		72AD9FF165250FB6B5D272B249501DD0 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
+		7619BC8D786F3F15483984B07866FD66 /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
+		7BA035FE95B0D79DCBE1ADDF437ADB85 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85B92BC112D7424802C09316259B2974 /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
 		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0A0208958ECDB9311AC27A5143F5AC /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
+		959E0E766E39500AF46BBD3DDC079E36 /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA8CFEFE0D2C70F1C43D8C24B57BA9A /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
-		ACDC5600E5CB87253A839EC1D8698E29 /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
+		ABE28C8BB4467FF0A0A735BFB7FEBEB5 /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
+		AD62A7ABDFBFE8B75E92F49B6FA1B8A3 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
+		AFAA27AD464F6D1872FB23F325CC1768 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B506072ECF1971CDC062CFAF2326FE6C /* Pods-TekServiceInterfaces_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BEFAEDE88B61B2A303475F638D84E15B /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C00134366A7389ED64D7DC667ED9641B /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C30A3EC151D23F53372E4CB6DC844902 /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
 		D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0B334D78496060DF0F238BCCE846ADB /* Pods-TekServiceInterfaces_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D9DB05E4BF4ED744068F02A052CCAAF4 /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
-		DCB8FD5AF34AA173A7044C689E7A3601 /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
-		DD0EE9CED5ED48B2378A20EF07A5BB6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E03EBB56E3389FB12A0E12EB45505D5F /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
-		E7B4AFA364CFD3C5BD2028BEE891D8E3 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
+		D25111A9B87AE8AED206A5065E821043 /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
+		D9B1CE671C2AC86B72E71CB17524D944 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
 		FE1C3A520FD0F6CF706CE8A6340E38B5 /* Pods-TekServiceInterfaces_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TekServiceInterfaces_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		99A8075DBB4B43DA6E37AFBDE49001B2 /* Frameworks */ = {
+		9DE9FE1494733CC67DF292E43E27D1C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37977A9A01B15FD5E83172539AF8EB7A /* Foundation.framework in Frameworks */,
+				89E91885FE5CDD84F5DF32541F40076B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,19 +105,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22CB6B2948667DC9D665C0AC5389FD9A /* Support Files */ = {
+		1B47AA9529578940067400D4810C9824 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				49285D2A6F3701B8F71CDDFCA129D364 /* TekServiceInterfaces.modulemap */,
-				7B8B7EE2E7FB854679A934138F388E27 /* TekServiceInterfaces-dummy.m */,
-				D9DB05E4BF4ED744068F02A052CCAAF4 /* TekServiceInterfaces-Info.plist */,
-				389CDC91FF48A75003AB15743EEA9F7B /* TekServiceInterfaces-prefix.pch */,
-				ACDC5600E5CB87253A839EC1D8698E29 /* TekServiceInterfaces-umbrella.h */,
-				AAA8CFEFE0D2C70F1C43D8C24B57BA9A /* TekServiceInterfaces.debug.xcconfig */,
-				34B1AB84E8C749B026414568DFEE3B1A /* TekServiceInterfaces.release.xcconfig */,
+				D285458B2FF25EE5CDA310C4C6CB26F7 /* TekServiceInterfaces */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TekServiceInterfaces";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		433CD808DF4D750B100781EF17055DD8 /* Targets Support Files */ = {
@@ -127,38 +138,55 @@
 			path = "Target Support Files/Pods-TekServiceInterfaces_Tests";
 			sourceTree = "<group>";
 		};
-		84245A58B96678D77714E23B690A4856 /* Pod */ = {
+		999F3F62FD5F48191147DB104699AB7F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				46158D7BE10D0ED0F5569BCD76330320 /* LICENSE */,
-				DD0EE9CED5ED48B2378A20EF07A5BB6A /* README.md */,
-				BEFAEDE88B61B2A303475F638D84E15B /* TekServiceInterfaces.podspec */,
+				2A4BEFE3CF56D80ACD0C9B6C9B155515 /* LICENSE */,
+				AFAA27AD464F6D1872FB23F325CC1768 /* README.md */,
+				7BA035FE95B0D79DCBE1ADDF437ADB85 /* TekServiceInterfaces.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		8CC280BFB0A71870332E1DDF9BFC3182 /* TekServiceInterfaces */ = {
+		A28640EF9121AF26AB7996F247DFA0F3 /* PageBuilderService */ = {
 			isa = PBXGroup;
 			children = (
-				BCB0695899942F15921E96FB59D2A306 /* PageBuilderService */,
-				84245A58B96678D77714E23B690A4856 /* Pod */,
-				E0117A10E5A9B2214DD408CE4701EA3B /* StnService */,
-				22CB6B2948667DC9D665C0AC5389FD9A /* Support Files */,
+				6D38781488470612C9507E4CC41A9BF4 /* IPageBuilderService.swift */,
+				FC3AA12EB553D49075C4FE2A4E87B1DA /* IModels */,
 			);
-			name = TekServiceInterfaces;
-			path = ../..;
+			name = PageBuilderService;
+			path = TekServiceInterfaces/Classes/PageBuilderService;
 			sourceTree = "<group>";
 		};
-		B03DA4CF903D3910D65BCC90BF557032 /* IModels */ = {
+		A80F79C7A93D0616FEDFF09D923DDBEA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				094B8270FC5654CA725E40A869C55CBE /* IExtraDataNotification.swift */,
-				2B70BFB1E86A8136B08A7CC69300C0D4 /* INotification.swift */,
-				9A0A0208958ECDB9311AC27A5143F5AC /* INotificationResult.swift */,
-				5CECD7CBDA00882F24887815F7351AFA /* IOrderNotificationData.swift */,
+				6A1810E2A960A7ECC757785CEF004FFD /* IAppliedPromotion.swift */,
+				ABE28C8BB4467FF0A0A735BFB7FEBEB5 /* IBenefit.swift */,
+				D9B1CE671C2AC86B72E71CB17524D944 /* ICondition.swift */,
+				AD62A7ABDFBFE8B75E92F49B6FA1B8A3 /* IDefinition.swift */,
+				D25111A9B87AE8AED206A5065E821043 /* IItem.swift */,
+				7241D1081498F0BACEDFCF400DCDB683 /* IMoney.swift */,
+				85B92BC112D7424802C09316259B2974 /* ITimeRange.swift */,
+				2F2FC34980FB7C91A22146ABDAAE7D47 /* IVoucher.swift */,
 			);
-			name = IModels;
-			path = IModels;
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A96FFEB41471A79310C4A53E1A410F12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4FA7AFA678072F041EC5CF3DC0D811 /* TekServiceInterfaces.modulemap */,
+				140F06DF0C00E3672A47E1F09CB47812 /* TekServiceInterfaces-dummy.m */,
+				4B913FCF29DB928A3F8EC3C686AF2586 /* TekServiceInterfaces-Info.plist */,
+				C30A3EC151D23F53372E4CB6DC844902 /* TekServiceInterfaces-prefix.pch */,
+				7619BC8D786F3F15483984B07866FD66 /* TekServiceInterfaces-umbrella.h */,
+				028925A1F711DB7D465913170116021B /* TekServiceInterfaces.debug.xcconfig */,
+				3815B927967E59268333C802D29A0737 /* TekServiceInterfaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TekServiceInterfaces";
 			sourceTree = "<group>";
 		};
 		BC1F6384DF5C03CBA1C73582496F9921 /* Products */ = {
@@ -170,16 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCB0695899942F15921E96FB59D2A306 /* PageBuilderService */ = {
-			isa = PBXGroup;
-			children = (
-				DCB8FD5AF34AA173A7044C689E7A3601 /* IPageBuilderService.swift */,
-				E1AD403CC80B267F32E3D2E58EA9F52D /* IModels */,
-			);
-			name = PageBuilderService;
-			path = TekServiceInterfaces/Classes/PageBuilderService;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,23 +206,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CE001749172430DED537401AC55B21E0 /* Development Pods */ = {
+		C59E3927951046177F29F55F2B92E316 /* PPMService */ = {
 			isa = PBXGroup;
 			children = (
-				8CC280BFB0A71870332E1DDF9BFC3182 /* TekServiceInterfaces */,
+				10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */,
+				A80F79C7A93D0616FEDFF09D923DDBEA /* Models */,
 			);
-			name = "Development Pods";
+			name = PPMService;
+			path = TekServiceInterfaces/Classes/PPMService;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE001749172430DED537401AC55B21E0 /* Development Pods */,
+				1B47AA9529578940067400D4810C9824 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BC1F6384DF5C03CBA1C73582496F9921 /* Products */,
 				433CD808DF4D750B100781EF17055DD8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0737E5284211A959BCA1D7893D14576 /* IModels */ = {
+			isa = PBXGroup;
+			children = (
+				959E0E766E39500AF46BBD3DDC079E36 /* IExtraDataNotification.swift */,
+				4411071C5BD4146301A95535A9CA0E50 /* INotification.swift */,
+				70E8B8B2396955C15E3168582D274EB9 /* INotificationResult.swift */,
+				6F1A50126EC290BB0331FF19D2158E2A /* IOrderNotificationData.swift */,
+			);
+			name = IModels;
+			path = IModels;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -215,21 +247,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0117A10E5A9B2214DD408CE4701EA3B /* StnService */ = {
+		D285458B2FF25EE5CDA310C4C6CB26F7 /* TekServiceInterfaces */ = {
 			isa = PBXGroup;
 			children = (
-				E7B4AFA364CFD3C5BD2028BEE891D8E3 /* IStnService.swift */,
-				B03DA4CF903D3910D65BCC90BF557032 /* IModels */,
+				A28640EF9121AF26AB7996F247DFA0F3 /* PageBuilderService */,
+				999F3F62FD5F48191147DB104699AB7F /* Pod */,
+				C59E3927951046177F29F55F2B92E316 /* PPMService */,
+				E7BD8ACBED8DE5870CB6E390533DB933 /* StnService */,
+				A96FFEB41471A79310C4A53E1A410F12 /* Support Files */,
+			);
+			name = TekServiceInterfaces;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E7BD8ACBED8DE5870CB6E390533DB933 /* StnService */ = {
+			isa = PBXGroup;
+			children = (
+				72AD9FF165250FB6B5D272B249501DD0 /* IStnService.swift */,
+				D0737E5284211A959BCA1D7893D14576 /* IModels */,
 			);
 			name = StnService;
 			path = TekServiceInterfaces/Classes/StnService;
 			sourceTree = "<group>";
 		};
-		E1AD403CC80B267F32E3D2E58EA9F52D /* IModels */ = {
+		FC3AA12EB553D49075C4FE2A4E87B1DA /* IModels */ = {
 			isa = PBXGroup;
 			children = (
-				14672291E79C7EC15CFD3A8B393EB71B /* IBanner.swift */,
-				E03EBB56E3389FB12A0E12EB45505D5F /* IBannerResult.swift */,
+				C00134366A7389ED64D7DC667ED9641B /* IBanner.swift */,
+				5877FC45C0F23DAFB796917A3A59BC96 /* IBannerResult.swift */,
 			);
 			name = IModels;
 			path = IModels;
@@ -246,11 +291,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4BDD0EC7680E252F105707E4005B634 /* Headers */ = {
+		7918BF920030A1A3EFA0E9DCB34C6A53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A421F383C3405374B56A6841545C7F32 /* TekServiceInterfaces-umbrella.h in Headers */,
+				BCB11F0020531E66B6330A198F47D4EB /* TekServiceInterfaces-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +323,12 @@
 		};
 		FD6B3D1A1A4C86C96695EA7372F32837 /* TekServiceInterfaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7C1DDA453AC059E775F44296FEE2F39 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
+			buildConfigurationList = 04F1574CFEE6CD2B8F10A12CC7682C98 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
 			buildPhases = (
-				C4BDD0EC7680E252F105707E4005B634 /* Headers */,
-				A2C8372DD71CEC06D9A22E1EA8C5DA8F /* Sources */,
-				99A8075DBB4B43DA6E37AFBDE49001B2 /* Frameworks */,
-				C216E6500D152F915A6D6EBEC5DDC40F /* Resources */,
+				7918BF920030A1A3EFA0E9DCB34C6A53 /* Headers */,
+				4AB1E3C1CBD913C8A23E697B494B30EB /* Sources */,
+				9DE9FE1494733CC67DF292E43E27D1C5 /* Frameworks */,
+				2C2BB918C11CC112B16C2C56807494A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -323,14 +368,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50118654A4AD7F78174958AA30E5B1D3 /* Resources */ = {
+		2C2BB918C11CC112B16C2C56807494A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C216E6500D152F915A6D6EBEC5DDC40F /* Resources */ = {
+		50118654A4AD7F78174958AA30E5B1D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,27 +385,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4AB1E3C1CBD913C8A23E697B494B30EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090BA32A5FDC56D8B88769E2FE0FCE4 /* IAppliedPromotion.swift in Sources */,
+				7445222E48E81AB211DF667A086F53C0 /* IBanner.swift in Sources */,
+				2E1D6E2CBD4FE2F164AB8E520B0BAF18 /* IBannerResult.swift in Sources */,
+				068423094EC8ECD6329E8A89B496A3D1 /* IBenefit.swift in Sources */,
+				779B0E220C11790A140EDC5B256716D3 /* ICondition.swift in Sources */,
+				24BE9057A341AAC99D8BDE5CB7F92CA9 /* IDefinition.swift in Sources */,
+				C268187B7541B634A050F6980F2A0482 /* IExtraDataNotification.swift in Sources */,
+				F11A9B20B246A4318893D22A8104B1BF /* IItem.swift in Sources */,
+				6A965A1E803FEB53EA527664A4A08D7F /* IMoney.swift in Sources */,
+				56B8AA38C3FB332CE91BAA0E7BDA8C72 /* INotification.swift in Sources */,
+				93B95BC84862878F8233EF08A73423DC /* INotificationResult.swift in Sources */,
+				89A57E06008BC94E6D6F947DA71E1E72 /* IOrderNotificationData.swift in Sources */,
+				F6299177702905488A8195B6AFB6A634 /* IPageBuilderService.swift in Sources */,
+				D76DA757F718CBEFD22BACC307F5FD8C /* IPPMService.swift in Sources */,
+				E087726E590F26E91FE2D081A714C250 /* IStnService.swift in Sources */,
+				28743AF9EC6C9092814BA7852E7FC792 /* ITimeRange.swift in Sources */,
+				171F19A5B127466DC12B9C7267012450 /* IVoucher.swift in Sources */,
+				CAEEF7B12AA74A79F2AB0E5EB05F4732 /* TekServiceInterfaces-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CAE71FD7A98200617B28EDF78BFC016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2C8372DD71CEC06D9A22E1EA8C5DA8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				557B33DD6B4E2F591363959F5859572D /* IBanner.swift in Sources */,
-				207EC30EF69B2B5E45A3C4C1A5BE0158 /* IBannerResult.swift in Sources */,
-				74A56EAE130F4A4F651440638606002D /* IExtraDataNotification.swift in Sources */,
-				21F10AFFC92B7EC5C2F0EFD78E69E66C /* INotification.swift in Sources */,
-				9CBCA4D10E12C875FDF9E46E21BC066A /* INotificationResult.swift in Sources */,
-				C805A97440A29AE7009CEF7EBB2B29F6 /* IOrderNotificationData.swift in Sources */,
-				B371F5A5947C7D25CD76CF600E99615D /* IPageBuilderService.swift in Sources */,
-				7381B9A48DF9A899DC000CCDF9A51166 /* IStnService.swift in Sources */,
-				9BB2AB109C7178BBF36B7F89D4E1C64F /* TekServiceInterfaces-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +464,9 @@
 			};
 			name = Release;
 		};
-		594590CF2242AAFA19F3AEB51C8279A3 /* Release */ = {
+		73AB6B93997CD6F9164F341B16655DDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B1AB84E8C749B026414568DFEE3B1A /* TekServiceInterfaces.release.xcconfig */;
+			baseConfigurationReference = 3815B927967E59268333C802D29A0737 /* TekServiceInterfaces.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -441,6 +495,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		ACB903C9C3170A7C3D4A60D077374C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028925A1F711DB7D465913170116021B /* TekServiceInterfaces.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
+				PRODUCT_MODULE_NAME = TekServiceInterfaces;
+				PRODUCT_NAME = TekServiceInterfaces;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -599,40 +684,18 @@
 			};
 			name = Debug;
 		};
-		F4D46D52A1C6DA538B948D8E7137CEDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA8CFEFE0D2C70F1C43D8C24B57BA9A /* TekServiceInterfaces.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
-				PRODUCT_MODULE_NAME = TekServiceInterfaces;
-				PRODUCT_NAME = TekServiceInterfaces;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04F1574CFEE6CD2B8F10A12CC7682C98 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB903C9C3170A7C3D4A60D077374C78 /* Debug */,
+				73AB6B93997CD6F9164F341B16655DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1B2D44DF97C252FCE0F07FD4460CE29F /* Build configuration list for PBXNativeTarget "Pods-TekServiceInterfaces_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -647,15 +710,6 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B7C1DDA453AC059E775F44296FEE2F39 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4D46D52A1C6DA538B948D8E7137CEDE /* Debug */,
-				594590CF2242AAFA19F3AEB51C8279A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
