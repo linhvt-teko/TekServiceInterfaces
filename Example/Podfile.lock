@@ -1,0 +1,16 @@
+PODS:
+  - TekServiceInterfaces (0.1.0)
+
+DEPENDENCIES:
+  - TekServiceInterfaces (from `../`)
+
+EXTERNAL SOURCES:
+  TekServiceInterfaces:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TekServiceInterfaces: 71a6c257fd73af91037684f15b0060b104667cad
+
+PODFILE CHECKSUM: ac6aaeedc88c12916da296e54e630a4857e67c7b
+
+COCOAPODS: 1.9.2

@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44ECFE1B0854031D7C64F4B0 /* Pods_TekServiceInterfaces_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE86DFA79C2EDA22B82EDAF /* Pods_TekServiceInterfaces_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AEDF70E1C8EFB4F15E7135DC /* Pods_TekServiceInterfaces_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0CA87A988627F60B5064B6 /* Pods_TekServiceInterfaces_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12C5B0317C74F53B9767A60F /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; path = "Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E0CA87A988627F60B5064B6 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56593AC4A15FDBB1A2715491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5AB635B41D5D065A4B5A664D /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; path = "Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TekServiceInterfaces_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekServiceInterfaces_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EE86DFA79C2EDA22B82EDAF /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AA978E171158585A67405 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekServiceInterfaces_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		89237E522C365D5F8605F090 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TekServiceInterfaces.podspec; path = ../TekServiceInterfaces.podspec; sourceTree = "<group>"; };
 		9E210E8CE78F52A07D54174F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BC2444D14B1090E6D359FA58 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekServiceInterfaces_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,39 +28,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44ECFE1B0854031D7C64F4B0 /* Pods_TekServiceInterfaces_Tests.framework in Frameworks */,
+				AEDF70E1C8EFB4F15E7135DC /* Pods_TekServiceInterfaces_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		004D1BE224EC19C68D7AEAA5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BC2444D14B1090E6D359FA58 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */,
-				12C5B0317C74F53B9767A60F /* Pods-TekServiceInterfaces_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		08A61CF446C5C335737CC5AB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6EE86DFA79C2EDA22B82EDAF /* Pods_TekServiceInterfaces_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				004D1BE224EC19C68D7AEAA5 /* Pods */,
-				08A61CF446C5C335737CC5AB /* Frameworks */,
+				E7BF9792DE008B6590C6BDBE /* Pods */,
+				F15B713B790A1176BFC38836 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +81,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		E7BF9792DE008B6590C6BDBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775AA978E171158585A67405 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */,
+				5AB635B41D5D065A4B5A664D /* Pods-TekServiceInterfaces_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F15B713B790A1176BFC38836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0CA87A988627F60B5064B6 /* Pods_TekServiceInterfaces_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,11 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces_Tests" */;
 			buildPhases = (
-				B8AD357E7DFF709FFFF575A0 /* [CP] Check Pods Manifest.lock */,
+				AA5963BF2F415DC3F397AE37 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				A07BF846697A110133EF0398 /* [CP] Embed Pods Frameworks */,
+				D731D9D9E7E3EAF4EBED3437 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,25 +171,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A07BF846697A110133EF0398 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TekServiceInterfaces/TekServiceInterfaces.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TekServiceInterfaces.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8AD357E7DFF709FFFF575A0 /* [CP] Check Pods Manifest.lock */ = {
+		AA5963BF2F415DC3F397AE37 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +191,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D731D9D9E7E3EAF4EBED3437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TekServiceInterfaces/TekServiceInterfaces.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TekServiceInterfaces.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TekServiceInterfaces_Tests/Pods-TekServiceInterfaces_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -326,7 +326,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC2444D14B1090E6D359FA58 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */;
+			baseConfigurationReference = 775AA978E171158585A67405 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -348,7 +348,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C5B0317C74F53B9767A60F /* Pods-TekServiceInterfaces_Tests.release.xcconfig */;
+			baseConfigurationReference = 5AB635B41D5D065A4B5A664D /* Pods-TekServiceInterfaces_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

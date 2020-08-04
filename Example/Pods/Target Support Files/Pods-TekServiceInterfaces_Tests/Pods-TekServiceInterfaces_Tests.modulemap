@@ -1,0 +1,6 @@
+framework module Pods_TekServiceInterfaces_Tests {
+  umbrella header "Pods-TekServiceInterfaces_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
