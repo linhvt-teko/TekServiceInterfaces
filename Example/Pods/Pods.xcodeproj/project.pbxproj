@@ -24,7 +24,7 @@
 		BCB11F0020531E66B6330A198F47D4EB /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7619BC8D786F3F15483984B07866FD66 /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C268187B7541B634A050F6980F2A0482 /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E0E766E39500AF46BBD3DDC079E36 /* IExtraDataNotification.swift */; };
 		CAEEF7B12AA74A79F2AB0E5EB05F4732 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 140F06DF0C00E3672A47E1F09CB47812 /* TekServiceInterfaces-dummy.m */; };
-		D76DA757F718CBEFD22BACC307F5FD8C /* IPPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */; };
+		D76DA757F718CBEFD22BACC307F5FD8C /* IPpmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4597DF1964A2C5E9E301F2444BD3A /* IPpmService.swift */; };
 		DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */; };
 		E087726E590F26E91FE2D081A714C250 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD9FF165250FB6B5D272B249501DD0 /* IStnService.swift */; };
 		F11A9B20B246A4318893D22A8104B1BF /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25111A9B87AE8AED206A5065E821043 /* IItem.swift */; };
@@ -44,9 +44,9 @@
 
 /* Begin PBXFileReference section */
 		028925A1F711DB7D465913170116021B /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
-		10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPPMService.swift; sourceTree = "<group>"; };
+		10F4597DF1964A2C5E9E301F2444BD3A /* IPpmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPpmService.swift; sourceTree = "<group>"; };
 		140F06DF0C00E3672A47E1F09CB47812 /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
-		2A4BEFE3CF56D80ACD0C9B6C9B155515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A4BEFE3CF56D80ACD0C9B6C9B155515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2F2FC34980FB7C91A22146ABDAAE7D47 /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3815B927967E59268333C802D29A0737 /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
@@ -65,15 +65,15 @@
 		7241D1081498F0BACEDFCF400DCDB683 /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
 		72AD9FF165250FB6B5D272B249501DD0 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
 		7619BC8D786F3F15483984B07866FD66 /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
-		7BA035FE95B0D79DCBE1ADDF437ADB85 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BA035FE95B0D79DCBE1ADDF437ADB85 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85B92BC112D7424802C09316259B2974 /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
-		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E0E766E39500AF46BBD3DDC079E36 /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE28C8BB4467FF0A0A735BFB7FEBEB5 /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
 		AD62A7ABDFBFE8B75E92F49B6FA1B8A3 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
-		AFAA27AD464F6D1872FB23F325CC1768 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AFAA27AD464F6D1872FB23F325CC1768 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B506072ECF1971CDC062CFAF2326FE6C /* Pods-TekServiceInterfaces_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C00134366A7389ED64D7DC667ED9641B /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -170,7 +170,6 @@
 				85B92BC112D7424802C09316259B2974 /* ITimeRange.swift */,
 				2F2FC34980FB7C91A22146ABDAAE7D47 /* IVoucher.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -209,7 +208,7 @@
 		C59E3927951046177F29F55F2B92E316 /* PPMService */ = {
 			isa = PBXGroup;
 			children = (
-				10F4597DF1964A2C5E9E301F2444BD3A /* IPPMService.swift */,
+				10F4597DF1964A2C5E9E301F2444BD3A /* IPpmService.swift */,
 				A80F79C7A93D0616FEDFF09D923DDBEA /* Models */,
 			);
 			name = PPMService;
@@ -235,7 +234,6 @@
 				70E8B8B2396955C15E3168582D274EB9 /* INotificationResult.swift */,
 				6F1A50126EC290BB0331FF19D2158E2A /* IOrderNotificationData.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -276,7 +274,6 @@
 				C00134366A7389ED64D7DC667ED9641B /* IBanner.swift */,
 				5877FC45C0F23DAFB796917A3A59BC96 /* IBannerResult.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -402,7 +399,7 @@
 				93B95BC84862878F8233EF08A73423DC /* INotificationResult.swift in Sources */,
 				89A57E06008BC94E6D6F947DA71E1E72 /* IOrderNotificationData.swift in Sources */,
 				F6299177702905488A8195B6AFB6A634 /* IPageBuilderService.swift in Sources */,
-				D76DA757F718CBEFD22BACC307F5FD8C /* IPPMService.swift in Sources */,
+				D76DA757F718CBEFD22BACC307F5FD8C /* IPpmService.swift in Sources */,
 				E087726E590F26E91FE2D081A714C250 /* IStnService.swift in Sources */,
 				28743AF9EC6C9092814BA7852E7FC792 /* ITimeRange.swift in Sources */,
 				171F19A5B127466DC12B9C7267012450 /* IVoucher.swift in Sources */,
@@ -580,8 +577,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

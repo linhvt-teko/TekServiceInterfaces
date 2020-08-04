@@ -10,7 +10,7 @@ import Foundation
 
 public typealias ValidateCouponHandler = (IDefinition?, Bool, String?) -> ()
 
-public protocol PPMServiceProtocol {
+public protocol IPpmService {
     func getOrderPromotions(completion: @escaping ([IDefinition], Bool) -> ())
     func validateCoupon(coupon: String, skus: [String], grandTotal: Double, completion: @escaping ValidateCouponHandler)
 }
