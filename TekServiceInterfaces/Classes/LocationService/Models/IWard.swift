@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol IWard {
+public protocol IWard: IAddress {
     var services: IShippingService? { get }
 }
