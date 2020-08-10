@@ -8,6 +8,7 @@
 import Foundation
 
 public protocol ICrmCustomer {
+    var address: String? { get }
     var ageFrom: Int { get }
     var ageTo: Int { get }
     var asiaCrmId: String { get }
@@ -25,11 +26,11 @@ public protocol ICrmCustomer {
     var extraInformation: [ICrmInformation] { get }
     var facebookLink: String? { get }
     var fax: String? { get }
+    var gender: String? { get }
     var id: Int { get }
     var identification: String? { get }
     var income: Int { get }
     var isCompany: Bool { get }
-    var isDefault: Bool { get }
     var isDeleted: Bool { get }
     var name: String? { get }
     var optionalPhone1: String? { get }
@@ -39,7 +40,6 @@ public protocol ICrmCustomer {
     var province: String? { get }
     var provinceId: String? { get }
     var referenceId: Int { get }
-    var savedDate: Date  { get }
     var scope: Int { get }
     var source: String? { get }
     var sourceId: String? { get }
