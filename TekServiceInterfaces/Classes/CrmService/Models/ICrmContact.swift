@@ -23,4 +23,5 @@ public protocol ICrmContact {
     var province: String { get }
     var updatedAt: String? { get }
     var ward: String { get }
+    var payloadDict: [String: Any]? { get }
 }

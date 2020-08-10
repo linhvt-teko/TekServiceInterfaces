@@ -14,4 +14,5 @@ public protocol ICrmPayload {
     var district: String? { get }
     var ward: String? { get }
     var contacts: [ICrmContact] { get }
+    var payloadDict: [String: Any]? { get }
 }
