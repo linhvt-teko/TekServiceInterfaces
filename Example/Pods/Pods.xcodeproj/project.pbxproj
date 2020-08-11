@@ -7,71 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00933E5FE18370D4CB96BDA0711719B6 /* ICrmCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DDCE3A3E459A3F08000D182E13A0A /* ICrmCustomer.swift */; };
-		01F36FFF334D7CA677789571B133485A /* IBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6211172B348F3669FD6319F42D882E /* IBlock.swift */; };
-		046C7E3B6543AE339F9C3BFC5C088F8D /* IPpmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F269F91A742DBF20948BB71D770F50E7 /* IPpmService.swift */; };
-		0AC63D2615B73A7854C9C36125090B64 /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34517901FA39BC61ADBF60421AD23C /* IBenefit.swift */; };
-		0CBBCEBAE5B7A840D1EAF774B1622C1B /* IBlockAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656163600DF0A93D31857373FDF199B8 /* IBlockAttribute.swift */; };
-		0CF5A6738C2129B305AC2F8EE5768630 /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C7409E30BDF9BA898BDC90F3CA440 /* IProduct.swift */; };
-		100B4EFEB8B34DB661445D6A51C048B0 /* IOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131E0556FA92EE486796114B17BF9F7 /* IOrder.swift */; };
-		1F296B2602DA23E51820D020CC9C8022 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F566260F0938918358F749295894432 /* IAppliedPromotion.swift */; };
-		28CE84385C92696521446DED9D70E7F0 /* IOrderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674E55F9E8021540FEB6660752E499A4 /* IOrderListItem.swift */; };
-		2C2320EA6BE4CA45B227A5F88F8E52A9 /* IAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB334A5E0CD14313955D674C98F2344F /* IAddress.swift */; };
-		2C73419F9AA66C86F0ADD036B8466DCB /* IService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC217609690A4EC93FED055205756AF2 /* IService.swift */; };
-		2DC9EEC4197E1B4655E93405872B8554 /* ICrmContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5979E7D480F0ABE25E4D21A9F49C /* ICrmContact.swift */; };
-		2EA97D0AFBBC1DD865065BEEF8CBFCBC /* ICrmBrandAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FBDD7E4DE0D9AD29EAA55983750CD /* ICrmBrandAwareness.swift */; };
-		333E9ABB1EA24CBC4994EFD96F92908C /* IBlockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F76E797C9C03A49E816550E429466 /* IBlockItem.swift */; };
-		33C186C46D2CF0409BA03FDA95791E7C /* IShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535E5CDF46708BCB2C79D8DB973F797 /* IShippingInfo.swift */; };
-		350B311F38D7FA4EF1654B307DD432EE /* IOrderPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063212D46347796CC2CEF961B9B3900 /* IOrderPromotion.swift */; };
-		3710D031D11FC9B513523E097C52ADEA /* IOrderListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174BA931A48E32CD103DCCA72D4851D /* IOrderListResult.swift */; };
-		3C7375ED97897717CFA53DE7E052328A /* IOrderPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D431042C4B0AE37E61792EEE69B9E14 /* IOrderPayment.swift */; };
-		3F403197ADA712F14726574DA7068328 /* IWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250D8D827578E1D32EF83A27689B338 /* IWard.swift */; };
-		41C4A0BE3DD21ED2B281A2AF01CBC45B /* ILocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3E909CADF1735B9ADA3552983EEAF /* ILocationService.swift */; };
-		43264A5132716012BB5731CD7AFBCC6B /* ICrmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C54FBF1421303975FDD717A8839B1F /* ICrmService.swift */; };
-		45C477BC8231F9B2CA5D52E30B2FB5E0 /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B278392A41BB5AA116DB0446D78CC2 /* ICondition.swift */; };
-		47095B881E18A8A8DC3188AA73882B8C /* ICrmResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA919E107101848683CD1EA83593E7 /* ICrmResponseMessage.swift */; };
-		4A93A4CE559F97D0A3CFAD80371AFE15 /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FB7FEE372AEF4BC4A23F7DE13C7D4B /* IBlockParams.swift */; };
-		4B9FF920586D70B16DB213EBDC83090A /* IOrderGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94085543427C82F5B4E280821986CA66 /* IOrderGift.swift */; };
-		555448551916F01C37BC6A36AFA65338 /* ICrmPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403F18BAA46B016D13BBD87769CFE63 /* ICrmPayload.swift */; };
-		55C3B55E8504D19B28F1A41A91461B30 /* IBlockContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FD743C257E05D8BE4FBFB330454A2 /* IBlockContent.swift */; };
-		563BB6E713E1513949ACECC1A34C0809 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4507AC3676E880287C92C50E0A44C6AF /* TekServiceInterfaces-dummy.m */; };
+		01BEE7E346B4D955D255383AB87D899B /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B084B4B97A25556968BDE0D709DD6 /* IBenefit.swift */; };
+		0589B8A4AFAD297C8D93A83BC119A5F9 /* IShippingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73F4753C49AA128B3FEA76BE780BD0 /* IShippingService.swift */; };
+		06E78555A6429DBFC2451C9AD6F73875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0C4D133890D0823CAD1B513BF86B369C /* IOrderGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6441347435BFE1773F662D6F0C71B30 /* IOrderGift.swift */; };
+		0E22ED94A313BEA304D27F842C2C2A80 /* ICrmBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538C071DAA4C55CF2B8655B885A0D6 /* ICrmBankAccount.swift */; };
+		13036D7D6C2C5D3B992E9941AC203D6E /* IBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227AC87970C85EBEF14C3007BEACB74 /* IBlock.swift */; };
+		146C1B54DF1128AAE44058ECF5233699 /* IOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98591E9A74728B764A7D61780652BD4C /* IOrderItem.swift */; };
+		1519C5201F5C2BA6B7555B6E5C263A68 /* IMarketChildOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C755BF2C31FCBC8FF6B1E79378CA7 /* IMarketChildOrder.swift */; };
+		16928887C38444CDA958C5A2800FB3D0 /* ICrmCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4581778719F5BE87BAC8FFF19B31C926 /* ICrmCustomer.swift */; };
+		18DA944DF785678FE3F7E55DEFCF7057 /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FD0E5070DA9130A4E6FA9F1DF7FE5C /* IPageBuilderService.swift */; };
+		1D97B19AE1E446E1A44313D8A024A7C3 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05DF86FA71A1EC866F5675713CF43B /* IAppliedPromotion.swift */; };
+		21657FF829F9A401B6F93F9C002AF2BF /* IOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DA79C5D54C3FDEA41DA74E8E2B64 /* IOrder.swift */; };
+		2479BA44C273E4AC91C9CC2848311725 /* IUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D2C4C04A92AD28F4F13BECA531880B /* IUserInfo.swift */; };
+		2C4EC8081913F24B09917F3686D71990 /* IBlockSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7EFCB753A05AD4F2B0F36B698F068 /* IBlockSorting.swift */; };
+		33E51AE6264E54ED24F62348BCF478B2 /* IShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E77D5196D2D155A76F31D8CE72C518 /* IShippingInfo.swift */; };
+		437743F2D1632700A39447DE391F17FA /* IWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F895E57B10969C806F6C16D7E06CC17 /* IWard.swift */; };
+		44B3C531977037D288C3696F544EA040 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676C134853B9B6D2B7ED21E25B629F9 /* IStnService.swift */; };
+		4562B1972715E7439B0E0799B9167A3E /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E0263C3088576B6A6AD1BBA66B3D8 /* ICondition.swift */; };
+		4755B641B16D3C78F2A536CFD9F74009 /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84120CE32209A3107A385784FFE873E0 /* IVoucher.swift */; };
+		508A7E4F1573816F04D11B3E0BA0B890 /* IOrderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C718D7392513F79A743CD6EE01AEC7 /* IOrderListItem.swift */; };
+		50CA58ED5CD11CFE9DEFE48F07C3ED59 /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84EF49297C15AA4C49F299E1DA403BF /* INotificationResult.swift */; };
+		511C611996242DCB250A1C776769BA7A /* IApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0D6AB4DCE24CB2CE863FB21B705F5 /* IApply.swift */; };
 		5674D9A0DA3A5855F5C3B5AA2EB2F53E /* Pods-TekServiceInterfaces_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6037E109C5AC1984C8AA227809DA23D0 /* ICrmBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D804FA3B69D47BDF02E841C187AAEF3 /* ICrmBankAccount.swift */; };
-		627128E072CEBC0F3584C4343C001004 /* IDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA59A0CB5A5D297FC503742BDA60786 /* IDiscoveryService.swift */; };
-		65325AE527C8E458E6CB3A55BF2A4CE5 /* IMarketChildOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0467A670727C87A3B3C7EE19A58A808 /* IMarketChildOrder.swift */; };
-		6A06500F4202E6C2AB952FCB7A8CE433 /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD7D70B23D67BE7E4563995B52C658 /* IMoney.swift */; };
-		6E9444F33A0D0F1AEE410E90580E946B /* ISeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BCC2956F88987332D86CCA7D1D99A /* ISeller.swift */; };
-		6F445CC47ABC57D5B979D4894BA0543F /* IBlockResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF1615C5CFB80CCD69D3122B23E7292 /* IBlockResult.swift */; };
-		7EFF345DE158E801C1504F610C6C4652 /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAADEF066189336EF61ED99C19CE510 /* ITimeRange.swift */; };
-		8B313FC8A3BFB315B38DA20307C8FA6A /* IBlockFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B218090FE6AE055ECF2DEFC0B2E961 /* IBlockFilter.swift */; };
-		94C30272A3F6F972AB5E48E6753DEED1 /* IBillingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8715A021F5C8F7EBF541CFBEE0B8894 /* IBillingInfo.swift */; };
-		9BD369A72DE5800799EF15B15B9E1125 /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD641E3FC1B53AA7D1AE3ED597B25D /* IItem.swift */; };
-		A1AF81651366B3972B15D702640B65DE /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E8F1361F9299D209D8399DE6050D7 /* IDefinition.swift */; };
-		A2C2F692962E4554A3D9D04940FB4CF7 /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA1FEEB1EEB94B86A7728F6FF6FE66 /* IVoucher.swift */; };
-		A2DFC67A5CA5B1AC82619E86E35D864B /* IOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED49DEB6778DCDA0226396018EBE84 /* IOrderItem.swift */; };
-		A3DE38F8DB2025962DC915B330F8440F /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF1321F2066AF7908193F41446DEB9E /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6C693DD078E8117026A5BF4233C5C40 /* ICrmVat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7C0335E2428FB2DE6FA7642A35CCE6 /* ICrmVat.swift */; };
-		A6E89A5631037BA040668D3E0E47F894 /* IOrderCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D7E79207178E1AFC4B9917B8F99A1 /* IOrderCustomer.swift */; };
-		AB1E324AB86CC82DC97AA316241C1620 /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A15B8479758272E835D24696F082D /* IBannerResult.swift */; };
-		AE5414370BD4DF7D9710C1A4190724FC /* IOrderCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409753A1D955D05C87F66503ED54B7EA /* IOrderCreator.swift */; };
-		C4ED647882F37083CA3FC1BD25FC9F39 /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DB212A35CE395ACA5C6546C454BAC /* INotification.swift */; };
-		C975BCAFA38506F70BB3458DE21B0F23 /* IBlockSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A08CFF16A13CEC386837EED52375D /* IBlockSorting.swift */; };
-		CDF7ADC21FA6E1B43F15954C261FD7CF /* ICrmError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED81274016F1906AE96889EC567BA0 /* ICrmError.swift */; };
-		CEAC916AD1AEDC71120A153A47B52F94 /* IOrderPaymentConfirmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E16DB8FC6D5572ECCF4F2C14FEE4 /* IOrderPaymentConfirmer.swift */; };
-		CF06DB7E41950AFE2BA8D8604A8128C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CF619E2EFF29452CCED1DDC78CEF773F /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F2AA0082AD49484FDE4102C95E97A /* IOrderNotificationData.swift */; };
-		D2CA5A056A43FBF927AEEB52EECE115A /* IApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694B92343EB44E5E1D780D6DA940FB6 /* IApply.swift */; };
-		D7624B5D7C9140E340276F596EEC8A3C /* IOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C248F72AD0398E49A6E4451599915 /* IOrderService.swift */; };
-		D96195E8CF56B0E3E31668EA4618476C /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AD630917740A15F6C91035B45E5F3 /* IStnService.swift */; };
+		5840412E9ADFD60C63D2D5FA2C8B6146 /* IOrderPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D715E5694C90632699BC97841DE917B /* IOrderPayment.swift */; };
+		5B14B78B21F9DE9628191B2A81FA2262 /* IPpmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E2B274507EF3C929870CC3D7C9BC6 /* IPpmService.swift */; };
+		606C691FF66D31E500DDC3B6790E0A64 /* ICrmVat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE379A7E55990A394C0B9F6F319CDD8 /* ICrmVat.swift */; };
+		67C7085A22E3AF7F96152B7AD18E0A72 /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD99989C942EFEED0C0026AF384FC710 /* IBlockParams.swift */; };
+		6DD73EA2634BCC026DCDEB940D82C63F /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE922B80E6E6B805C452F5EBE1685394 /* ITimeRange.swift */; };
+		711E47033FB7B0C583DF201191513460 /* IOrderCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832DE82FDA4F5B2EBE5DC00623D85A8 /* IOrderCustomer.swift */; };
+		77B5681ACE104B29A69D9F7F5285B615 /* IOrderPaymentConfirmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E944EA2227DC951BA7AB68D08CC484 /* IOrderPaymentConfirmer.swift */; };
+		799AAFFB7643ACB8E2C735FBECB4F8BE /* IOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897785CA6CA891543D506F3635134945 /* IOrderService.swift */; };
+		79D14F8468A14C8C47CF05A209EF0C0C /* IAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0983077FA85A7D63529D4CD33AE7842C /* IAddress.swift */; };
+		81153A0209A9F6736F65208B920C3CCB /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076BE1AA3627E9708B2D36946EC2BA6 /* IExtraDataNotification.swift */; };
+		8200B8A72650A2AC9B9969EF7991DBE7 /* IOrderVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7880FCA8A32ADD5A7A332ADA33E1631D /* IOrderVoucher.swift */; };
+		839248C9AB7E8379A6D5F37BC6A8946F /* IBlockAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D2AE43689D610AC91C7171E3BCFD4 /* IBlockAttribute.swift */; };
+		862309F800D0F5F15A414916CAE36D9C /* IBlockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B07AA286F4D6A1D92AB08F0EB6820DD /* IBlockItem.swift */; };
+		8DE8215E15C45DA70153694FFAB748DA /* IUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD309A88D6E93A7203FE4CA1103B25C0 /* IUserService.swift */; };
+		8F852C4F5CA944BEA6B8B1426CAF9504 /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6054D0FD25700D9495DF23FD96E4DD /* IOrderNotificationData.swift */; };
+		8F9490A32A4F5575BAD7F6B147BC167F /* ICrmContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CDBE966B85DC72BF0B543D019BEF48 /* ICrmContact.swift */; };
+		9131270D16FA4B25485D9DB60CA602EC /* ICrmResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C23DFE4ED15A7640B2F77EC3036A9E /* ICrmResponseMessage.swift */; };
+		914CAC11A953B138DF3FFB40EB434931 /* ICrmBrandAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F83EA2A5943D6F2F30F02DB68C1435 /* ICrmBrandAwareness.swift */; };
+		93B9E2AFD716D1499C5A4A3053C286E1 /* ICrmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B219F376750BF500B55C0334786239E /* ICrmService.swift */; };
+		950EEAF07AADD135909EEED22F2F4CEF /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F957AD333688A90F9C0EE6D2A9CA718 /* IItem.swift */; };
+		9DAD37BF42AF0B689F592CD8E62F135D /* IOrderPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1553A2009B635B9516C573CE66593F10 /* IOrderPromotion.swift */; };
+		A0D9C0C53F6C28690A673942FF8A8F08 /* IDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DFE3D57DC339BF6FFFD80C26B344D /* IDiscoveryService.swift */; };
+		A33D2B86F6C3AA1D06DB5EEBF77E3A16 /* IBlockContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A96A7AEAB27BFD1AFF49165AB27A82 /* IBlockContent.swift */; };
+		A3C4DE5F9FB7F6F8B227D043DFBD93C5 /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19A8CE124817E34B6D58FEF9F2C91F /* IBanner.swift */; };
+		A4A5BC6F2E981DDB5BC81986B021FD3E /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C69AA754A142FA1E575C8C26DF0DBEF /* INotification.swift */; };
+		A564127125028C8746F734C58DB21712 /* IUserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C9B040D2BCFCD4A7ADA8AB1C31736 /* IUserAddress.swift */; };
+		A7B422EAEA806E1EEF077C378F0B41B2 /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD6B28B2671AAD83DB8570469F1D6C /* IBannerResult.swift */; };
+		B8B274A0EBDD3045E76DCFA259EE8F02 /* ISeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676467797216C9CAD1D9FF1FAB5C3F2 /* ISeller.swift */; };
+		BD73D294566F732B195C00BCB963BF4B /* IOrderListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FCC786CBCEF3F8921A6C62639097D /* IOrderListResult.swift */; };
+		BE5A055D092B25FD4CA61974176D6AFE /* IService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF936BF7DA57CA0A5F74F89C8EFDE1B /* IService.swift */; };
+		C1FF10056C92347313F189CCFB4A2737 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C27AD4F5300697CADD63C0DCFB29405 /* TekServiceInterfaces-dummy.m */; };
+		C913D09F23CD6F083210FBCEB469E99F /* IBillingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C145BF3B822541179CD2EA03335B6D9 /* IBillingInfo.swift */; };
 		DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */; };
-		E3180BDCC9E7F9C0608ED1CA45546E65 /* ICrmInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246F6D2C01DD49F5171B7BEF80B29C5 /* ICrmInformation.swift */; };
-		E36D120F790E46FC7B02DE77BD8E66AD /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BD14CFF397F3019AC6706C2C7D7A01 /* IBanner.swift */; };
-		E47BDCBE48D3D2B6DC2B791592730559 /* IOrderVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D51A2511FC7952F0FB8AAED4836F732 /* IOrderVoucher.swift */; };
-		E4DF828F2B3EF67D6E52BCE06FE70141 /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9374CDB93D01B4E78B51EFCDE887750 /* IPageBuilderService.swift */; };
-		EA19CD8F498DDD5C34F762407E47BFDC /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23A3C47C1B6DA08A6CF3BABA14E0CD /* IExtraDataNotification.swift */; };
+		DEA43F415FD2B43568DDCC0BF804188E /* ILocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C562A9EB594C2E012C6F4E3A10BFC83 /* ILocationService.swift */; };
+		E2C62D030247CB300F5804A9E84F2AC4 /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD42913134911BA1B188A35658ABFA1 /* IProduct.swift */; };
+		E38AE31980AF7E2AD511F9A441863E6E /* IBlockFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D033D748A628BF0B90C19E4D67EE45 /* IBlockFilter.swift */; };
+		E426D92FFF22EF71A62896831BA3BA80 /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435188EECD3277572F7F84A52A6DEFA3 /* IMoney.swift */; };
+		E58AD739F7B8F39F32EB84DBA5EA7EB3 /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530E16EFE6B5E06413AC74030E8FEE0 /* IDefinition.swift */; };
+		F08839E06239ECBE797C78D01F2E488C /* ICrmInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887B5442D9D38253E4FE2A73FC7CFCCB /* ICrmInformation.swift */; };
+		F2513C6F110CF44B5E10EDB791D70245 /* IOrderCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703ECEA6C9050FC407278FD80FE947D5 /* IOrderCreator.swift */; };
+		F2CE4BFC4456C3DF520DAFA47E6BB022 /* ICrmError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A44ED2E36052528B5A26D295006BC /* ICrmError.swift */; };
+		F488253FDE7E9CBD59C49029661551A2 /* IBlockResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294263E62DAFB86CD90691AEBAE7213 /* IBlockResult.swift */; };
 		F4A29FFF252A1BF27FD4DF2ED597320B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F9F5F49493C0DA7D8038DE1E1013FE71 /* IShippingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D151610B0239D8D17B7B8CD3AAA5F75 /* IShippingService.swift */; };
-		FB38F9EB4CBCAC53906A7731FFF6607E /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280F227253D67FAEB09499B3D46F05D /* INotificationResult.swift */; };
+		F862CA554F899DCF519FD40376D7445D /* ICrmPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B28933D98E74704FC77DDC8A635EC2 /* ICrmPayload.swift */; };
+		FDB7A96005C4B59CF4E67AC17D07A564 /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 387477E7C04AFE0AF76CE2B220425A02 /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,87 +88,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0280F227253D67FAEB09499B3D46F05D /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
-		04ED49DEB6778DCDA0226396018EBE84 /* IOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderItem.swift; sourceTree = "<group>"; };
-		0F0E8F1361F9299D209D8399DE6050D7 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
-		0FF1321F2066AF7908193F41446DEB9E /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
-		112DB212A35CE395ACA5C6546C454BAC /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
-		13D3E909CADF1735B9ADA3552983EEAF /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
-		1694B92343EB44E5E1D780D6DA940FB6 /* IApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IApply.swift; sourceTree = "<group>"; };
-		18320DFA194CC826C8D49D964B450258 /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
-		1D51A2511FC7952F0FB8AAED4836F732 /* IOrderVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderVoucher.swift; sourceTree = "<group>"; };
-		2250D8D827578E1D32EF83A27689B338 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
-		2403F18BAA46B016D13BBD87769CFE63 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
-		250C7409E30BDF9BA898BDC90F3CA440 /* IProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProduct.swift; sourceTree = "<group>"; };
-		2CCA1FEEB1EEB94B86A7728F6FF6FE66 /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
-		2D151610B0239D8D17B7B8CD3AAA5F75 /* IShippingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingService.swift; sourceTree = "<group>"; };
-		320AD630917740A15F6C91035B45E5F3 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
+		009B084B4B97A25556968BDE0D709DD6 /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
+		0983077FA85A7D63529D4CD33AE7842C /* IAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAddress.swift; sourceTree = "<group>"; };
+		0C4C9B040D2BCFCD4A7ADA8AB1C31736 /* IUserAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserAddress.swift; sourceTree = "<group>"; };
+		10B0D6AB4DCE24CB2CE863FB21B705F5 /* IApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IApply.swift; sourceTree = "<group>"; };
+		1553A2009B635B9516C573CE66593F10 /* IOrderPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotion.swift; sourceTree = "<group>"; };
+		162C755BF2C31FCBC8FF6B1E79378CA7 /* IMarketChildOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMarketChildOrder.swift; sourceTree = "<group>"; };
+		16388CE95EACB74BDC5250F578E2B692 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
+		1C27AD4F5300697CADD63C0DCFB29405 /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
+		1F895E57B10969C806F6C16D7E06CC17 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
+		279A44ED2E36052528B5A26D295006BC /* ICrmError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmError.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37FB7FEE372AEF4BC4A23F7DE13C7D4B /* IBlockParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockParams.swift; sourceTree = "<group>"; };
-		3BAD7D70B23D67BE7E4563995B52C658 /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
-		3F566260F0938918358F749295894432 /* IAppliedPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
+		364FCC786CBCEF3F8921A6C62639097D /* IOrderListResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListResult.swift; sourceTree = "<group>"; };
+		387477E7C04AFE0AF76CE2B220425A02 /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
+		3B219F376750BF500B55C0334786239E /* ICrmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmService.swift; sourceTree = "<group>"; };
+		3C69AA754A142FA1E575C8C26DF0DBEF /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
 		40561BEB7AF0677429C35160038DF2A9 /* Pods-TekServiceInterfaces_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-Info.plist"; sourceTree = "<group>"; };
-		409753A1D955D05C87F66503ED54B7EA /* IOrderCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCreator.swift; sourceTree = "<group>"; };
-		434FBDD7E4DE0D9AD29EAA55983750CD /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
-		435DDCE3A3E459A3F08000D182E13A0A /* ICrmCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmCustomer.swift; sourceTree = "<group>"; };
-		44C54FBF1421303975FDD717A8839B1F /* ICrmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmService.swift; sourceTree = "<group>"; };
-		4507AC3676E880287C92C50E0A44C6AF /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
-		471AFEBA16752F91E1B7E195AD380A1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4A6FD743C257E05D8BE4FBFB330454A2 /* IBlockContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockContent.swift; sourceTree = "<group>"; };
-		4B7F76E797C9C03A49E816550E429466 /* IBlockItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockItem.swift; sourceTree = "<group>"; };
-		4C1FE2945E8FFBD9DB7D7E9B1B9907ED /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
-		5246F6D2C01DD49F5171B7BEF80B29C5 /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
-		5C9F5979E7D480F0ABE25E4D21A9F49C /* ICrmContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmContact.swift; sourceTree = "<group>"; };
-		5D804FA3B69D47BDF02E841C187AAEF3 /* ICrmBankAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBankAccount.swift; sourceTree = "<group>"; };
+		435188EECD3277572F7F84A52A6DEFA3 /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
+		4581778719F5BE87BAC8FFF19B31C926 /* ICrmCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmCustomer.swift; sourceTree = "<group>"; };
+		5F68DA79C5D54C3FDEA41DA74E8E2B64 /* IOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrder.swift; sourceTree = "<group>"; };
 		60388570966F25DDA5A14C83A1CDE303 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		656163600DF0A93D31857373FDF199B8 /* IBlockAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockAttribute.swift; sourceTree = "<group>"; };
-		674E55F9E8021540FEB6660752E499A4 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
-		6B34517901FA39BC61ADBF60421AD23C /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
-		6B7F2AA0082AD49484FDE4102C95E97A /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
+		60FD6B28B2671AAD83DB8570469F1D6C /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
+		6832DE82FDA4F5B2EBE5DC00623D85A8 /* IOrderCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCustomer.swift; sourceTree = "<group>"; };
+		6C562A9EB594C2E012C6F4E3A10BFC83 /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
 		6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TekServiceInterfaces_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6DA7EFCB753A05AD4F2B0F36B698F068 /* IBlockSorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockSorting.swift; sourceTree = "<group>"; };
+		703ECEA6C9050FC407278FD80FE947D5 /* IOrderCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCreator.swift; sourceTree = "<group>"; };
 		7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TekServiceInterfaces_Tests-dummy.m"; sourceTree = "<group>"; };
-		7063212D46347796CC2CEF961B9B3900 /* IOrderPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotion.swift; sourceTree = "<group>"; };
-		7D431042C4B0AE37E61792EEE69B9E14 /* IOrderPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPayment.swift; sourceTree = "<group>"; };
-		7E0A08CFF16A13CEC386837EED52375D /* IBlockSorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockSorting.swift; sourceTree = "<group>"; };
-		86CA919E107101848683CD1EA83593E7 /* ICrmResponseMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmResponseMessage.swift; sourceTree = "<group>"; };
-		8A8D7E79207178E1AFC4B9917B8F99A1 /* IOrderCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCustomer.swift; sourceTree = "<group>"; };
-		9174BA931A48E32CD103DCCA72D4851D /* IOrderListResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListResult.swift; sourceTree = "<group>"; };
-		91DCB51D0627AFD69D00667146251B72 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
+		7880FCA8A32ADD5A7A332ADA33E1631D /* IOrderVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderVoucher.swift; sourceTree = "<group>"; };
+		78B28933D98E74704FC77DDC8A635EC2 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
+		7C936B7F2F08FFFCB2D31E7968995525 /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
+		802D0A52F4DDF22D0EACDFC3362FCFD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		803DED404CA4C9899B8475015894A6AA /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
+		81EFE0BAC52F5FA30AC3A6C9442C5480 /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
+		84120CE32209A3107A385784FFE873E0 /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
+		887B5442D9D38253E4FE2A73FC7CFCCB /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
+		897785CA6CA891543D506F3635134945 /* IOrderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderService.swift; sourceTree = "<group>"; };
+		8B07AA286F4D6A1D92AB08F0EB6820DD /* IBlockItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockItem.swift; sourceTree = "<group>"; };
+		8C145BF3B822541179CD2EA03335B6D9 /* IBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBillingInfo.swift; sourceTree = "<group>"; };
+		8D715E5694C90632699BC97841DE917B /* IOrderPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPayment.swift; sourceTree = "<group>"; };
+		8F957AD333688A90F9C0EE6D2A9CA718 /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
 		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94085543427C82F5B4E280821986CA66 /* IOrderGift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderGift.swift; sourceTree = "<group>"; };
+		93FD0E5070DA9130A4E6FA9F1DF7FE5C /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
+		98591E9A74728B764A7D61780652BD4C /* IOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderItem.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7CC58BEA38413C75994805DCB090C7 /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
 		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A535E5CDF46708BCB2C79D8DB973F797 /* IShippingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingInfo.swift; sourceTree = "<group>"; };
-		A6DD641E3FC1B53AA7D1AE3ED597B25D /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
-		AAAADEF066189336EF61ED99C19CE510 /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
+		A6441347435BFE1773F662D6F0C71B30 /* IOrderGift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderGift.swift; sourceTree = "<group>"; };
+		B227AC87970C85EBEF14C3007BEACB74 /* IBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlock.swift; sourceTree = "<group>"; };
+		B294263E62DAFB86CD90691AEBAE7213 /* IBlockResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockResult.swift; sourceTree = "<group>"; };
 		B506072ECF1971CDC062CFAF2326FE6C /* Pods-TekServiceInterfaces_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8BD14CFF397F3019AC6706C2C7D7A01 /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
-		BC217609690A4EC93FED055205756AF2 /* IService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IService.swift; sourceTree = "<group>"; };
-		C0467A670727C87A3B3C7EE19A58A808 /* IMarketChildOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMarketChildOrder.swift; sourceTree = "<group>"; };
+		B8C718D7392513F79A743CD6EE01AEC7 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
+		B9D2C4C04A92AD28F4F13BECA531880B /* IUserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserInfo.swift; sourceTree = "<group>"; };
+		BC6054D0FD25700D9495DF23FD96E4DD /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
+		BC73F4753C49AA128B3FEA76BE780BD0 /* IShippingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingService.swift; sourceTree = "<group>"; };
+		BD309A88D6E93A7203FE4CA1103B25C0 /* IUserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserService.swift; sourceTree = "<group>"; };
+		BE922B80E6E6B805C452F5EBE1685394 /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C9374CDB93D01B4E78B51EFCDE887750 /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
-		CB334A5E0CD14313955D674C98F2344F /* IAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAddress.swift; sourceTree = "<group>"; };
-		CD23A3C47C1B6DA08A6CF3BABA14E0CD /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
+		C16DFE3D57DC339BF6FFFD80C26B344D /* IDiscoveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDiscoveryService.swift; sourceTree = "<group>"; };
+		C7E944EA2227DC951BA7AB68D08CC484 /* IOrderPaymentConfirmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPaymentConfirmer.swift; sourceTree = "<group>"; };
+		CF19A8CE124817E34B6D58FEF9F2C91F /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
 		D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D076BE1AA3627E9708B2D36946EC2BA6 /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
 		D0B334D78496060DF0F238BCCE846ADB /* Pods-TekServiceInterfaces_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D268362344805CFF8527DF422F2F7DBC /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
-		D6ED38208E5DEAE2B8D9D24F17746AE6 /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
-		DCA59A0CB5A5D297FC503742BDA60786 /* IDiscoveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDiscoveryService.swift; sourceTree = "<group>"; };
-		DFF1615C5CFB80CCD69D3122B23E7292 /* IBlockResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockResult.swift; sourceTree = "<group>"; };
-		E0B218090FE6AE055ECF2DEFC0B2E961 /* IBlockFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockFilter.swift; sourceTree = "<group>"; };
-		E55A15B8479758272E835D24696F082D /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
-		E6B278392A41BB5AA116DB0446D78CC2 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
-		E6ED81274016F1906AE96889EC567BA0 /* ICrmError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmError.swift; sourceTree = "<group>"; };
-		ED7BCC2956F88987332D86CCA7D1D99A /* ISeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISeller.swift; sourceTree = "<group>"; };
-		F131E0556FA92EE486796114B17BF9F7 /* IOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrder.swift; sourceTree = "<group>"; };
-		F269F91A742DBF20948BB71D770F50E7 /* IPpmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPpmService.swift; sourceTree = "<group>"; };
-		F61C248F72AD0398E49A6E4451599915 /* IOrderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderService.swift; sourceTree = "<group>"; };
-		F69352E3C9409D407F090894925D93C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F8715A021F5C8F7EBF541CFBEE0B8894 /* IBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBillingInfo.swift; sourceTree = "<group>"; };
-		FA6211172B348F3669FD6319F42D882E /* IBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlock.swift; sourceTree = "<group>"; };
-		FAB09060AF8284E56782DE3E88D50994 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FC7C0335E2428FB2DE6FA7642A35CCE6 /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
-		FDF7E16DB8FC6D5572ECCF4F2C14FEE4 /* IOrderPaymentConfirmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPaymentConfirmer.swift; sourceTree = "<group>"; };
+		D39E2B274507EF3C929870CC3D7C9BC6 /* IPpmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPpmService.swift; sourceTree = "<group>"; };
+		D3F04C53E617CFDEBD6E45DDAAF88EB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D676467797216C9CAD1D9FF1FAB5C3F2 /* ISeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISeller.swift; sourceTree = "<group>"; };
+		D676C134853B9B6D2B7ED21E25B629F9 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
+		D84EF49297C15AA4C49F299E1DA403BF /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
+		DA538C071DAA4C55CF2B8655B885A0D6 /* ICrmBankAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBankAccount.swift; sourceTree = "<group>"; };
+		DAD42913134911BA1B188A35658ABFA1 /* IProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProduct.swift; sourceTree = "<group>"; };
+		DD99989C942EFEED0C0026AF384FC710 /* IBlockParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockParams.swift; sourceTree = "<group>"; };
+		E0E5546C7A693B086E960830365FAFED /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1F83EA2A5943D6F2F30F02DB68C1435 /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
+		E3A96A7AEAB27BFD1AFF49165AB27A82 /* IBlockContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockContent.swift; sourceTree = "<group>"; };
+		E4C23DFE4ED15A7640B2F77EC3036A9E /* ICrmResponseMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmResponseMessage.swift; sourceTree = "<group>"; };
+		E64D2AE43689D610AC91C7171E3BCFD4 /* IBlockAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockAttribute.swift; sourceTree = "<group>"; };
+		E9E77D5196D2D155A76F31D8CE72C518 /* IShippingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingInfo.swift; sourceTree = "<group>"; };
+		EAE379A7E55990A394C0B9F6F319CDD8 /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
+		EEF936BF7DA57CA0A5F74F89C8EFDE1B /* IService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IService.swift; sourceTree = "<group>"; };
+		F1D033D748A628BF0B90C19E4D67EE45 /* IBlockFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockFilter.swift; sourceTree = "<group>"; };
+		F530E16EFE6B5E06413AC74030E8FEE0 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
+		F69E0263C3088576B6A6AD1BBA66B3D8 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
+		F8CDBE966B85DC72BF0B543D019BEF48 /* ICrmContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmContact.swift; sourceTree = "<group>"; };
+		FB05DF86FA71A1EC866F5675713CF43B /* IAppliedPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
 		FE1C3A520FD0F6CF706CE8A6340E38B5 /* Pods-TekServiceInterfaces_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TekServiceInterfaces_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,105 +184,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9085EDB3F1A118DE991ED1F3B4FE1E8 /* Frameworks */ = {
+		DF7769908837D0BED758846BEE390D2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF06DB7E41950AFE2BA8D8604A8128C9 /* Foundation.framework in Frameworks */,
+				06E78555A6429DBFC2451C9AD6F73875 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F85AE34F58267F89A3B0C1630BFF101 /* Pod */ = {
+		0A5E006BDAEA7BC426E4CD736F3AD11B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				471AFEBA16752F91E1B7E195AD380A1B /* LICENSE */,
-				F69352E3C9409D407F090894925D93C1 /* README.md */,
-				FAB09060AF8284E56782DE3E88D50994 /* TekServiceInterfaces.podspec */,
+				10B0D6AB4DCE24CB2CE863FB21B705F5 /* IApply.swift */,
+				8C145BF3B822541179CD2EA03335B6D9 /* IBillingInfo.swift */,
+				162C755BF2C31FCBC8FF6B1E79378CA7 /* IMarketChildOrder.swift */,
+				5F68DA79C5D54C3FDEA41DA74E8E2B64 /* IOrder.swift */,
+				703ECEA6C9050FC407278FD80FE947D5 /* IOrderCreator.swift */,
+				6832DE82FDA4F5B2EBE5DC00623D85A8 /* IOrderCustomer.swift */,
+				A6441347435BFE1773F662D6F0C71B30 /* IOrderGift.swift */,
+				98591E9A74728B764A7D61780652BD4C /* IOrderItem.swift */,
+				B8C718D7392513F79A743CD6EE01AEC7 /* IOrderListItem.swift */,
+				364FCC786CBCEF3F8921A6C62639097D /* IOrderListResult.swift */,
+				8D715E5694C90632699BC97841DE917B /* IOrderPayment.swift */,
+				C7E944EA2227DC951BA7AB68D08CC484 /* IOrderPaymentConfirmer.swift */,
+				1553A2009B635B9516C573CE66593F10 /* IOrderPromotion.swift */,
+				7880FCA8A32ADD5A7A332ADA33E1631D /* IOrderVoucher.swift */,
+				DAD42913134911BA1B188A35658ABFA1 /* IProduct.swift */,
+				D676467797216C9CAD1D9FF1FAB5C3F2 /* ISeller.swift */,
+				EEF936BF7DA57CA0A5F74F89C8EFDE1B /* IService.swift */,
+				E9E77D5196D2D155A76F31D8CE72C518 /* IShippingInfo.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A8FA1212E5820CF671EC09373EC66FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C4C9B040D2BCFCD4A7ADA8AB1C31736 /* IUserAddress.swift */,
+				B9D2C4C04A92AD28F4F13BECA531880B /* IUserInfo.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C8973D31B84DEC70B89DF7C093B8797 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69D3784CDDF0160EAE5030A3D415B777 /* TekServiceInterfaces */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1B7F3BF497295AD9F37CC95084FEA837 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0983077FA85A7D63529D4CD33AE7842C /* IAddress.swift */,
+				BC73F4753C49AA128B3FEA76BE780BD0 /* IShippingService.swift */,
+				1F895E57B10969C806F6C16D7E06CC17 /* IWard.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28DFAC80210829A8E678C3DF15267790 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3F04C53E617CFDEBD6E45DDAAF88EB0 /* LICENSE */,
+				802D0A52F4DDF22D0EACDFC3362FCFD6 /* README.md */,
+				E0E5546C7A693B086E960830365FAFED /* TekServiceInterfaces.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		18C1A01FF247C77885E423633FE33842 /* Models */ = {
+		296AD38E2E77FDF829B5F38FC5889808 /* StnService */ = {
 			isa = PBXGroup;
 			children = (
-				1694B92343EB44E5E1D780D6DA940FB6 /* IApply.swift */,
-				F8715A021F5C8F7EBF541CFBEE0B8894 /* IBillingInfo.swift */,
-				C0467A670727C87A3B3C7EE19A58A808 /* IMarketChildOrder.swift */,
-				F131E0556FA92EE486796114B17BF9F7 /* IOrder.swift */,
-				409753A1D955D05C87F66503ED54B7EA /* IOrderCreator.swift */,
-				8A8D7E79207178E1AFC4B9917B8F99A1 /* IOrderCustomer.swift */,
-				94085543427C82F5B4E280821986CA66 /* IOrderGift.swift */,
-				04ED49DEB6778DCDA0226396018EBE84 /* IOrderItem.swift */,
-				674E55F9E8021540FEB6660752E499A4 /* IOrderListItem.swift */,
-				9174BA931A48E32CD103DCCA72D4851D /* IOrderListResult.swift */,
-				7D431042C4B0AE37E61792EEE69B9E14 /* IOrderPayment.swift */,
-				FDF7E16DB8FC6D5572ECCF4F2C14FEE4 /* IOrderPaymentConfirmer.swift */,
-				7063212D46347796CC2CEF961B9B3900 /* IOrderPromotion.swift */,
-				1D51A2511FC7952F0FB8AAED4836F732 /* IOrderVoucher.swift */,
-				250C7409E30BDF9BA898BDC90F3CA440 /* IProduct.swift */,
-				ED7BCC2956F88987332D86CCA7D1D99A /* ISeller.swift */,
-				BC217609690A4EC93FED055205756AF2 /* IService.swift */,
-				A535E5CDF46708BCB2C79D8DB973F797 /* IShippingInfo.swift */,
+				D676C134853B9B6D2B7ED21E25B629F9 /* IStnService.swift */,
+				98F6EB452175878DE9F29646E6016028 /* IModels */,
 			);
-			name = Models;
-			path = Models;
+			name = StnService;
+			path = TekServiceInterfaces/Classes/StnService;
 			sourceTree = "<group>";
 		};
-		1EB21DAE0327FA6F07F277901AFCDB86 /* PageBuilderService */ = {
+		3B16155E10D28F6F1A8D5E61D2F618A3 /* UserService */ = {
 			isa = PBXGroup;
 			children = (
-				C9374CDB93D01B4E78B51EFCDE887750 /* IPageBuilderService.swift */,
-				C9ADAAFE390CDB5CDA73866DC9988C5E /* IModels */,
+				BD309A88D6E93A7203FE4CA1103B25C0 /* IUserService.swift */,
+				0A8FA1212E5820CF671EC09373EC66FC /* Models */,
 			);
-			name = PageBuilderService;
-			path = TekServiceInterfaces/Classes/PageBuilderService;
-			sourceTree = "<group>";
-		};
-		306BF1FA0F9116CC969A57804EFEBE4C /* IModels */ = {
-			isa = PBXGroup;
-			children = (
-				CD23A3C47C1B6DA08A6CF3BABA14E0CD /* IExtraDataNotification.swift */,
-				112DB212A35CE395ACA5C6546C454BAC /* INotification.swift */,
-				0280F227253D67FAEB09499B3D46F05D /* INotificationResult.swift */,
-				6B7F2AA0082AD49484FDE4102C95E97A /* IOrderNotificationData.swift */,
-			);
-			name = IModels;
-			path = IModels;
-			sourceTree = "<group>";
-		};
-		3D88DAD5B62AE6FE8BFCEAAE526A8CA1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FA6211172B348F3669FD6319F42D882E /* IBlock.swift */,
-				656163600DF0A93D31857373FDF199B8 /* IBlockAttribute.swift */,
-				4A6FD743C257E05D8BE4FBFB330454A2 /* IBlockContent.swift */,
-				E0B218090FE6AE055ECF2DEFC0B2E961 /* IBlockFilter.swift */,
-				4B7F76E797C9C03A49E816550E429466 /* IBlockItem.swift */,
-				37FB7FEE372AEF4BC4A23F7DE13C7D4B /* IBlockParams.swift */,
-				DFF1615C5CFB80CCD69D3122B23E7292 /* IBlockResult.swift */,
-				7E0A08CFF16A13CEC386837EED52375D /* IBlockSorting.swift */,
-			);
-			name = Models;
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3F7202834D873732A1BF4671D3B36662 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3F566260F0938918358F749295894432 /* IAppliedPromotion.swift */,
-				6B34517901FA39BC61ADBF60421AD23C /* IBenefit.swift */,
-				E6B278392A41BB5AA116DB0446D78CC2 /* ICondition.swift */,
-				0F0E8F1361F9299D209D8399DE6050D7 /* IDefinition.swift */,
-				A6DD641E3FC1B53AA7D1AE3ED597B25D /* IItem.swift */,
-				3BAD7D70B23D67BE7E4563995B52C658 /* IMoney.swift */,
-				AAAADEF066189336EF61ED99C19CE510 /* ITimeRange.swift */,
-				2CCA1FEEB1EEB94B86A7728F6FF6FE66 /* IVoucher.swift */,
-			);
-			name = Models;
-			path = Models;
+			name = UserService;
+			path = TekServiceInterfaces/Classes/UserService;
 			sourceTree = "<group>";
 		};
 		433CD808DF4D750B100781EF17055DD8 /* Targets Support Files */ = {
@@ -287,11 +288,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5221FF12302384723552A456290DA095 /* OrderService */ = {
+		5C1E884901054079F5F217DB9998B36D /* PPMService */ = {
 			isa = PBXGroup;
 			children = (
-				F61C248F72AD0398E49A6E4451599915 /* IOrderService.swift */,
-				18C1A01FF247C77885E423633FE33842 /* Models */,
+				D39E2B274507EF3C929870CC3D7C9BC6 /* IPpmService.swift */,
+				8D54D2A194ACD7CF48B29913BAD5AAE4 /* Models */,
+			);
+			name = PPMService;
+			path = TekServiceInterfaces/Classes/PPMService;
+			sourceTree = "<group>";
+		};
+		5ED3C69105EDFA41A0CA9644D1C8E976 /* OrderService */ = {
+			isa = PBXGroup;
+			children = (
+				897785CA6CA891543D506F3635134945 /* IOrderService.swift */,
+				0A5E006BDAEA7BC426E4CD736F3AD11B /* Models */,
 			);
 			name = OrderService;
 			path = TekServiceInterfaces/Classes/OrderService;
@@ -314,88 +325,102 @@
 			path = "Target Support Files/Pods-TekServiceInterfaces_Tests";
 			sourceTree = "<group>";
 		};
-		6565E7D585EDE83E2500C75171158327 /* Support Files */ = {
+		68646226EBE55C2517A7A276F242A1BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91DCB51D0627AFD69D00667146251B72 /* TekServiceInterfaces.modulemap */,
-				4507AC3676E880287C92C50E0A44C6AF /* TekServiceInterfaces-dummy.m */,
-				D6ED38208E5DEAE2B8D9D24F17746AE6 /* TekServiceInterfaces-Info.plist */,
-				18320DFA194CC826C8D49D964B450258 /* TekServiceInterfaces-prefix.pch */,
-				0FF1321F2066AF7908193F41446DEB9E /* TekServiceInterfaces-umbrella.h */,
-				4C1FE2945E8FFBD9DB7D7E9B1B9907ED /* TekServiceInterfaces.debug.xcconfig */,
-				D268362344805CFF8527DF422F2F7DBC /* TekServiceInterfaces.release.xcconfig */,
+				16388CE95EACB74BDC5250F578E2B692 /* TekServiceInterfaces.modulemap */,
+				1C27AD4F5300697CADD63C0DCFB29405 /* TekServiceInterfaces-dummy.m */,
+				803DED404CA4C9899B8475015894A6AA /* TekServiceInterfaces-Info.plist */,
+				7C936B7F2F08FFFCB2D31E7968995525 /* TekServiceInterfaces-prefix.pch */,
+				387477E7C04AFE0AF76CE2B220425A02 /* TekServiceInterfaces-umbrella.h */,
+				9E7CC58BEA38413C75994805DCB090C7 /* TekServiceInterfaces.debug.xcconfig */,
+				81EFE0BAC52F5FA30AC3A6C9442C5480 /* TekServiceInterfaces.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TekServiceInterfaces";
 			sourceTree = "<group>";
 		};
-		672F6ED53EF1FF783CAB026D23EB2CF8 /* LocationService */ = {
+		69D3784CDDF0160EAE5030A3D415B777 /* TekServiceInterfaces */ = {
 			isa = PBXGroup;
 			children = (
-				13D3E909CADF1735B9ADA3552983EEAF /* ILocationService.swift */,
-				B8835BD7D505B00880C3824591CB3DBD /* Models */,
+				E80556389A6E91F4D13451EE7CC01942 /* CrmService */,
+				D28DEB056964C9E64658F08F64B47DE6 /* DiscoveryService */,
+				6FA0BC055B1E2EADBB9F4690FAC1EA0B /* LocationService */,
+				5ED3C69105EDFA41A0CA9644D1C8E976 /* OrderService */,
+				FB731DD5992B9F7BFDD6CAFE99EC9584 /* PageBuilderService */,
+				28DFAC80210829A8E678C3DF15267790 /* Pod */,
+				5C1E884901054079F5F217DB9998B36D /* PPMService */,
+				296AD38E2E77FDF829B5F38FC5889808 /* StnService */,
+				68646226EBE55C2517A7A276F242A1BC /* Support Files */,
+				3B16155E10D28F6F1A8D5E61D2F618A3 /* UserService */,
+			);
+			name = TekServiceInterfaces;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6FA0BC055B1E2EADBB9F4690FAC1EA0B /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				6C562A9EB594C2E012C6F4E3A10BFC83 /* ILocationService.swift */,
+				1B7F3BF497295AD9F37CC95084FEA837 /* Models */,
 			);
 			name = LocationService;
 			path = TekServiceInterfaces/Classes/LocationService;
 			sourceTree = "<group>";
 		};
-		69F5E0EFA127A8A95FCECEC7FEA3565C /* Development Pods */ = {
+		8D54D2A194ACD7CF48B29913BAD5AAE4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C9FB8C200649E516204F009847B7444E /* TekServiceInterfaces */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7D8721999DD238934055B4728E5A210F /* PPMService */ = {
-			isa = PBXGroup;
-			children = (
-				F269F91A742DBF20948BB71D770F50E7 /* IPpmService.swift */,
-				3F7202834D873732A1BF4671D3B36662 /* Models */,
-			);
-			name = PPMService;
-			path = TekServiceInterfaces/Classes/PPMService;
-			sourceTree = "<group>";
-		};
-		84D800A3B8B7C46C7FB2399863341ABA /* DiscoveryService */ = {
-			isa = PBXGroup;
-			children = (
-				DCA59A0CB5A5D297FC503742BDA60786 /* IDiscoveryService.swift */,
-				3D88DAD5B62AE6FE8BFCEAAE526A8CA1 /* Models */,
-			);
-			name = DiscoveryService;
-			path = TekServiceInterfaces/Classes/DiscoveryService;
-			sourceTree = "<group>";
-		};
-		92C7B4351479CE96007C28F8F2E6BBF5 /* StnService */ = {
-			isa = PBXGroup;
-			children = (
-				320AD630917740A15F6C91035B45E5F3 /* IStnService.swift */,
-				306BF1FA0F9116CC969A57804EFEBE4C /* IModels */,
-			);
-			name = StnService;
-			path = TekServiceInterfaces/Classes/StnService;
-			sourceTree = "<group>";
-		};
-		A9DBD7FD3B4B079E7BA81114DA6AD07E /* CrmService */ = {
-			isa = PBXGroup;
-			children = (
-				44C54FBF1421303975FDD717A8839B1F /* ICrmService.swift */,
-				D50168EFAE55A23DD24C30CD824CAB66 /* Models */,
-			);
-			name = CrmService;
-			path = TekServiceInterfaces/Classes/CrmService;
-			sourceTree = "<group>";
-		};
-		B8835BD7D505B00880C3824591CB3DBD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				CB334A5E0CD14313955D674C98F2344F /* IAddress.swift */,
-				2D151610B0239D8D17B7B8CD3AAA5F75 /* IShippingService.swift */,
-				2250D8D827578E1D32EF83A27689B338 /* IWard.swift */,
+				FB05DF86FA71A1EC866F5675713CF43B /* IAppliedPromotion.swift */,
+				009B084B4B97A25556968BDE0D709DD6 /* IBenefit.swift */,
+				F69E0263C3088576B6A6AD1BBA66B3D8 /* ICondition.swift */,
+				F530E16EFE6B5E06413AC74030E8FEE0 /* IDefinition.swift */,
+				8F957AD333688A90F9C0EE6D2A9CA718 /* IItem.swift */,
+				435188EECD3277572F7F84A52A6DEFA3 /* IMoney.swift */,
+				BE922B80E6E6B805C452F5EBE1685394 /* ITimeRange.swift */,
+				84120CE32209A3107A385784FFE873E0 /* IVoucher.swift */,
 			);
 			name = Models;
 			path = Models;
+			sourceTree = "<group>";
+		};
+		93E7F53A79CF20B9B7B1353B6327B5C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA538C071DAA4C55CF2B8655B885A0D6 /* ICrmBankAccount.swift */,
+				E1F83EA2A5943D6F2F30F02DB68C1435 /* ICrmBrandAwareness.swift */,
+				F8CDBE966B85DC72BF0B543D019BEF48 /* ICrmContact.swift */,
+				4581778719F5BE87BAC8FFF19B31C926 /* ICrmCustomer.swift */,
+				279A44ED2E36052528B5A26D295006BC /* ICrmError.swift */,
+				887B5442D9D38253E4FE2A73FC7CFCCB /* ICrmInformation.swift */,
+				78B28933D98E74704FC77DDC8A635EC2 /* ICrmPayload.swift */,
+				E4C23DFE4ED15A7640B2F77EC3036A9E /* ICrmResponseMessage.swift */,
+				EAE379A7E55990A394C0B9F6F319CDD8 /* ICrmVat.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98DAD906252793FB308CB628798B7ED2 /* IModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF19A8CE124817E34B6D58FEF9F2C91F /* IBanner.swift */,
+				60FD6B28B2671AAD83DB8570469F1D6C /* IBannerResult.swift */,
+			);
+			name = IModels;
+			path = IModels;
+			sourceTree = "<group>";
+		};
+		98F6EB452175878DE9F29646E6016028 /* IModels */ = {
+			isa = PBXGroup;
+			children = (
+				D076BE1AA3627E9708B2D36946EC2BA6 /* IExtraDataNotification.swift */,
+				3C69AA754A142FA1E575C8C26DF0DBEF /* INotification.swift */,
+				D84EF49297C15AA4C49F299E1DA403BF /* INotificationResult.swift */,
+				BC6054D0FD25700D9495DF23FD96E4DD /* IOrderNotificationData.swift */,
+			);
+			name = IModels;
+			path = IModels;
 			sourceTree = "<group>";
 		};
 		BC1F6384DF5C03CBA1C73582496F9921 /* Products */ = {
@@ -415,38 +440,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C9ADAAFE390CDB5CDA73866DC9988C5E /* IModels */ = {
+		C85F13D4E7817F021AD119BA73F3C4D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B8BD14CFF397F3019AC6706C2C7D7A01 /* IBanner.swift */,
-				E55A15B8479758272E835D24696F082D /* IBannerResult.swift */,
+				B227AC87970C85EBEF14C3007BEACB74 /* IBlock.swift */,
+				E64D2AE43689D610AC91C7171E3BCFD4 /* IBlockAttribute.swift */,
+				E3A96A7AEAB27BFD1AFF49165AB27A82 /* IBlockContent.swift */,
+				F1D033D748A628BF0B90C19E4D67EE45 /* IBlockFilter.swift */,
+				8B07AA286F4D6A1D92AB08F0EB6820DD /* IBlockItem.swift */,
+				DD99989C942EFEED0C0026AF384FC710 /* IBlockParams.swift */,
+				B294263E62DAFB86CD90691AEBAE7213 /* IBlockResult.swift */,
+				6DA7EFCB753A05AD4F2B0F36B698F068 /* IBlockSorting.swift */,
 			);
-			name = IModels;
-			path = IModels;
-			sourceTree = "<group>";
-		};
-		C9FB8C200649E516204F009847B7444E /* TekServiceInterfaces */ = {
-			isa = PBXGroup;
-			children = (
-				A9DBD7FD3B4B079E7BA81114DA6AD07E /* CrmService */,
-				84D800A3B8B7C46C7FB2399863341ABA /* DiscoveryService */,
-				672F6ED53EF1FF783CAB026D23EB2CF8 /* LocationService */,
-				5221FF12302384723552A456290DA095 /* OrderService */,
-				1EB21DAE0327FA6F07F277901AFCDB86 /* PageBuilderService */,
-				0F85AE34F58267F89A3B0C1630BFF101 /* Pod */,
-				7D8721999DD238934055B4728E5A210F /* PPMService */,
-				92C7B4351479CE96007C28F8F2E6BBF5 /* StnService */,
-				6565E7D585EDE83E2500C75171158327 /* Support Files */,
-			);
-			name = TekServiceInterfaces;
-			path = ../..;
+			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				69F5E0EFA127A8A95FCECEC7FEA3565C /* Development Pods */,
+				0C8973D31B84DEC70B89DF7C093B8797 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BC1F6384DF5C03CBA1C73582496F9921 /* Products */,
 				433CD808DF4D750B100781EF17055DD8 /* Targets Support Files */,
@@ -461,39 +475,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D50168EFAE55A23DD24C30CD824CAB66 /* Models */ = {
+		D28DEB056964C9E64658F08F64B47DE6 /* DiscoveryService */ = {
 			isa = PBXGroup;
 			children = (
-				5D804FA3B69D47BDF02E841C187AAEF3 /* ICrmBankAccount.swift */,
-				434FBDD7E4DE0D9AD29EAA55983750CD /* ICrmBrandAwareness.swift */,
-				5C9F5979E7D480F0ABE25E4D21A9F49C /* ICrmContact.swift */,
-				435DDCE3A3E459A3F08000D182E13A0A /* ICrmCustomer.swift */,
-				E6ED81274016F1906AE96889EC567BA0 /* ICrmError.swift */,
-				5246F6D2C01DD49F5171B7BEF80B29C5 /* ICrmInformation.swift */,
-				2403F18BAA46B016D13BBD87769CFE63 /* ICrmPayload.swift */,
-				86CA919E107101848683CD1EA83593E7 /* ICrmResponseMessage.swift */,
-				FC7C0335E2428FB2DE6FA7642A35CCE6 /* ICrmVat.swift */,
+				C16DFE3D57DC339BF6FFFD80C26B344D /* IDiscoveryService.swift */,
+				C85F13D4E7817F021AD119BA73F3C4D7 /* Models */,
 			);
-			name = Models;
-			path = Models;
+			name = DiscoveryService;
+			path = TekServiceInterfaces/Classes/DiscoveryService;
+			sourceTree = "<group>";
+		};
+		E80556389A6E91F4D13451EE7CC01942 /* CrmService */ = {
+			isa = PBXGroup;
+			children = (
+				3B219F376750BF500B55C0334786239E /* ICrmService.swift */,
+				93E7F53A79CF20B9B7B1353B6327B5C4 /* Models */,
+			);
+			name = CrmService;
+			path = TekServiceInterfaces/Classes/CrmService;
+			sourceTree = "<group>";
+		};
+		FB731DD5992B9F7BFDD6CAFE99EC9584 /* PageBuilderService */ = {
+			isa = PBXGroup;
+			children = (
+				93FD0E5070DA9130A4E6FA9F1DF7FE5C /* IPageBuilderService.swift */,
+				98DAD906252793FB308CB628798B7ED2 /* IModels */,
+			);
+			name = PageBuilderService;
+			path = TekServiceInterfaces/Classes/PageBuilderService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		013C8777814E321F2B56FF0EFAA840F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3DE38F8DB2025962DC915B330F8440F /* TekServiceInterfaces-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D9A232A05D4C20AA396D29A43561A05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5674D9A0DA3A5855F5C3B5AA2EB2F53E /* Pods-TekServiceInterfaces_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A772CD4B954502AC6E4ED6C47B910154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7A96005C4B59CF4E67AC17D07A564 /* TekServiceInterfaces-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,12 +548,12 @@
 		};
 		FD6B3D1A1A4C86C96695EA7372F32837 /* TekServiceInterfaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D235D4D453ACD555E92696E92FFE607E /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
+			buildConfigurationList = 72D18A418AF1A2C96933F5342D8F9E42 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
 			buildPhases = (
-				013C8777814E321F2B56FF0EFAA840F8 /* Headers */,
-				A882246E409B5D3C134905A6326C50CE /* Sources */,
-				D9085EDB3F1A118DE991ED1F3B4FE1E8 /* Frameworks */,
-				9A0C24D3D117A768372F21379E801978 /* Resources */,
+				A772CD4B954502AC6E4ED6C47B910154 /* Headers */,
+				3605A49D12765747788946F9DF19EC28 /* Sources */,
+				DF7769908837D0BED758846BEE390D2E /* Frameworks */,
+				7EAB96E9848D08DB48B91E38D8311AAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -573,7 +600,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A0C24D3D117A768372F21379E801978 /* Resources */ = {
+		7EAB96E9848D08DB48B91E38D8311AAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,78 +610,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3605A49D12765747788946F9DF19EC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D14F8468A14C8C47CF05A209EF0C0C /* IAddress.swift in Sources */,
+				1D97B19AE1E446E1A44313D8A024A7C3 /* IAppliedPromotion.swift in Sources */,
+				511C611996242DCB250A1C776769BA7A /* IApply.swift in Sources */,
+				A3C4DE5F9FB7F6F8B227D043DFBD93C5 /* IBanner.swift in Sources */,
+				A7B422EAEA806E1EEF077C378F0B41B2 /* IBannerResult.swift in Sources */,
+				01BEE7E346B4D955D255383AB87D899B /* IBenefit.swift in Sources */,
+				C913D09F23CD6F083210FBCEB469E99F /* IBillingInfo.swift in Sources */,
+				13036D7D6C2C5D3B992E9941AC203D6E /* IBlock.swift in Sources */,
+				839248C9AB7E8379A6D5F37BC6A8946F /* IBlockAttribute.swift in Sources */,
+				A33D2B86F6C3AA1D06DB5EEBF77E3A16 /* IBlockContent.swift in Sources */,
+				E38AE31980AF7E2AD511F9A441863E6E /* IBlockFilter.swift in Sources */,
+				862309F800D0F5F15A414916CAE36D9C /* IBlockItem.swift in Sources */,
+				67C7085A22E3AF7F96152B7AD18E0A72 /* IBlockParams.swift in Sources */,
+				F488253FDE7E9CBD59C49029661551A2 /* IBlockResult.swift in Sources */,
+				2C4EC8081913F24B09917F3686D71990 /* IBlockSorting.swift in Sources */,
+				4562B1972715E7439B0E0799B9167A3E /* ICondition.swift in Sources */,
+				0E22ED94A313BEA304D27F842C2C2A80 /* ICrmBankAccount.swift in Sources */,
+				914CAC11A953B138DF3FFB40EB434931 /* ICrmBrandAwareness.swift in Sources */,
+				8F9490A32A4F5575BAD7F6B147BC167F /* ICrmContact.swift in Sources */,
+				16928887C38444CDA958C5A2800FB3D0 /* ICrmCustomer.swift in Sources */,
+				F2CE4BFC4456C3DF520DAFA47E6BB022 /* ICrmError.swift in Sources */,
+				F08839E06239ECBE797C78D01F2E488C /* ICrmInformation.swift in Sources */,
+				F862CA554F899DCF519FD40376D7445D /* ICrmPayload.swift in Sources */,
+				9131270D16FA4B25485D9DB60CA602EC /* ICrmResponseMessage.swift in Sources */,
+				93B9E2AFD716D1499C5A4A3053C286E1 /* ICrmService.swift in Sources */,
+				606C691FF66D31E500DDC3B6790E0A64 /* ICrmVat.swift in Sources */,
+				E58AD739F7B8F39F32EB84DBA5EA7EB3 /* IDefinition.swift in Sources */,
+				A0D9C0C53F6C28690A673942FF8A8F08 /* IDiscoveryService.swift in Sources */,
+				81153A0209A9F6736F65208B920C3CCB /* IExtraDataNotification.swift in Sources */,
+				950EEAF07AADD135909EEED22F2F4CEF /* IItem.swift in Sources */,
+				DEA43F415FD2B43568DDCC0BF804188E /* ILocationService.swift in Sources */,
+				1519C5201F5C2BA6B7555B6E5C263A68 /* IMarketChildOrder.swift in Sources */,
+				E426D92FFF22EF71A62896831BA3BA80 /* IMoney.swift in Sources */,
+				A4A5BC6F2E981DDB5BC81986B021FD3E /* INotification.swift in Sources */,
+				50CA58ED5CD11CFE9DEFE48F07C3ED59 /* INotificationResult.swift in Sources */,
+				21657FF829F9A401B6F93F9C002AF2BF /* IOrder.swift in Sources */,
+				F2513C6F110CF44B5E10EDB791D70245 /* IOrderCreator.swift in Sources */,
+				711E47033FB7B0C583DF201191513460 /* IOrderCustomer.swift in Sources */,
+				0C4D133890D0823CAD1B513BF86B369C /* IOrderGift.swift in Sources */,
+				146C1B54DF1128AAE44058ECF5233699 /* IOrderItem.swift in Sources */,
+				508A7E4F1573816F04D11B3E0BA0B890 /* IOrderListItem.swift in Sources */,
+				BD73D294566F732B195C00BCB963BF4B /* IOrderListResult.swift in Sources */,
+				8F852C4F5CA944BEA6B8B1426CAF9504 /* IOrderNotificationData.swift in Sources */,
+				5840412E9ADFD60C63D2D5FA2C8B6146 /* IOrderPayment.swift in Sources */,
+				77B5681ACE104B29A69D9F7F5285B615 /* IOrderPaymentConfirmer.swift in Sources */,
+				9DAD37BF42AF0B689F592CD8E62F135D /* IOrderPromotion.swift in Sources */,
+				799AAFFB7643ACB8E2C735FBECB4F8BE /* IOrderService.swift in Sources */,
+				8200B8A72650A2AC9B9969EF7991DBE7 /* IOrderVoucher.swift in Sources */,
+				18DA944DF785678FE3F7E55DEFCF7057 /* IPageBuilderService.swift in Sources */,
+				5B14B78B21F9DE9628191B2A81FA2262 /* IPpmService.swift in Sources */,
+				E2C62D030247CB300F5804A9E84F2AC4 /* IProduct.swift in Sources */,
+				B8B274A0EBDD3045E76DCFA259EE8F02 /* ISeller.swift in Sources */,
+				BE5A055D092B25FD4CA61974176D6AFE /* IService.swift in Sources */,
+				33E51AE6264E54ED24F62348BCF478B2 /* IShippingInfo.swift in Sources */,
+				0589B8A4AFAD297C8D93A83BC119A5F9 /* IShippingService.swift in Sources */,
+				44B3C531977037D288C3696F544EA040 /* IStnService.swift in Sources */,
+				6DD73EA2634BCC026DCDEB940D82C63F /* ITimeRange.swift in Sources */,
+				A564127125028C8746F734C58DB21712 /* IUserAddress.swift in Sources */,
+				2479BA44C273E4AC91C9CC2848311725 /* IUserInfo.swift in Sources */,
+				8DE8215E15C45DA70153694FFAB748DA /* IUserService.swift in Sources */,
+				4755B641B16D3C78F2A536CFD9F74009 /* IVoucher.swift in Sources */,
+				437743F2D1632700A39447DE391F17FA /* IWard.swift in Sources */,
+				C1FF10056C92347313F189CCFB4A2737 /* TekServiceInterfaces-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CAE71FD7A98200617B28EDF78BFC016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A882246E409B5D3C134905A6326C50CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C2320EA6BE4CA45B227A5F88F8E52A9 /* IAddress.swift in Sources */,
-				1F296B2602DA23E51820D020CC9C8022 /* IAppliedPromotion.swift in Sources */,
-				D2CA5A056A43FBF927AEEB52EECE115A /* IApply.swift in Sources */,
-				E36D120F790E46FC7B02DE77BD8E66AD /* IBanner.swift in Sources */,
-				AB1E324AB86CC82DC97AA316241C1620 /* IBannerResult.swift in Sources */,
-				0AC63D2615B73A7854C9C36125090B64 /* IBenefit.swift in Sources */,
-				94C30272A3F6F972AB5E48E6753DEED1 /* IBillingInfo.swift in Sources */,
-				01F36FFF334D7CA677789571B133485A /* IBlock.swift in Sources */,
-				0CBBCEBAE5B7A840D1EAF774B1622C1B /* IBlockAttribute.swift in Sources */,
-				55C3B55E8504D19B28F1A41A91461B30 /* IBlockContent.swift in Sources */,
-				8B313FC8A3BFB315B38DA20307C8FA6A /* IBlockFilter.swift in Sources */,
-				333E9ABB1EA24CBC4994EFD96F92908C /* IBlockItem.swift in Sources */,
-				4A93A4CE559F97D0A3CFAD80371AFE15 /* IBlockParams.swift in Sources */,
-				6F445CC47ABC57D5B979D4894BA0543F /* IBlockResult.swift in Sources */,
-				C975BCAFA38506F70BB3458DE21B0F23 /* IBlockSorting.swift in Sources */,
-				45C477BC8231F9B2CA5D52E30B2FB5E0 /* ICondition.swift in Sources */,
-				6037E109C5AC1984C8AA227809DA23D0 /* ICrmBankAccount.swift in Sources */,
-				2EA97D0AFBBC1DD865065BEEF8CBFCBC /* ICrmBrandAwareness.swift in Sources */,
-				2DC9EEC4197E1B4655E93405872B8554 /* ICrmContact.swift in Sources */,
-				00933E5FE18370D4CB96BDA0711719B6 /* ICrmCustomer.swift in Sources */,
-				CDF7ADC21FA6E1B43F15954C261FD7CF /* ICrmError.swift in Sources */,
-				E3180BDCC9E7F9C0608ED1CA45546E65 /* ICrmInformation.swift in Sources */,
-				555448551916F01C37BC6A36AFA65338 /* ICrmPayload.swift in Sources */,
-				47095B881E18A8A8DC3188AA73882B8C /* ICrmResponseMessage.swift in Sources */,
-				43264A5132716012BB5731CD7AFBCC6B /* ICrmService.swift in Sources */,
-				A6C693DD078E8117026A5BF4233C5C40 /* ICrmVat.swift in Sources */,
-				A1AF81651366B3972B15D702640B65DE /* IDefinition.swift in Sources */,
-				627128E072CEBC0F3584C4343C001004 /* IDiscoveryService.swift in Sources */,
-				EA19CD8F498DDD5C34F762407E47BFDC /* IExtraDataNotification.swift in Sources */,
-				9BD369A72DE5800799EF15B15B9E1125 /* IItem.swift in Sources */,
-				41C4A0BE3DD21ED2B281A2AF01CBC45B /* ILocationService.swift in Sources */,
-				65325AE527C8E458E6CB3A55BF2A4CE5 /* IMarketChildOrder.swift in Sources */,
-				6A06500F4202E6C2AB952FCB7A8CE433 /* IMoney.swift in Sources */,
-				C4ED647882F37083CA3FC1BD25FC9F39 /* INotification.swift in Sources */,
-				FB38F9EB4CBCAC53906A7731FFF6607E /* INotificationResult.swift in Sources */,
-				100B4EFEB8B34DB661445D6A51C048B0 /* IOrder.swift in Sources */,
-				AE5414370BD4DF7D9710C1A4190724FC /* IOrderCreator.swift in Sources */,
-				A6E89A5631037BA040668D3E0E47F894 /* IOrderCustomer.swift in Sources */,
-				4B9FF920586D70B16DB213EBDC83090A /* IOrderGift.swift in Sources */,
-				A2DFC67A5CA5B1AC82619E86E35D864B /* IOrderItem.swift in Sources */,
-				28CE84385C92696521446DED9D70E7F0 /* IOrderListItem.swift in Sources */,
-				3710D031D11FC9B513523E097C52ADEA /* IOrderListResult.swift in Sources */,
-				CF619E2EFF29452CCED1DDC78CEF773F /* IOrderNotificationData.swift in Sources */,
-				3C7375ED97897717CFA53DE7E052328A /* IOrderPayment.swift in Sources */,
-				CEAC916AD1AEDC71120A153A47B52F94 /* IOrderPaymentConfirmer.swift in Sources */,
-				350B311F38D7FA4EF1654B307DD432EE /* IOrderPromotion.swift in Sources */,
-				D7624B5D7C9140E340276F596EEC8A3C /* IOrderService.swift in Sources */,
-				E47BDCBE48D3D2B6DC2B791592730559 /* IOrderVoucher.swift in Sources */,
-				E4DF828F2B3EF67D6E52BCE06FE70141 /* IPageBuilderService.swift in Sources */,
-				046C7E3B6543AE339F9C3BFC5C088F8D /* IPpmService.swift in Sources */,
-				0CF5A6738C2129B305AC2F8EE5768630 /* IProduct.swift in Sources */,
-				6E9444F33A0D0F1AEE410E90580E946B /* ISeller.swift in Sources */,
-				2C73419F9AA66C86F0ADD036B8466DCB /* IService.swift in Sources */,
-				33C186C46D2CF0409BA03FDA95791E7C /* IShippingInfo.swift in Sources */,
-				F9F5F49493C0DA7D8038DE1E1013FE71 /* IShippingService.swift in Sources */,
-				D96195E8CF56B0E3E31668EA4618476C /* IStnService.swift in Sources */,
-				7EFF345DE158E801C1504F610C6C4652 /* ITimeRange.swift in Sources */,
-				A2C2F692962E4554A3D9D04940FB4CF7 /* IVoucher.swift in Sources */,
-				3F403197ADA712F14726574DA7068328 /* IWard.swift in Sources */,
-				563BB6E713E1513949ACECC1A34C0809 /* TekServiceInterfaces-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,6 +700,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		38AD34C60CFA3CA7CDCF2466814D5AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EFE0BAC52F5FA30AC3A6C9442C5480 /* TekServiceInterfaces.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
+				PRODUCT_MODULE_NAME = TekServiceInterfaces;
+				PRODUCT_NAME = TekServiceInterfaces;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4C5B9DE2A07619006CC8B0A2ACB37ECA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */;
@@ -703,69 +765,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		51E4CE10ED4D9E7162A2B249279B7532 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D268362344805CFF8527DF422F2F7DBC /* TekServiceInterfaces.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
-				PRODUCT_MODULE_NAME = TekServiceInterfaces;
-				PRODUCT_NAME = TekServiceInterfaces;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F6B5B33EC624CAA9B9568E0BBDD251B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1FE2945E8FFBD9DB7D7E9B1B9907ED /* TekServiceInterfaces.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
-				PRODUCT_MODULE_NAME = TekServiceInterfaces;
-				PRODUCT_NAME = TekServiceInterfaces;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -924,6 +923,37 @@
 			};
 			name = Debug;
 		};
+		FB1F5D2CCD3659BF4458FF6198CB1634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7CC58BEA38413C75994805DCB090C7 /* TekServiceInterfaces.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
+				PRODUCT_MODULE_NAME = TekServiceInterfaces;
+				PRODUCT_NAME = TekServiceInterfaces;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -945,11 +975,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D235D4D453ACD555E92696E92FFE607E /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
+		72D18A418AF1A2C96933F5342D8F9E42 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F6B5B33EC624CAA9B9568E0BBDD251B /* Debug */,
-				51E4CE10ED4D9E7162A2B249279B7532 /* Release */,
+				FB1F5D2CCD3659BF4458FF6198CB1634 /* Debug */,
+				38AD34C60CFA3CA7CDCF2466814D5AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
