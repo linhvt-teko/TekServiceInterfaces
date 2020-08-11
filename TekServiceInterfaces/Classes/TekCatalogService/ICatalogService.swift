@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol ICatalogService {
-    func getSellerList(completion: @escaping ([ISeller]) -> ())
+    func getSellerList(completion: @escaping ([ICatalogSeller]) -> ())
 }
