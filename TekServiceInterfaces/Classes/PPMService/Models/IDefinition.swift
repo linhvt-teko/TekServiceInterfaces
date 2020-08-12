@@ -8,19 +8,12 @@
 
 import Foundation
 
-public protocol IDefinition {
-    var id: Int { get }
-    var type: String { get }
-    var startedAt: String? { get }
-    var endedAt: String? { get }
-    var name: String { get }
-    var description: String? { get }
-    var paymentMethods: [String] { get }
-    var timeRanges: [ITimeRange] { get }
+public protocol IDefinition: ICoreDefinition {
     var benefit: IBenefit? { get }
     var condition: ICondition? { get }
     var channel: String { get }
     var applyOn: String? { get }
     var sellerId: Int? { get }
     var channels: [String] { get }
+    var type: String { get }
 }
