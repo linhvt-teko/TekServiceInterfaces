@@ -14,8 +14,8 @@ public typealias CancelOrderHandler = (_ response: IOrderResponse?, _ success: B
 public protocol IOrderService {
     func getOrder(id: String, handler: @escaping OrderHandler)
     func queryOrder(id: String, handler: @escaping OrderHandler)
-    func getOrderList(orderCodes: [String], offset: Int, limit: Int, handler: @escaping OrderListHandler)
-    func getMarketOrderList(orderCodes: [String], offset: Int, limit: Int, handler: @escaping OrderListHandler)
+    func getOrderList(creatorId: String, orderCodes: [String], offset: Int, limit: Int, handler: @escaping OrderListHandler)
+    func getMarketOrderList(creatorId: String, orderCodes: [String], offset: Int, limit: Int, handler: @escaping OrderListHandler)
     func cancelChildOrder(id: String, handler: @escaping CancelOrderHandler)
     func cancelMarketOrder(id: String, handler: @escaping CancelOrderHandler)
 }
