@@ -8,6 +8,6 @@
 import Foundation
 
 public protocol IOrderResponse {
-    var code: Int? { get }
+    var statusCode: Int? { get }
     var error: IOrderError? { get }
 }
