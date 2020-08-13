@@ -223,27 +223,27 @@ public extension ISearchService {
                handler: handler)
      }
     
-    func searchKeywords(query: String,
-                        page: Int,
-                        limit: Int,
-                        handler: @escaping SearchResponseHandler) {
-        search(query: query,
-               page: page,
-               limit: limit,
-               responses: [.keywords], filters: [],
-               sort: [], order: [],
-               hasPromotions: nil,
-               brands: [],
-               attributeSets: [],
-               minPrice: nil, maxPrice: nil,
-               saleStatusesNe: [.suspend, .preorder],
-               skus: [],
-               displayCategory: nil,
-               flashSaleType: nil, flashSaleGte: nil, flashSaleLte: nil,
-               sellerCategories: [], sellerIds: [],
-               extraParams: [:],
-               handler: handler)
-    }
+//    func searchKeywords(query: String,
+//                        page: Int,
+//                        limit: Int,
+//                        handler: @escaping SearchResponseHandler) {
+//        search(query: query,
+//               page: page,
+//               limit: limit,
+//               responses: [.keywords], filters: [],
+//               sort: [], order: [],
+//               hasPromotions: nil,
+//               brands: [],
+//               attributeSets: [],
+//               minPrice: nil, maxPrice: nil,
+//               saleStatusesNe: [.suspend, .preorder],
+//               skus: [],
+//               displayCategory: nil,
+//               flashSaleType: nil, flashSaleGte: nil, flashSaleLte: nil,
+//               sellerCategories: [], sellerIds: [],
+//               extraParams: [:],
+//               handler: handler)
+//    }
     
     func searchProducts(query: String,
                         page: Int,
