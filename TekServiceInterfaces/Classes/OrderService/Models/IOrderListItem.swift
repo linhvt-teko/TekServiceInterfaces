@@ -8,15 +8,15 @@
 import Foundation
 
 public protocol IOrderListItem {
-    var billingInfo: IBillingInfo? { get }
+    var billingInfo: IOrderBillingInfo? { get }
     var cancellationReason: String? { get }
     var cancelledAt: String? { get }
-    var cancelledBy: IOrderPaymentConfirmer? { get }
+    var cancelledBy: IOrderStaff? { get }
     var cancelledType: Int? { get }
     var childOrders: [IMarketChildOrder] { get }
     var code: String? { get }
     var confirmAt: String? { get }
-    var confirmer: IOrderPaymentConfirmer? { get }
+    var confirmer: IOrderStaff? { get }
     var createdAt: String? { get }
     var creator: IOrderCreator? { get }
     var customer: IOrderCustomer? { get }
@@ -30,7 +30,7 @@ public protocol IOrderListItem {
     var note: String? { get }
     var notes: [Int: String]? { get }
     var originalId: String? { get }
-    var paymentConfirmer: IOrderPaymentConfirmer? { get }
+    var paymentConfirmer: IOrderStaff? { get }
     var payments: [IOrderPayment] { get }
     var predictCancelTime: String? { get }
     var promotions: [IOrderPromotion] { get }
@@ -39,8 +39,8 @@ public protocol IOrderListItem {
     var salesmanId: String? { get }
     var seller: ISeller? { get }
     var sellerId: Int? { get }
-    var service: IService? { get }
-    var shippingInfo: IShippingInfo? { get }
+    var service: IOrderExtraService? { get }
+    var shippingInfo: IOrderShippingInfo? { get }
     var state: Int? { get }
     var tax: Double { get }
     var terminalCode: String? { get }

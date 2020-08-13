@@ -17,7 +17,7 @@ public protocol IOrderPromotion {
     var voucher: IOrderVoucher? { get }
     var vouchers: [String] { get }
     var coupon: String? { get }
-    var applyOn: [IApply] { get }
+    var applyOn: [IOrderPromotionApply] { get }
     var applyType: String? { get }
     var type: String? { get }
     var sellerId: Int? { get }
