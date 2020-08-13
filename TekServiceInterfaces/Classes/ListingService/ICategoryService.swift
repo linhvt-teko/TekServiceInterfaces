@@ -1,5 +1,5 @@
 //
-//  ICagegoryService.swift
+//  ICategoryService.swift
 //  TekServiceInterfaces
 //
 //  Created by linhvt on 8/12/20.
@@ -17,11 +17,11 @@ public enum CategoryZone: String {
     case customCategory = "custom_category"
 }
 
-public protocol ICagegoryService {
+public protocol ICategoryService {
     func filter(page: Int, limit: Int, sort: [String], order: [String], level: Int, parentId: Int?, zone: CategoryZone?, handler: @escaping CategoryResponseHandler)
 }
 
-public extension ICagegoryService {
+public extension ICategoryService {
     func filter(page: Int, limit: Int, sort: [String], order: [String], level: Int, parentId: Int?, handler: @escaping CategoryResponseHandler) {
         filter(page: page, limit: limit, sort: sort, order: order, level: level, parentId: parentId, zone: nil, handler: handler)
     }
