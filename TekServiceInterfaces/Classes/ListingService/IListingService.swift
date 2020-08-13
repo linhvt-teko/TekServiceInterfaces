@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IListingService: ICategoryBrandsService, IKeywordsService, ICatalogService, IRecommendationService, IProductDetailService, ISearchService {}
+public protocol IListingService: ICategoryBrandsService, IKeywordsService, ICagegoryService, IRecommendationService, IProductDetailService, ISearchService {}
 
 
 
