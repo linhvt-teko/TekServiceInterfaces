@@ -9,7 +9,6 @@ import Foundation
 
 public protocol IOrderItem {
     var sku: String? { get }
-    var seller: ISeller? { get }
     var name: String? { get }
     var displayName: String? { get }
     var quantity: Int { get }
@@ -23,5 +22,4 @@ public protocol IOrderItem {
     var discountReason: String? { get }
     var unitAdd: Double? { get }
     var parentSku: String { get }
-    var product: IProduct? { get }
 }

@@ -9,5 +9,5 @@ import Foundation
 
 public protocol IOrderListResult {
     var total: Int { get }
-    var orders: [IOrder] { get }
+    var orders: [IOrderListItem] { get }
 }

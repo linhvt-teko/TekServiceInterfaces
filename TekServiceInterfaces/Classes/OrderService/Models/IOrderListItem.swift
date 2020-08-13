@@ -24,8 +24,6 @@ public protocol IOrderListItem {
     var id: String { get }
     var inventoryCode: String? { get }
     var isCancellable: Bool { get }
-    var isExpired: Bool  { get }
-    var isFullInfo: Bool { get }
     var isPaid: Bool { get }
     var items: [IOrderItem] { get }
     var memberCard: String? { get }

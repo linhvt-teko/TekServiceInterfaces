@@ -14,6 +14,4 @@ public protocol IBillingInfo {
     var taxCode: String? { get }
     var type: String? { get }
     var phone: String? { get }
-    var printAfter: Int? { get }
-    var printPretaxPrice: Bool? { get }
 }

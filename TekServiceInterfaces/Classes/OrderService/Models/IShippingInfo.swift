@@ -12,9 +12,9 @@ public protocol IShippingInfo {
     var phone: String { get }
     var email: String? { get }
     var expectedDate: String? { get }
-    var provinceID: String { get }
-    var wardID: String { get }
-    var districtID: String { get }
+    var provinceId: String { get }
+    var wardId: String { get }
+    var districtId: String { get }
     var address: String { get }
     var fullAddress: String { get }
     var country: String { get }
@@ -22,5 +22,5 @@ public protocol IShippingInfo {
     var note: String? { get }
     var lat: Double? { get }
     var lon: Double? { get }
-
+    var storeCode: String? { get }
 }
