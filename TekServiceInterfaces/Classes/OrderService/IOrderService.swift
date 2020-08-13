@@ -9,7 +9,7 @@ import Foundation
 
 public typealias OrderHandler = (_ order: IOrder?, _ isSuccess: Bool) -> ()
 public typealias OrderListHandler = (_ order: [IOrderListItem]?, _ isSuccess: Bool) -> ()
-public typealias CancelOrderHandler = (_ statusCode: String?, _ success: Bool) -> ()
+public typealias CancelOrderHandler = (_ response: IOrderResponse?, _ success: Bool) -> ()
 
 public protocol IOrderService {
     func getOrder(id: String, handler: @escaping OrderHandler)
