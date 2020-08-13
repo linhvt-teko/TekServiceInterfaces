@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IBillingInfo {
+public protocol IOrderBillingInfo {
     var name: String? { get }
     var email: String? { get }
     var address: String? { get }

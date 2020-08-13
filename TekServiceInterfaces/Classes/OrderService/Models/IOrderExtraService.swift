@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IService {
+public protocol IOrderExtraService {
     var installation: Bool? { get }
     var delivery: Bool? { get }
     var technicalSupport: Bool? { get }

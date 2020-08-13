@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IApply {
+public protocol IOrderPromotionApply {
     var id: String? { get }
     var quantity: Int { get }
 }

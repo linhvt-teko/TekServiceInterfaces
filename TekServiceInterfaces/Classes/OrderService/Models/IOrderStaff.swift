@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IOrderPaymentConfirmer {
+public protocol IOrderStaff {
     var id: String? { get }
     var name: String? { get }
     var phone: String? { get }

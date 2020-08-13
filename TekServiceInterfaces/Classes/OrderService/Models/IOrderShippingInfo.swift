@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol IShippingInfo {
+public protocol IOrderShippingInfo {
     var name: String { get }
     var phone: String { get }
     var email: String? { get }
