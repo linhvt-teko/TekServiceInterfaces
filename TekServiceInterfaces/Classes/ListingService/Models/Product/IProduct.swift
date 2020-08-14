@@ -8,8 +8,8 @@
 import Foundation
 
 public protocol IProduct {
-    var sku: String { get }
-    var name: String { get }
+    var sku: String? { get }
+    var name: String? { get }
     var url: String? { get }
     var brand: IBrand? { get }
     var status: IStatus? { get }
@@ -39,7 +39,7 @@ public protocol IProduct {
     var allActiveFlashSales: [IActiveFlashSale] { get }
     var attributeGroups: [IAttributeGroup] { get }
     var taxOut: Double { get }
-    var taxOutCode: String { get }
+    var taxOutCode: String? { get }
     var warranty: IWarranty? { get }
     var createdAt: String? { get }
     var salePoint: Int? { get }

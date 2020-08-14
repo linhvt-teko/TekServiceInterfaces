@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol ICategoryBrand {
-    var id: Int { get }
+    var id: Int? { get }
     var name: String? { get }
     var codes: [String] { get }
     var thumbnailURL: String? { get }

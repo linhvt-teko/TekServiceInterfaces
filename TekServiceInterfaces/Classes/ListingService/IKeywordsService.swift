@@ -10,6 +10,6 @@ import Foundation
 public typealias KeywordsResponseHandler = (_ keywords: [IKeyword], _ isSuccess: Bool) -> ()
 
 public protocol IKeywordsService {
-    func getPopularKeywords(handler: @escaping KeywordsResponseHandler)
-    func searchKeywords(query: String, page: Int, handler: @escaping KeywordsResponseHandler)
+    func getPopularKeywords(visitorId: String?, handler: @escaping KeywordsResponseHandler)
+    func searchKeywords(query: String, visitorId: String?, page: Int, handler: @escaping KeywordsResponseHandler)
 }

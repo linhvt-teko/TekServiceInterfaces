@@ -8,10 +8,10 @@
 import Foundation
 
 public protocol ICoreDefinition {
-    var id : Int { get }
+    var id : Int? { get }
     var startedAt : String? { get }
     var endedAt : String? { get }
-    var name : String { get }
+    var name : String? { get }
     var description : String? { get }
     var timeRanges : [ITimeRange] { get }
     var paymentMethods : [String] { get }

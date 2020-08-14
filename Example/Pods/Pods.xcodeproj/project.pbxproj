@@ -106,6 +106,7 @@
 		C5774A7858DBA76CDDC4AE78161D627C /* ICatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0CE8F3ACF76C3922AA52CB87DD7F6 /* ICatalogService.swift */; };
 		C77B131FE520F607A868239F9E92B756 /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D962DE0153FFAE8F40C38AB68BC6AED /* IItem.swift */; };
 		C7F3408CC264C300D01949499CAD8DD1 /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CC61FB2827A4BFFC2389EE9504210 /* IProduct.swift */; };
+		CA84B27624E67A9300D1D771 /* ISkuCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84B27424E67A8200D1D771 /* ISkuCondition.swift */; };
 		CF2D2F3BC4B2AE8826B57E37B9F40CBA /* IExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C23744FA1121207EFE5BE3DDBAAE69 /* IExtra.swift */; };
 		D00ECE6A77B0AE7D7B380CC01BDCBA35 /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8720AFA6E9BC711316EEEC3CDAE7F /* IBanner.swift */; };
 		D060CBAD855561F1D2A7242F7071521C /* IListingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659CBFC901B0A9486603263D0DAAE3D3 /* IListingService.swift */; };
@@ -263,6 +264,7 @@
 		C4F118C6D0A57ED508E0B81DB5BC6EE0 /* IProductsSearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductsSearchResult.swift; sourceTree = "<group>"; };
 		C6695645924BD52C5E70B08735D5B7B1 /* IOrderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderService.swift; sourceTree = "<group>"; };
 		CA1A1B60A0E7F6D9A19EE746EF6F7C4C /* IFilterValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFilterValue.swift; sourceTree = "<group>"; };
+		CA84B27424E67A8200D1D771 /* ISkuCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISkuCondition.swift; sourceTree = "<group>"; };
 		CAE681EECA1A01C252A0C58F63EA6543 /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
 		CE893B3CC855A0F912AF1F53C12AF3A0 /* IVariantImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVariantImage.swift; sourceTree = "<group>"; };
 		D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				726791FFD77C3D87690D752DBCD423D0 /* IVariant.swift */,
 				CE893B3CC855A0F912AF1F53C12AF3A0 /* IVariantImage.swift */,
 				8A3E8543E60935EE48E4EB9978415B52 /* IWarranty.swift */,
+				CA84B27424E67A8200D1D771 /* ISkuCondition.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -811,6 +814,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6FA3F449B1526A40C8C8BBF649320CDC = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -875,6 +883,7 @@
 				775AAD8EA7E629E95976B26449DA9FC8 /* IBlockAttribute.swift in Sources */,
 				422B06A9EC68426C7D2D8148ABEC96AE /* IBlockContent.swift in Sources */,
 				3E53393CFEF4BFB20E9E35802C74560A /* IBlockFilter.swift in Sources */,
+				CA84B27624E67A9300D1D771 /* ISkuCondition.swift in Sources */,
 				BD28001422AA9B919945192C5C960460 /* IBlockItem.swift in Sources */,
 				34A602489DA873FDD1771697E241E8C3 /* IBlockParams.swift in Sources */,
 				E65FFE546203A6E8C0E073DB4B114310 /* IBlockResult.swift in Sources */,
@@ -1063,6 +1072,7 @@
 			baseConfigurationReference = D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1086,6 +1096,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1098,6 +1109,7 @@
 			baseConfigurationReference = 60388570966F25DDA5A14C83A1CDE303 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1121,6 +1133,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

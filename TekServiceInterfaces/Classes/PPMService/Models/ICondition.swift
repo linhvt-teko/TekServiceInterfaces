@@ -13,6 +13,6 @@ public protocol ICondition {
     var paymentMethods: [String] { get }
     var orderValueMin: Double? { get }
     var orderValueMax: Double? { get }
-    var blockSize: Int { get }
-    var minQuantity: Int { get }
+    var blockSize: Int? { get }
+    var minQuantity: Int? { get }
 }
