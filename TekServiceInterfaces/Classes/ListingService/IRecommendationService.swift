@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol IRecommendationService {
-    func getRecommendProductsForUser(page: Int, handler: @escaping ProductsListDetailResponseHandler)
-    func getRecommendProductsForUserByCategory(page: Int, sellerCategories: [Int], handler: @escaping ProductsListDetailResponseHandler)
-    func getRecommendProductsBySku(_ sku: String, page: Int, handler: @escaping ProductsListDetailResponseHandler)
+    func getRecommendProducts(forUser userId: String?, page: Int, handler: @escaping ProductsListDetailResponseHandler)
+    func getRecommendProducts(forUser userId: String?, byCategories sellerCategories: [Int], page: Int, handler: @escaping ProductsListDetailResponseHandler)
+    func getRecommendProducts(bySku sku: String, page: Int, handler: @escaping ProductsListDetailResponseHandler)
 }
