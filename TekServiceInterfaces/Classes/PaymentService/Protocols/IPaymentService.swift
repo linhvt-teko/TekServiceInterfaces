@@ -7,6 +7,8 @@
 
 import Foundation
 
+public typealias PaymentPayload = [String: Any]
+
 public protocol IPaymentService {
     func pay<T: PaymentMethod>(method: T, request: T.Request, completion: @escaping (Result<T.Transaction, PaymentError>) -> ())
 }

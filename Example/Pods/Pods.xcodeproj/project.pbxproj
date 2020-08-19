@@ -22,6 +22,7 @@
 		14EA9C4761F8A0A6782B1948EB3F3C43 /* TransactionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DFFEE3AF995F9EABAB49AADBE01F8 /* TransactionError.swift */; };
 		165D8720682DE8758D269B1453CC2445 /* IFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A705D553D8D0220F446E5DB8CB955F2 /* IFilter.swift */; };
 		1870FC73AEDC26854BA35B9F74BFDF3E /* IPriceRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9238E271C693AAEAE7AA554BB26B51 /* IPriceRange.swift */; };
+		1A17785124ED27EE002EDA7F /* IPaymentServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */; };
 		1A43EC235D504E56DC1F7771E19AF906 /* IExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED7382F829A7D74CD90CD0B074D8A6 /* IExtra.swift */; };
 		27F66FFD757109476E8EF9B78E9EB4DF /* IProductsSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49935AA20A14B65B6EE3B40A4564CFB /* IProductsSearchResult.swift */; };
 		284622AC358E0EE88843DC2C1FE18592 /* IProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662719A8C9B426CB1B750B50D0F08D4 /* IProvider.swift */; };
@@ -165,6 +166,7 @@
 		13089C5E5EA567F2DABEAC15FE383877 /* IAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAddress.swift; sourceTree = "<group>"; };
 		13A01D5CF9F30EF1CCBFE949280B051B /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
 		19D52494845F97A72581EE0D5240E08C /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
+		1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPaymentServiceConfig.swift; sourceTree = "<group>"; };
 		1FF3802064C3716C21F1DE53AB009E58 /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
 		236BF96F1CBC08419E6E8403A5E2C84F /* ICoreFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICoreFlashSale.swift; sourceTree = "<group>"; };
 		27A9F99D43AAAA59332CDCA221224469 /* IBlockItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockItem.swift; sourceTree = "<group>"; };
@@ -800,6 +802,7 @@
 			children = (
 				12DEFFCB2864336CB00FDC20E2CBB1CB /* IPaymentObserver.swift */,
 				BE4141EE4434698C9716C41B50FAF77A /* IPaymentService.swift */,
+				1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -1029,6 +1032,7 @@
 				C7B44C589D40F0F26D2B68E8F0D31CF8 /* IShippingService.swift in Sources */,
 				D217480EC0EF00FF50DE02028CC077E8 /* ISkuCondition.swift in Sources */,
 				CDA0475205A6B2288C592CC484568D64 /* IStatus.swift in Sources */,
+				1A17785124ED27EE002EDA7F /* IPaymentServiceConfig.swift in Sources */,
 				B2E897E506C37E06CEC4AE4F59292591 /* IStnService.swift in Sources */,
 				CDB050F28C98CC949EBE44D1C00307A2 /* IStock.swift in Sources */,
 				8FECC7B6AF72802287C16E3673D222A3 /* ITimeRange.swift in Sources */,
