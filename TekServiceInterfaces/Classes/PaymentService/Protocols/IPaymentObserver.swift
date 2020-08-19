@@ -8,6 +8,6 @@
 import Foundation
 
 public protocol IPaymentObserver {
-    func observe(transactionCode: String, completion: @escaping (PaymentResult<IPaymentTransactionResult, TransactionError>) -> ())
+    func observe(transactionCode: String, completion: @escaping (Result<IPaymentTransactionResult, PaymentError>) -> ())
 }
 
