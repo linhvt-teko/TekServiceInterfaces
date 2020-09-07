@@ -20,6 +20,7 @@ public protocol IDiscoveryService {
                         pagination: SearchPagination?,
                         location: String?,
                         returnFilterable: [ReturnFilterable],
+                        userId: String?, phone: String?,
                         handler: @escaping SearchProductHandler)
     
     func getProductDetail(sku: String, location: String?, handler: @escaping GetProductDetailHandler)
@@ -32,6 +33,7 @@ public extension IDiscoveryService {
                         filter: SearchFilter?,
                         sorting: SearchSorting?,
                         pagination: SearchPagination?,
+                        userId: String? = nil, phone: String? = nil,
                         handler: @escaping SearchProductHandler) {
         searchProducts(query: "",
                        block: block,
@@ -40,6 +42,8 @@ public extension IDiscoveryService {
                        pagination: pagination,
                        location: nil,
                        returnFilterable: [],
+                       userId: userId,
+                       phone: phone,
                        handler: handler)
     }
     
@@ -48,6 +52,7 @@ public extension IDiscoveryService {
                         filter: SearchFilter?,
                         sorting: SearchSorting?,
                         pagination: SearchPagination?,
+                        userId: String? = nil, phone: String? = nil,
                         handler: @escaping SearchProductHandler) {
         searchProducts(query: query,
                        block: block,
@@ -56,6 +61,8 @@ public extension IDiscoveryService {
                        pagination: pagination,
                        location: nil,
                        returnFilterable: [],
+                       userId: userId,
+                       phone: phone,
                        handler: handler)
 
     }
