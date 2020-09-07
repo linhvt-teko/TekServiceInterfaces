@@ -1,5 +1,5 @@
 PODS:
-  - TekServiceInterfaces (0.1.29)
+  - TekServiceInterfaces (0.1.31)
 
 DEPENDENCIES:
   - TekServiceInterfaces (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TekServiceInterfaces: bff2cfbcb53acff75818e977ba2f0b9557187137
+  TekServiceInterfaces: 5136cb72d16c8ecb1755ad01c8a4288c471bec54
 
 PODFILE CHECKSUM: ac6aaeedc88c12916da296e54e630a4857e67c7b
 
