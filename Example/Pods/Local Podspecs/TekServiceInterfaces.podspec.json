@@ -1,6 +1,6 @@
 {
   "name": "TekServiceInterfaces",
-  "version": "0.1.28",
+  "version": "0.1.29",
   "summary": "A short description of TekServiceInterfaces.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/linhvt-teko/TekServiceInterfaces",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/linhvt-teko/TekServiceInterfaces.git",
-    "tag": "0.1.28"
+    "tag": "0.1.29"
   },
   "platforms": {
     "ios": "10.0"

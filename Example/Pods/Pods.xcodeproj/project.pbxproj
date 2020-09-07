@@ -7,139 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05342F4D5D5098572DD21B8E43278560 /* IBlockSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605C30CBBDE318EA2847542819B612D6 /* IBlockSorting.swift */; };
-		06A527A75947FF29C5FBD7FABCD53787 /* ICrmVat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F6EE12F60785FC73B69440FDFE88B /* ICrmVat.swift */; };
-		08E5DB0AFC9269E836E418AA5DCB93A3 /* ICategoryBrandConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2113E86B23616696DEF943CFB1957EC /* ICategoryBrandConfigs.swift */; };
-		099DF35261994F465EF6247033521A9B /* PaymentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFA39BBE4FBEE0448E8123F4707AE /* PaymentError.swift */; };
-		0C2848E7EF79E3BFD6E17E25BC80AE48 /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CBA470B6E453DBE298E70603130F79 /* IExtraDataNotification.swift */; };
-		0D1E9E8F7EE9C1E4940F1CE8FB6C2235 /* IListingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47DA2177193E1BE7F5E1DEA28ED05D /* IListingService.swift */; };
-		0E7F9C7BE35343A6384B0A62562BB47E /* ICrmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA739B95A6DF01ABA9F9DB0D4D0EA1A /* ICrmService.swift */; };
-		0F840B5383358A8CFFC106AEBE019D53 /* IPromotionPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D30CAB9F926ABB7AEDD93A591406F4 /* IPromotionPrice.swift */; };
-		0FF2D53ED71F5FCF7606A0BF3CC42997 /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A442AEE17EAE7A03ABF11B13D06C8A /* IProduct.swift */; };
-		11FF04EDB881050E0A4B5656C396DF38 /* ICrmContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A40CA3BEE0B4D4A3D8113EE4BC9866 /* ICrmContact.swift */; };
-		13B2D136728B6651BECD321D40A527B8 /* ICrmBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075A19BF0E785C380BBBCC44A242493 /* ICrmBankAccount.swift */; };
-		141A68B0F767A999AEBB48625124F582 /* ILocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D52494845F97A72581EE0D5240E08C /* ILocationService.swift */; };
-		14EA9C4761F8A0A6782B1948EB3F3C43 /* TransactionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DFFEE3AF995F9EABAB49AADBE01F8 /* TransactionError.swift */; };
-		165D8720682DE8758D269B1453CC2445 /* IFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A705D553D8D0220F446E5DB8CB955F2 /* IFilter.swift */; };
-		1870FC73AEDC26854BA35B9F74BFDF3E /* IPriceRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9238E271C693AAEAE7AA554BB26B51 /* IPriceRange.swift */; };
-		1A17785124ED27EE002EDA7F /* IPaymentServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */; };
-		1A43EC235D504E56DC1F7771E19AF906 /* IExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED7382F829A7D74CD90CD0B074D8A6 /* IExtra.swift */; };
-		27F66FFD757109476E8EF9B78E9EB4DF /* IProductsSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49935AA20A14B65B6EE3B40A4564CFB /* IProductsSearchResult.swift */; };
-		284622AC358E0EE88843DC2C1FE18592 /* IProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662719A8C9B426CB1B750B50D0F08D4 /* IProvider.swift */; };
-		2862BF274E71F6F9966CC2DF662705F4 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C6D7E78BFF363F71BC137D689353D /* IAppliedPromotion.swift */; };
-		2D39A51475F87E58C9E5B25D7DAA66A8 /* IActiveFlashSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0977D0A9BADE39D07779E03941AE6233 /* IActiveFlashSale.swift */; };
-		2EA93306D86C6A88CC593D741F4EE635 /* IPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786F0C017E0291DCE734B1A6D71E938 /* IPromotion.swift */; };
-		2FA38A68A317B973D85D93BDBBAB56E7 /* IBlockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9F99D43AAAA59332CDCA221224469 /* IBlockItem.swift */; };
-		30E6F1E1341F8C946CA9E6D564CFAE7E /* IOrderExtraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C704DB6B9C3F93191AB114C325A371D /* IOrderExtraService.swift */; };
-		36FE1A79FA0EFB200D5E79717FD3CCF9 /* ICrmResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77FBABA8E093AA237045A69F15F706 /* ICrmResponseMessage.swift */; };
-		37BEA687945F9E99EC260AB06D7CF7AE /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEE6A6D025A4966FEFFED64D8F3351 /* IVoucher.swift */; };
-		3C3E2FFFE6F11B159152344141914728 /* IKeywordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A8B649BD080984511E7061FAD54352 /* IKeywordCategory.swift */; };
-		3D9857A63A8F0D44096CC0E3089A9215 /* IOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059D2506CA926B9375583A2F3F7D8525 /* IOption.swift */; };
-		3DF2A275BB905A4BAB491F1DC0336CC5 /* IType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADFD3F78459E9196CBACA2B976843B6 /* IType.swift */; };
-		404A015521F490941C423BA7813D3C2B /* IBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7037B8220E0AEF9D963BC34639E465C /* IBrand.swift */; };
-		418F4BF163F6B45828FC995B9C4B8461 /* IFilterValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6630AA1EBF94D0123283DB6B667B5AD /* IFilterValue.swift */; };
-		46A969F8AFF0083C8FA1EBF1393B8DFE /* IOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5605EF96316DAA9FC7AF79E3F7D2F678 /* IOrderResponse.swift */; };
-		47469DE48106B1198F902794E370B5AB /* ICoreFlashSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BF96F1CBC08419E6E8403A5E2C84F /* ICoreFlashSale.swift */; };
-		495E30B1D90F04F31FA07B154394BB11 /* ICategoryBrandsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959C28700F1581E99760014B9C4FC2E /* ICategoryBrandsService.swift */; };
-		4C56D720679EE55FE5A0D9ADFED9F0E9 /* IPaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4141EE4434698C9716C41B50FAF77A /* IPaymentService.swift */; };
+		025EB139F16F2BDFDB14DB490703746B /* IFlashSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0BD72F94E430E47FB852467028A3 /* IFlashSale.swift */; };
+		05C60B0CC9B6249F0518E5B06BB1EADC /* IBlockResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E3BAA7D808E2427AF0529D2836570 /* IBlockResult.swift */; };
+		08FA6F252CB819B58B7B724B2559CDC8 /* ICrmContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B82E1536CA7F73BAE2B117E20712C7 /* ICrmContact.swift */; };
+		0FD48E265CC44F3C5E6CDEC8A08B9532 /* IOrderExtraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468660E66E73E882732BF2249B6F6C17 /* IOrderExtraService.swift */; };
+		0FF675746E226950B4E917A5C4E5ACFE /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */; };
+		10958097DA42353732B2C24AAA937301 /* IOrderCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4991B78CDF0BDEC211DD34AEC80B2 /* IOrderCustomer.swift */; };
+		10C63322A8667D7A7EE8D3789F158B42 /* IFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B56B989BC2C39ABA358F959D31593 /* IFilter.swift */; };
+		17A07CCA5612C469500BD1573572E648 /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C394D43EC40BC40AB2713FCF1E84739 /* IBannerResult.swift */; };
+		19282AEDC35FA21C040A0704501C986D /* IProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4ED2B655718D2FEABDBBB5433D7B7 /* IProduct.swift */; };
+		228F2212D28FDEE51E907D05FDD27F35 /* IInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0BF1344F53696CC896F3D230AA6F2F /* IInfo.swift */; };
+		237F9F8A6ADCAE3B52466D1C0460F21A /* IOrderListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9231D1C9F74ABAF3F7C2487F888CFA /* IOrderListResult.swift */; };
+		2707463E3825FEE7B395BA7CA06EBB3A /* IBlockFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238A2AA3A14D775A575A1A32E8ACA68 /* IBlockFilter.swift */; };
+		29B3E8B5A7FCA1BAB7A8F471598E2E6A /* ICrmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DE356806AD05DAF6F683FE9C48437 /* ICrmService.swift */; };
+		2B411C846AAEBB8A5965F89139B600D4 /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE240183FAEDF0AC8DFCE552AAADCF02 /* IDefinition.swift */; };
+		2BA7D276DCE6AC6A97CEF11AD17080BD /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */; };
+		2E70881D7A3B2C4B98B29C009965F348 /* ICrmCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D08239B959CDC10A4687C47694C8E /* ICrmCustomer.swift */; };
+		3193AA68B58A7016C4B878CEFA4A45B1 /* IOrderPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BA68166CD78C46A3821E6CF86E29A /* IOrderPayment.swift */; };
+		36115F588A3F5D9120D708F82351149C /* IGroupConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF0931B016F3BB6D1EFE45A6031FAB3 /* IGroupConfig.swift */; };
+		36D5E0E9F41A5F2ED4688C831515751E /* IOrderStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */; };
+		38701042C27BF27E98C83B61A815D4F7 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47DD18D7D5B725823C0A8847ADA153 /* TekServiceInterfaces-dummy.m */; };
+		3A63C6752878A4EECC59442EF8C8B454 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A363272E18849BDB40E4F9979BD49 /* PaymentMethod.swift */; };
+		3C0DC2FE1B240BA1785742E528789385 /* ICrmError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC24325E4FABFF26E88D2F41F6228E5 /* ICrmError.swift */; };
+		3DD7E0F7D8740B3D6BC01118EBEEB2AC /* IDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8DF56A3C375FF4969FEB476D999A /* IDiscoveryService.swift */; };
+		3F18382771A5A3987104354B2859974B /* IPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360198880E07902BE89DB9F95E521AB0 /* IPrice.swift */; };
+		44BF7D8320A4163A80E77E8B1C2682F9 /* IBlockAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717DEC41FB937270759E2A238FB13846 /* IBlockAttribute.swift */; };
+		48FA16D02D8FFF4D488735DADEF9F912 /* ICatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C82D2999F6CD5A6B09DDA84A7835E /* ICatalogService.swift */; };
+		4BEAEE868CD9117CAA184CC2BA3034DA /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D585F3EE8012E20A7497EB326CA11ED /* IOrderNotificationData.swift */; };
+		5064FDB80EE334FD6887929F8F28FE45 /* IVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A2BEC6B8F37A8F2CB74849AE9A239 /* IVariant.swift */; };
+		54EE970B6358104EB55BA88791D2CEB5 /* ICrmPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0C9C8D8D7EA34B7606A201B611DC6 /* ICrmPayload.swift */; };
+		566A0303DB03E686795A30267A71F825 /* IPaymentTransactionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47554B2545085B6142F22984D56F51 /* IPaymentTransactionResult.swift */; };
 		5674D9A0DA3A5855F5C3B5AA2EB2F53E /* Pods-TekServiceInterfaces_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5740AD0DB56A5C697ACF6A4D2B980EA3 /* ICoreDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083E60CB3928A001CC3945BFEF8E8E2 /* ICoreDefinition.swift */; };
-		57C7CC07B87CE4162E23265E600F63B3 /* IPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5D67179ECFF35D0996A010DCD23DD /* IPrice.swift */; };
-		59506B523625A262465C648346AE4281 /* ICategoryBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE8793CCCAC386B874C4527AE39B05 /* ICategoryBrand.swift */; };
-		5ACD8872BBD0CDBD526998D4E1045D27 /* IAttributeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B86AF8CB6F8181613C1E7ACA93102 /* IAttributeValue.swift */; };
-		612AC66FFEDE9592E3475DCD13798D31 /* TransactionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7B3A8310979E9826E90E2C42A61A0A /* TransactionProtocol.swift */; };
-		615DE5435169FD3ABB62A6C82BC83D6C /* IPaymentTransactionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5C5E406140B92FD5EA8A5D93C1D23 /* IPaymentTransactionResult.swift */; };
-		64BBFD1B19470F30E94CAA1309FC465B /* PaymentRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7547D87DFF85B897722FE3111BDF9 /* PaymentRequestProtocol.swift */; };
-		65E4268E476B6CAE2F64501ABF1EC655 /* ICategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A2180F8FB7638401378B4CDB8FAC1 /* ICategory.swift */; };
-		699A0F8361CBF9BC4C2989D449F66A37 /* IOrderBillingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F983FE09CC0DF6420D7255FE4AC781C /* IOrderBillingInfo.swift */; };
-		6B02A8C23094E12B9621F5BCF0B36B29 /* IUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6F49CE2CC5530996EF030A49F96B1 /* IUserService.swift */; };
-		6D4E4C35C9167485CF212969A3EA063D /* ICatalogSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B70F4F5AA5E85C79BE851760FC5DE7 /* ICatalogSeller.swift */; };
-		6D6D7FB5C936A37ACD6DC1F41AF6DC22 /* IOrderCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5558F4ECE480BE97E302D206500847 /* IOrderCustomer.swift */; };
-		6DD8FC23BCDAB1B985B2B41946C04D1D /* IProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F89330786C9F11E87A9A916CF16398 /* IProductType.swift */; };
-		6E39941D49ED3823319F822DFE09A8B7 /* IOrderPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA9B3680D9AF780BF722F837C60A0E /* IOrderPromotion.swift */; };
-		6E4E76B785444E3C550D857E84817694 /* ICrmBrandAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF838075DD43BB30BAE2C666BCC0D958 /* ICrmBrandAwareness.swift */; };
-		749B85F3063EAFF3277BB02D47ACC341 /* IBundleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2B1E8441DE3FF2B0CC41189D7B2ED /* IBundleProduct.swift */; };
-		7B6F7FCC082CEA9B47EAE66099F4452A /* ISeoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0064BAC67554993408C43E6CFE1E10F /* ISeoInfo.swift */; };
-		7D807A76716839CE5DB1ACEC36B1E0A4 /* IKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EE91AE9D151BAEE05F5C6E258DDC0C /* IKeyword.swift */; };
-		7EE2F79A95163856630767C26ADD5C97 /* IWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC14620A6F723D82EFCBF4EE1F81827 /* IWard.swift */; };
-		838EFEE06B29C9EC0E7A03FADDF8BDCE /* IBannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D479631818B88F0C1AFF4B9F3C24FA4 /* IBannerResult.swift */; };
-		8634A6662A62DC400D14E4ABF60ED320 /* IOrderGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C65DC47112EAD597555CB27658A6 /* IOrderGift.swift */; };
-		87CC5A91CB59BAACCB9C49B075BC23AD /* IDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76137427963285E9C647A0EEEB2BC7B /* IDiscoveryService.swift */; };
-		8A5A38DD2FBAE67F39F508936F6AA35F /* ITotalAvailableByStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC93B2CE251D724654ED1BE0455307 /* ITotalAvailableByStocks.swift */; };
-		8A9AA431A993B4911D017D762D175BD7 /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF005B04B86161804B0426F590304C /* IMoney.swift */; };
-		8BF17F456A57F965B439FF80D7CA2647 /* IAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13089C5E5EA567F2DABEAC15FE383877 /* IAddress.swift */; };
-		8DF576CBF7B70488880060783139944B /* IFlashSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B3D12C8833E3AA0786FB052979E9C1 /* IFlashSale.swift */; };
-		8FECC7B6AF72802287C16E3673D222A3 /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C139AB8D6B894654CF8395B9D418C /* ITimeRange.swift */; };
-		923917278C684F404CA5D5AFA9391D57 /* IOrderListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D36967CDF04102957E5E96A780EA77 /* IOrderListResult.swift */; };
-		9269E4F50FF014B6D35EE1E21F03FC01 /* IConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EBDB0990E0D51F623CBDB0A7D167D /* IConfiguration.swift */; };
-		9278A8E4FB594A96C93E83CB8B73A0FD /* IProductLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5D394EA11A47DBF3CBF425424A523 /* IProductLine.swift */; };
-		93C896AE169CBCCA0D514610A6D13ED0 /* ICrmCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE946ED85A3D7EB411EA20FFA2D83827 /* ICrmCustomer.swift */; };
-		96CBE78BF5A2ED890F9D922D8234FDD7 /* IColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74309BCAEA0E421C378F0E066459585 /* IColor.swift */; };
-		9D15532DC63FA9230DEF4AB1734F82EE /* IOrderVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85259C0766FCBB9319FCB7A35784A5 /* IOrderVoucher.swift */; };
-		9F2B28EEC483F863982DC70450C4AFAD /* IAttributeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EEEDE06DDAF476A480A08AC220386 /* IAttributeGroup.swift */; };
-		9FDC4EC526868C63D8076340D9F8B247 /* IRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADD303E9CEF0A43F9BDF8400831955 /* IRating.swift */; };
-		A1BE1747BC28DEB9E73C943DCED4C0DF /* IObjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798C5B04AF0A4F4191FBE588B8F88E4 /* IObjective.swift */; };
-		A2CD7796A2A3D7999A3CE075052A45F1 /* IOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B609347CD91C431ABB587DF98A6CEE9 /* IOrderService.swift */; };
-		A633A1DD8D81665FE4020D59DF33D81E /* ICrmInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BD1EC8F9CC90D9ED5F1550AB2E31E /* ICrmInformation.swift */; };
-		A6D7266D0A109FDAAF2626429B2D71F3 /* IOrderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A56C127CCDC65FAF16C5BB165E0F0 /* IOrderListItem.swift */; };
-		AD8BDAA4A1658A948BFE59F98B828879 /* IMarketChildOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8DB223AD6D251E51DFEA328131A5F /* IMarketChildOrder.swift */; };
-		AE62C5F55F8B7944D1DD3FF9024F140B /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD00DECFDCF866AD528B4602BA6778E /* INotificationResult.swift */; };
-		AFA10DA08DB6E5487923BFD74DACDB24 /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743E9F74168419AFE1BED4F137EDA622 /* IOrderNotificationData.swift */; };
-		B0703F6461595FD131260F8DA63591B6 /* ISeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D98EEFB8B2C428E7C49E765AB50A2 /* ISeller.swift */; };
-		B2E897E506C37E06CEC4AE4F59292591 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0BCC33A064B59CE9A1CE4B19C267F /* IStnService.swift */; };
-		B4F73452BC99C40D4F1183B1B2511F6E /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A82EC972FC4EE7863547F2B7A52E58F /* IDefinition.swift */; };
-		B56CD54845361D1FFB746F8B271CA663 /* IDefinitionFlashSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A3B9BF2F2CB345DCC27EBD1BA85FF /* IDefinitionFlashSale.swift */; };
-		B7B93D052676D755C75E37EE47523E30 /* IOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F0D0939BDD2B1D7E90F32E3973231 /* IOrderItem.swift */; };
-		BB121D5A439857C1C7FBB71989DCEC90 /* ISearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BAE933ECD9066553497E51D731A86 /* ISearchService.swift */; };
-		BBE42032469C16E1C43AE7A9DF5408C0 /* IBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B7D2C453BEADAD20BF7D6D7E32A6A /* IBlock.swift */; };
-		BC8D79C068FABF7F72F351CEFB67AFF1 /* TekServiceInterfaces-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C74B6BFBD02D8450DF69DAC55C241F /* TekServiceInterfaces-dummy.m */; };
-		BD3F6916D210A283699086950FF935EE /* IPpmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9629AEBBA1960AC619BD7AC1A52AE5DB /* IPpmService.swift */; };
-		BD9C6A3E9184F9AEEF883D82DA5E043E /* ICatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41298E78C7F030A58494726EC30B419A /* ICatalogService.swift */; };
-		BE5CD4F363A61AB18D6498700B4943E8 /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F099619288F7EA05BF3AEDB035328 /* IPageBuilderService.swift */; };
-		C05647F6F8D9CAE4B9DE9EF147843F0A /* ICrmPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDB413DF9E30C9CB2D1C5A7DA12CC1 /* ICrmPayload.swift */; };
-		C58710B3E227FC94472C9C591D5B6DAB /* IOrderShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391BF706540EF81EA27C290921FA679 /* IOrderShippingInfo.swift */; };
-		C73F90DC6CC4246BFF0343E226352C88 /* IOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996173A7E82AEA7AA6FE8556D431B4FF /* IOrder.swift */; };
-		C7B44C589D40F0F26D2B68E8F0D31CF8 /* IShippingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34F714BD1C5127277B5A26C354312B /* IShippingService.swift */; };
-		C7C3F28109D9BEAAFC379F46E84FD82F /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04198C95BFD5A43D779A0864460A2FE /* ICondition.swift */; };
-		CAD8B8CEAB940A73392694050C722C14 /* IUserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF42800D8CC4166AFB6A714DA69429B /* IUserAddress.swift */; };
-		CDA0475205A6B2288C592CC484568D64 /* IStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CA96B3B46CE52014E06A82CB90425E /* IStatus.swift */; };
-		CDB050F28C98CC949EBE44D1C00307A2 /* IStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A10194B8E753EB7E10CE85F93E225 /* IStock.swift */; };
-		CDFDC66969BD913BB3A3DF92A9357ABF /* IRecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CA1B618EBE670E3E79B8EC8C1BE49 /* IRecommendationService.swift */; };
-		CF352A7B5029C1881D1F813F045E347C /* IOrderPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EEB0380E892A70E55C053BD07AFAD6 /* IOrderPayment.swift */; };
-		D217480EC0EF00FF50DE02028CC077E8 /* ISkuCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50A2EFD7AB4149EBCC910A60D47974 /* ISkuCondition.swift */; };
-		D2DE8FEC2067A2797296943BFDDCC852 /* IProductDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFEB563B942E7487BD623B1A73F842 /* IProductDetailService.swift */; };
-		D50A43587F869E312EF50F1DDE8A1FA3 /* IUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A640B8550B2060E44AC41B2AA3E85210 /* IUserInfo.swift */; };
-		D6E8E76173E0C7B474CC36B1D42828F4 /* IBlockContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A337ECD094ADEBBAD8E158C9B18B /* IBlockContent.swift */; };
-		D89AD0FED437D98F9CDDCB607C6BDCBC /* IAttributeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6107DD3DD011C59B83C53FA8BE800 /* IAttributeSet.swift */; };
-		D9D3DB39008CBD3FC356AEBA097326FC /* IAvailableByStoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EB5AD099C588B24354C63A0A2F89C /* IAvailableByStoreObject.swift */; };
-		DB632B922A09F69351BD9EBF25A3B921 /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5C0AE4AC4C97988AB506D732B0D3C5 /* IBanner.swift */; };
+		577868B52D3859007E043B661EB0D463 /* IOrderShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967AADB6A73CED11EF99C0859F19B /* IOrderShippingInfo.swift */; };
+		61D7F7FE3D35C49F17B8B582814861C0 /* IUserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */; };
+		6277CBE3A3839BDA9A562330A4240207 /* IOrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A42D67851F75BEB7E50E401867053B /* IOrderService.swift */; };
+		6C792D8ECD53F59D2DE244B18CE818F3 /* IBlockContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B6AD67B0214A0C2FD70A689F15B85 /* IBlockContent.swift */; };
+		6D0296E77FD188D08B022231FC11D0C2 /* IWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */; };
+		6FAFB0AA2BBA7F74ACCF914727B65747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		74A83730DD3A1438D41B9F5F976D10E0 /* ICrmInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995ACC9D4D65850097D0EE9D57B5869 /* ICrmInformation.swift */; };
+		74F97252657B4A477AF3718A8515DE1D /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */; };
+		774BD3EA81B65990E81DAF36B0E1B7B6 /* ICategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7442C52B26FACD9D1E6B55F28B539FAF /* ICategory.swift */; };
+		79031E3C35A8B59CEEEE460334F68DC4 /* IPpmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A49A2DF2F9FA23C31EAEAD070C064 /* IPpmService.swift */; };
+		7E2DAEAC8405F46CE575E811B61BC24B /* IBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6560D8930780C6C0186F823AEEDAC9BD /* IBrand.swift */; };
+		835D89AF5CDAB30F0914051A33A847A8 /* PaymentRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DA6021238B260ECBCC59E8F62E936 /* PaymentRequestProtocol.swift */; };
+		836AA4BC805B352E08C693108E2D65C0 /* TransactionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */; };
+		83D41DB15013D1F840244FEE71AABCBC /* ICoreDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD12C3F49F8A514A20F8CDBC719087B /* ICoreDefinition.swift */; };
+		85835C5E29CFFE6FF80AFEA20CADD97B /* IOrderCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F829F456547A767C26CA6DAC51CEBC4 /* IOrderCreator.swift */; };
+		891C199B6D63CD477E82B829DD867539 /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7F71D77F0F99793B7EF7241778C12 /* IExtraDataNotification.swift */; };
+		8BBBA3F1E6ADD2C74576650671E25A4A /* ILocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F593AB23565C6F4D1EE41C002270DDD2 /* ILocationService.swift */; };
+		8FE2EDEEC8AD4C4F49F0C3B2CF498EAE /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8940825AD90FDA06F2539E8A09A4BCE /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3140787CAF45E78AA625C8DA9A757 /* PaymentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */; };
+		918A68F6433996231AC7176BC27F8BB4 /* IPageBuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6558A82002B9026FF1E67EFF92B1F /* IPageBuilderService.swift */; };
+		9190F8081271FBB0B2704C413BF72879 /* IMarketChildOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E592FCAED3E9A4AB04A08B55B30C27 /* IMarketChildOrder.swift */; };
+		986EA842CE34CB90659432B3AF5D908D /* IPaymentServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */; };
+		992CA3F502FE18E72BA6CB4C67FC895F /* IOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DE0FF980D34FD2C2E63A98EA2B2D /* IOrderResponse.swift */; };
+		9C138060F045151E09CAAFBBF8628639 /* ICrmResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80EBA2B14B0EB4A68EBF24FB57C4A0 /* ICrmResponseMessage.swift */; };
+		A83E4979E3F6CA11DE9429C5F98AF791 /* IOrderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE867F7C4771F8BF3FE726C76B439C77 /* IOrderListItem.swift */; };
+		AE52C606F2643451954D99F082CD9BA5 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05031BED3AB98A9275E852E0493839CB /* IAppliedPromotion.swift */; };
+		B02E54F8F5CB0AE7EB10932E26B0A7F5 /* ICrmVat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */; };
+		B32AA463C9B6ADFA7DA44E6FC79EB8DA /* IAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE45E88A55728764F5AE913D7B2688D /* IAddress.swift */; };
+		B41597A9A2CF1F61277A02518ED0838D /* ICrmBrandAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */; };
+		B5A452ED2A95A276339D367E5D4F54D5 /* IOrderVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAFD5F2EE2EC77BAFD3967E16DC89B2 /* IOrderVoucher.swift */; };
+		B657B726BCD243B9EB3C38427F05D22D /* ICrmBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A41D7285CFB5A8B9CCCA3AE3F5DC40 /* ICrmBankAccount.swift */; };
+		B85F601D9F0B8D4E3A6ADB64647A1C8F /* ISeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7173ACC88503B8609A4A756A49D6ADE /* ISeller.swift */; };
+		BFC93BB8802BFA098A7A4FFBD2B95FEE /* IOrderGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4E77CE48065D0CC19420BF8993C46 /* IOrderGift.swift */; };
+		C0827DA638952B3B4E93A43AC0A7CECE /* IDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23366BC76E58EF89E302DF7FA6361A0E /* IDetail.swift */; };
+		C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD66664A999A27E598911B6DE434920 /* ICondition.swift */; };
+		C35264593CEC4C88147F0A6C052A9249 /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */; };
+		C40BC9025AC39647B4A2F1F3FA33E986 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062126A21AD45277AD90894B7CB12F8 /* IStnService.swift */; };
+		C88BD8CA237FD7AD122795FAC204A0F9 /* IOrderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */; };
+		CC103011A140BD85507F591625B98C96 /* IOrderPromotionApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5472E2226FE8706D749859794D4BD /* IOrderPromotionApply.swift */; };
+		CCCC2EC8E903F0BBA18178BFA058B7C2 /* IBlockSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D627BC980D1999DFE18F0D30D6092 /* IBlockSorting.swift */; };
+		CCCEF3E3086C83EDCC19C3A5DE9B9428 /* ICatalogSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B66200679F51CA94ED65DF2878508B /* ICatalogSeller.swift */; };
 		DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */; };
-		DD1AA9039A3BEE22F0029D79E7B4C43F /* IProductGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D265385CB0661FE802656429E3E083 /* IProductGroup.swift */; };
-		DD9DC5A3FBA44233187571BA694CAFE3 /* IListingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E2C701976DC30D60BB439569C8116 /* IListingResult.swift */; };
-		E174AB65CD3D8E87F9835B9DA6BA22B7 /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F5E4A6B8C9E860C627D4E55961009 /* IBenefit.swift */; };
-		E514A4BAA019ACA7F8B01BCBAFE71907 /* IBlockFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3250729DEDCCCCC205C3DD497460C685 /* IBlockFilter.swift */; };
-		E546B91112132D99D8AA608933E20B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E67150BA5B5F8FADFEE123D156F0A626 /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CAA8D247B9F6C0D3580C0761FFC943 /* IItem.swift */; };
-		E80309AA9CE3C29C43C11A2A56EB66DF /* IOrderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFBDDB1AEE072A70F6B2DE20C5FC2D /* IOrderError.swift */; };
-		E8BA53727E5C3A5E3E741E40416796CF /* IWarranty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2FC492C6838A1DDFDDCAAE179CFC4 /* IWarranty.swift */; };
-		EB3E4B6EA2D49D18884E000C1B21B468 /* IOrderCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A6FB65E799B078E075BF44CF89CBEF /* IOrderCreator.swift */; };
-		EC99BAEF90F4E01B0F5A2E85B0E20D64 /* IKeywordsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D415C3C95F91748E99F3ED1530FE08F /* IKeywordsService.swift */; };
-		EEADD702A2A1EDCD77F75B71616AA4D3 /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A675829661A2BFD2B8F23D8E073CF66 /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFDC171D5E8D84394117159940EA6B3A /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E632395F0B6512E4A61CC6ABBEB1ACC8 /* IBlockParams.swift */; };
-		F30935258B1E0872B4C655F5ABC574BE /* IPaymentObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEFFCB2864336CB00FDC20E2CBB1CB /* IPaymentObserver.swift */; };
-		F3D3FCDD5E7B10A9CB82EAA75E535B07 /* IOrderStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8290BBD3239387F941F509B1A7077B13 /* IOrderStaff.swift */; };
+		DC1E57879F6CABCE2E55B8C1A5F77E5B /* IBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB25057354FCA0FA000CE02985CE1C /* IBlock.swift */; };
+		DD7AD4BFFED3163BEB14D2CFEFAA8D17 /* IBlockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A1DB9BC30C9367956658D66C588D5 /* IBlockItem.swift */; };
+		DFEB7839308D8F3EEC579967EDD72030 /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D4DCED7BE4C10BFB18D1B8B858DE6 /* ITimeRange.swift */; };
+		E147C270F9FF242A104C2C04356FEBC2 /* IPaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BAFF9716EF65EEB4F04B5565F6401 /* IPaymentService.swift */; };
+		E5700CB196617CAA5CE204E428327A1C /* IBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54244E36D1753F449BE2EB2F5E7A800C /* IBanner.swift */; };
+		E66B0A9B2A59D2CDB2294BE69CF49ABC /* IUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69DEBC04445DE331321925006721DA /* IUserInfo.swift */; };
+		E7565BBCEEFCEFCF6AC8045C50084F96 /* IShippingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */; };
+		E8301CC4594176D4794E47404CFDCBBD /* IOrderBillingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEDB0642C37174DA48B9FD8117AE3A /* IOrderBillingInfo.swift */; };
+		EB734ED016F94B515044DDA32668D617 /* IBundleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C21947FA85930FDA6B6005A945D56ED /* IBundleProduct.swift */; };
+		EC13015B7E50E3A3628448B1FCBB9596 /* IOptionValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB587FA0F2562EF7D96ACF4CAF620CAC /* IOptionValue.swift */; };
+		ECAA7E61156BF78901977583565E6830 /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8741FE50269567B44BD32FCC155604B /* INotification.swift */; };
+		EE3800B129BE092D00BF66748F5F20A8 /* IOrderPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7987ADDB97A98B8BC113E275AE2BBF95 /* IOrderPromotion.swift */; };
+		EFBE760ADC7D5DE28E395A69613AD33C /* IPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BE82E24A90309DF443E8ECE81F859 /* IPromotion.swift */; };
+		F05ED854EAC8CDC8B239B21A5A5B6390 /* TransactionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B69166DF931B3BFFE53A94DCAE456D /* TransactionError.swift */; };
+		F12D5F12EEE92D51BEFF3197B76587C3 /* IOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54922C391B5C2665635AE9290268A1 /* IOrder.swift */; };
+		F2481AFC8A379C52050E2B2AE6542880 /* IPaymentObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9B04C8AB77A84386B3C322F36AC14 /* IPaymentObserver.swift */; };
+		F37E829893F44739E3EEB944D7E06973 /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926C1454CAC376ED1073B4FB88844CD /* INotificationResult.swift */; };
 		F4A29FFF252A1BF27FD4DF2ED597320B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F67B14F8FD8302C401E81C6B7D5C8812 /* ICrmError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B9173FF6AE9DC150221B2A1D189C0 /* ICrmError.swift */; };
-		F739DAC991CF5B4D25D7E4D076F5FC45 /* IVariantImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC1B80F0A4C6E1182CDCCC92BBEE64 /* IVariantImage.swift */; };
-		F746A04F45FB71BC4FDDB64B7F4D1501 /* IOrderPromotionApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CC979A8E5BCEB3C2F9D5CFBF8EA28 /* IOrderPromotionApply.swift */; };
-		F885BCE785AE2D1B7C12C85F63F35778 /* IParentBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457651ADB3ED01FCBA66E93DA69BA3 /* IParentBundle.swift */; };
-		F8E92A5CDDD61420D0A814F2EB2072C4 /* IVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B6496AB918D00C8851FA08D1D958B /* IVariant.swift */; };
-		FA710C26544C599AFBF24E20997D58FB /* IBlockAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD75BF9B93868F0AA8D71486B998C36 /* IBlockAttribute.swift */; };
-		FAA4490CE48D7DED992B70EC04A61E46 /* IImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9EDAB8540B452A4BC3BFBB3CF977C /* IImage.swift */; };
-		FAF3D9383EFE258B178E8B82B3587B3E /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3802064C3716C21F1DE53AB009E58 /* INotification.swift */; };
-		FBC86C6CE85CED9758783754BFE16AA1 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9103AB3555E16669C0F74AF0759AC /* PaymentMethod.swift */; };
-		FD6408AF96E929FBCC5F20F16E4B3C0F /* ICategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785B4E77513C809A1A6301FE9A64DBD /* ICategoryService.swift */; };
-		FE590673A4B2C4B288B81F398C1877AF /* IBlockResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BAFDE9ADCD015494282510BADBD45A /* IBlockResult.swift */; };
+		FA355FF0C8FD120E019A21AC130E62D2 /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29C41A9DEB0B10532A8FE5F13ABD88F /* IBenefit.swift */; };
+		FBC062F3460CE1489A0630345E3D9F77 /* IProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31268E8AC87AB60A8BE0970F13F72DF /* IProvider.swift */; };
+		FBF6BD5072710107ABF8CDFE8AE76FC0 /* IUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E8EE239FF07B6CB6A2F6EAC11B8C0D /* IUserService.swift */; };
+		FDDF6CC1335FBBD67D0FF6227FE7EED9 /* IOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55A35BE28D6AB703A40C6C8FF467447 /* IOrderItem.swift */; };
+		FF8B9F69C8E4AE01C631EC0A909F857F /* IPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B24DAB509143FCDF5C898BCE3A06F /* IPagination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,164 +116,128 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EEB0380E892A70E55C053BD07AFAD6 /* IOrderPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPayment.swift; sourceTree = "<group>"; };
-		059D2506CA926B9375583A2F3F7D8525 /* IOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOption.swift; sourceTree = "<group>"; };
-		0977D0A9BADE39D07779E03941AE6233 /* IActiveFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IActiveFlashSale.swift; sourceTree = "<group>"; };
-		0A82EC972FC4EE7863547F2B7A52E58F /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
-		0A9F6EE12F60785FC73B69440FDFE88B /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
-		0BA739B95A6DF01ABA9F9DB0D4D0EA1A /* ICrmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmService.swift; sourceTree = "<group>"; };
-		0CC2FC492C6838A1DDFDDCAAE179CFC4 /* IWarranty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWarranty.swift; sourceTree = "<group>"; };
-		0F6A3B9BF2F2CB345DCC27EBD1BA85FF /* IDefinitionFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinitionFlashSale.swift; sourceTree = "<group>"; };
-		102CA1B618EBE670E3E79B8EC8C1BE49 /* IRecommendationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRecommendationService.swift; sourceTree = "<group>"; };
-		12DEFFCB2864336CB00FDC20E2CBB1CB /* IPaymentObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentObserver.swift; sourceTree = "<group>"; };
-		13089C5E5EA567F2DABEAC15FE383877 /* IAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAddress.swift; sourceTree = "<group>"; };
-		13A01D5CF9F30EF1CCBFE949280B051B /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
-		19D52494845F97A72581EE0D5240E08C /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
-		1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPaymentServiceConfig.swift; sourceTree = "<group>"; };
-		1FF3802064C3716C21F1DE53AB009E58 /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
-		236BF96F1CBC08419E6E8403A5E2C84F /* ICoreFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICoreFlashSale.swift; sourceTree = "<group>"; };
-		27A9F99D43AAAA59332CDCA221224469 /* IBlockItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockItem.swift; sourceTree = "<group>"; };
-		2959C28700F1581E99760014B9C4FC2E /* ICategoryBrandsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategoryBrandsService.swift; sourceTree = "<group>"; };
-		2A34F714BD1C5127277B5A26C354312B /* IShippingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingService.swift; sourceTree = "<group>"; };
-		2EC2B1E8441DE3FF2B0CC41189D7B2ED /* IBundleProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBundleProduct.swift; sourceTree = "<group>"; };
-		31A9EDAB8540B452A4BC3BFBB3CF977C /* IImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IImage.swift; sourceTree = "<group>"; };
+		009C82D2999F6CD5A6B09DDA84A7835E /* ICatalogService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogService.swift; sourceTree = "<group>"; };
+		00EA2A36A85E02531BC70821392CEED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentError.swift; sourceTree = "<group>"; };
+		027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
+		048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
+		05031BED3AB98A9275E852E0493839CB /* IAppliedPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
+		066E3BAA7D808E2427AF0529D2836570 /* IBlockResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockResult.swift; sourceTree = "<group>"; };
+		083BE82E24A90309DF443E8ECE81F859 /* IPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPromotion.swift; sourceTree = "<group>"; };
+		0C394D43EC40BC40AB2713FCF1E84739 /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
+		0F0BF1344F53696CC896F3D230AA6F2F /* IInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IInfo.swift; sourceTree = "<group>"; };
+		19B69166DF931B3BFFE53A94DCAE456D /* TransactionError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionError.swift; sourceTree = "<group>"; };
+		19E8EE239FF07B6CB6A2F6EAC11B8C0D /* IUserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserService.swift; sourceTree = "<group>"; };
+		1C7A2BEC6B8F37A8F2CB74849AE9A239 /* IVariant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVariant.swift; sourceTree = "<group>"; };
+		2238A2AA3A14D775A575A1A32E8ACA68 /* IBlockFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockFilter.swift; sourceTree = "<group>"; };
+		23366BC76E58EF89E302DF7FA6361A0E /* IDetail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDetail.swift; sourceTree = "<group>"; };
+		2A47554B2545085B6142F22984D56F51 /* IPaymentTransactionResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentTransactionResult.swift; sourceTree = "<group>"; };
+		2F80EBA2B14B0EB4A68EBF24FB57C4A0 /* ICrmResponseMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmResponseMessage.swift; sourceTree = "<group>"; };
+		304BAFF9716EF65EEB4F04B5565F6401 /* IPaymentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentService.swift; sourceTree = "<group>"; };
+		313DA6021238B260ECBCC59E8F62E936 /* PaymentRequestProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentRequestProtocol.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3250729DEDCCCCC205C3DD497460C685 /* IBlockFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockFilter.swift; sourceTree = "<group>"; };
-		33AAB41F47D16CF1363ACF6E0FAB0989 /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
-		37CBA470B6E453DBE298E70603130F79 /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
-		389CC979A8E5BCEB3C2F9D5CFBF8EA28 /* IOrderPromotionApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotionApply.swift; sourceTree = "<group>"; };
-		39A442AEE17EAE7A03ABF11B13D06C8A /* IProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProduct.swift; sourceTree = "<group>"; };
-		3A675829661A2BFD2B8F23D8E073CF66 /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
-		3B3C6D7E78BFF363F71BC137D689353D /* IAppliedPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
-		3D479631818B88F0C1AFF4B9F3C24FA4 /* IBannerResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBannerResult.swift; sourceTree = "<group>"; };
-		3F7A56C127CCDC65FAF16C5BB165E0F0 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
-		3FB5D394EA11A47DBF3CBF425424A523 /* IProductLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductLine.swift; sourceTree = "<group>"; };
+		351C9FDD13743D32AF055CB741B1958C /* TekServiceInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.debug.xcconfig; sourceTree = "<group>"; };
+		360198880E07902BE89DB9F95E521AB0 /* IPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPrice.swift; sourceTree = "<group>"; };
+		3A3DC203DE4072EB69231F712C27C630 /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
+		3BF4ED2B655718D2FEABDBBB5433D7B7 /* IProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProduct.swift; sourceTree = "<group>"; };
+		3D8B8DF56A3C375FF4969FEB476D999A /* IDiscoveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDiscoveryService.swift; sourceTree = "<group>"; };
+		3E47DD18D7D5B725823C0A8847ADA153 /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
+		3F9D627BC980D1999DFE18F0D30D6092 /* IBlockSorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockSorting.swift; sourceTree = "<group>"; };
+		3FB4991B78CDF0BDEC211DD34AEC80B2 /* IOrderCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCustomer.swift; sourceTree = "<group>"; };
 		40561BEB7AF0677429C35160038DF2A9 /* Pods-TekServiceInterfaces_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-Info.plist"; sourceTree = "<group>"; };
-		40B70F4F5AA5E85C79BE851760FC5DE7 /* ICatalogSeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogSeller.swift; sourceTree = "<group>"; };
-		41298E78C7F030A58494726EC30B419A /* ICatalogService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogService.swift; sourceTree = "<group>"; };
-		43ADD303E9CEF0A43F9BDF8400831955 /* IRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRating.swift; sourceTree = "<group>"; };
-		44457651ADB3ED01FCBA66E93DA69BA3 /* IParentBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IParentBundle.swift; sourceTree = "<group>"; };
-		4786F0C017E0291DCE734B1A6D71E938 /* IPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPromotion.swift; sourceTree = "<group>"; };
-		490EEEDE06DDAF476A480A08AC220386 /* IAttributeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAttributeGroup.swift; sourceTree = "<group>"; };
-		49CDB413DF9E30C9CB2D1C5A7DA12CC1 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
-		4C704DB6B9C3F93191AB114C325A371D /* IOrderExtraService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderExtraService.swift; sourceTree = "<group>"; };
-		4DF42800D8CC4166AFB6A714DA69429B /* IUserAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserAddress.swift; sourceTree = "<group>"; };
-		4F7F099619288F7EA05BF3AEDB035328 /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
-		5605EF96316DAA9FC7AF79E3F7D2F678 /* IOrderResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderResponse.swift; sourceTree = "<group>"; };
-		580AFA39BBE4FBEE0448E8123F4707AE /* PaymentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentError.swift; sourceTree = "<group>"; };
-		582E2C701976DC30D60BB439569C8116 /* IListingResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IListingResult.swift; sourceTree = "<group>"; };
-		58D5D67179ECFF35D0996A010DCD23DD /* IPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPrice.swift; sourceTree = "<group>"; };
-		5BC7547D87DFF85B897722FE3111BDF9 /* PaymentRequestProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentRequestProtocol.swift; sourceTree = "<group>"; };
-		5F983FE09CC0DF6420D7255FE4AC781C /* IOrderBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderBillingInfo.swift; sourceTree = "<group>"; };
+		468660E66E73E882732BF2249B6F6C17 /* IOrderExtraService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderExtraService.swift; sourceTree = "<group>"; };
+		4BD12C3F49F8A514A20F8CDBC719087B /* ICoreDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICoreDefinition.swift; sourceTree = "<group>"; };
+		4CC6558A82002B9026FF1E67EFF92B1F /* IPageBuilderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPageBuilderService.swift; sourceTree = "<group>"; };
+		4D585F3EE8012E20A7497EB326CA11ED /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
+		4E69DEBC04445DE331321925006721DA /* IUserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserInfo.swift; sourceTree = "<group>"; };
+		54244E36D1753F449BE2EB2F5E7A800C /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
+		5926C1454CAC376ED1073B4FB88844CD /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
+		5C4BA68166CD78C46A3821E6CF86E29A /* IOrderPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPayment.swift; sourceTree = "<group>"; };
+		5EE45E88A55728764F5AE913D7B2688D /* IAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAddress.swift; sourceTree = "<group>"; };
+		5F829F456547A767C26CA6DAC51CEBC4 /* IOrderCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCreator.swift; sourceTree = "<group>"; };
 		60388570966F25DDA5A14C83A1CDE303 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		605C30CBBDE318EA2847542819B612D6 /* IBlockSorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockSorting.swift; sourceTree = "<group>"; };
-		6391BF706540EF81EA27C290921FA679 /* IOrderShippingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderShippingInfo.swift; sourceTree = "<group>"; };
-		64E5C5E406140B92FD5EA8A5D93C1D23 /* IPaymentTransactionResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentTransactionResult.swift; sourceTree = "<group>"; };
-		66D265385CB0661FE802656429E3E083 /* IProductGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductGroup.swift; sourceTree = "<group>"; };
-		67A8A993EB061C45AA2CF42D1EFD6FC8 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6B77FBABA8E093AA237045A69F15F706 /* ICrmResponseMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmResponseMessage.swift; sourceTree = "<group>"; };
-		6C5C0AE4AC4C97988AB506D732B0D3C5 /* IBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBanner.swift; sourceTree = "<group>"; };
+		6560D8930780C6C0186F823AEEDAC9BD /* IBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBrand.swift; sourceTree = "<group>"; };
+		6C4B56B989BC2C39ABA358F959D31593 /* IFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFilter.swift; sourceTree = "<group>"; };
+		6CD9B04C8AB77A84386B3C322F36AC14 /* IPaymentObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentObserver.swift; sourceTree = "<group>"; };
 		6D8D24099FC3F749A5A16D7E792F81BE /* Pods-TekServiceInterfaces_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TekServiceInterfaces_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F0A1DB9BC30C9367956658D66C588D5 /* IBlockItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockItem.swift; sourceTree = "<group>"; };
 		7046AD0007797313F5B15041C51B1810 /* Pods-TekServiceInterfaces_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TekServiceInterfaces_Tests-dummy.m"; sourceTree = "<group>"; };
-		73AC1B80F0A4C6E1182CDCCC92BBEE64 /* IVariantImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVariantImage.swift; sourceTree = "<group>"; };
-		743E9F74168419AFE1BED4F137EDA622 /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
-		75ED7382F829A7D74CD90CD0B074D8A6 /* IExtra.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtra.swift; sourceTree = "<group>"; };
-		7B609347CD91C431ABB587DF98A6CEE9 /* IOrderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderService.swift; sourceTree = "<group>"; };
-		7D415C3C95F91748E99F3ED1530FE08F /* IKeywordsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IKeywordsService.swift; sourceTree = "<group>"; };
-		7D5558F4ECE480BE97E302D206500847 /* IOrderCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCustomer.swift; sourceTree = "<group>"; };
-		7E85259C0766FCBB9319FCB7A35784A5 /* IOrderVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderVoucher.swift; sourceTree = "<group>"; };
-		7F5C139AB8D6B894654CF8395B9D418C /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
-		8290BBD3239387F941F509B1A7077B13 /* IOrderStaff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderStaff.swift; sourceTree = "<group>"; };
-		8701CB456A6318AFFE9F970FEF4FB46F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		87C6107DD3DD011C59B83C53FA8BE800 /* IAttributeSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAttributeSet.swift; sourceTree = "<group>"; };
-		88FA9B3680D9AF780BF722F837C60A0E /* IOrderPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotion.swift; sourceTree = "<group>"; };
-		895EB5AD099C588B24354C63A0A2F89C /* IAvailableByStoreObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAvailableByStoreObject.swift; sourceTree = "<group>"; };
-		8ADFD3F78459E9196CBACA2B976843B6 /* IType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IType.swift; sourceTree = "<group>"; };
-		8E4B9173FF6AE9DC150221B2A1D189C0 /* ICrmError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmError.swift; sourceTree = "<group>"; };
-		8E50A2EFD7AB4149EBCC910A60D47974 /* ISkuCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISkuCondition.swift; sourceTree = "<group>"; };
-		8F9238E271C693AAEAE7AA554BB26B51 /* IPriceRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPriceRange.swift; sourceTree = "<group>"; };
-		8F9B86AF8CB6F8181613C1E7ACA93102 /* IAttributeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAttributeValue.swift; sourceTree = "<group>"; };
-		9083E60CB3928A001CC3945BFEF8E8E2 /* ICoreDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICoreDefinition.swift; sourceTree = "<group>"; };
-		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94A8B649BD080984511E7061FAD54352 /* IKeywordCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IKeywordCategory.swift; sourceTree = "<group>"; };
-		95CAA8D247B9F6C0D3580C0761FFC943 /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
-		9629AEBBA1960AC619BD7AC1A52AE5DB /* IPpmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPpmService.swift; sourceTree = "<group>"; };
-		9785B4E77513C809A1A6301FE9A64DBD /* ICategoryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategoryService.swift; sourceTree = "<group>"; };
-		996173A7E82AEA7AA6FE8556D431B4FF /* IOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrder.swift; sourceTree = "<group>"; };
-		9A705D553D8D0220F446E5DB8CB955F2 /* IFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFilter.swift; sourceTree = "<group>"; };
-		9AAE8793CCCAC386B874C4527AE39B05 /* ICategoryBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategoryBrand.swift; sourceTree = "<group>"; };
-		9B721FBAD49BD93FB2730AF4CE38F592 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9C1BAE933ECD9066553497E51D731A86 /* ISearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISearchService.swift; sourceTree = "<group>"; };
-		9CD00DECFDCF866AD528B4602BA6778E /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17D98EEFB8B2C428E7C49E765AB50A2 /* ISeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISeller.swift; sourceTree = "<group>"; };
-		A1D30CAB9F926ABB7AEDD93A591406F4 /* IPromotionPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPromotionPrice.swift; sourceTree = "<group>"; };
-		A4A6FB65E799B078E075BF44CF89CBEF /* IOrderCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderCreator.swift; sourceTree = "<group>"; };
-		A5EEE6A6D025A4966FEFFED64D8F3351 /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
-		A640B8550B2060E44AC41B2AA3E85210 /* IUserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserInfo.swift; sourceTree = "<group>"; };
-		A74309BCAEA0E421C378F0E066459585 /* IColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IColor.swift; sourceTree = "<group>"; };
-		A9D6F49CE2CC5530996EF030A49F96B1 /* IUserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserService.swift; sourceTree = "<group>"; };
-		ADF0BCC33A064B59CE9A1CE4B19C267F /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
-		AE7B3A8310979E9826E90E2C42A61A0A /* TransactionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionProtocol.swift; sourceTree = "<group>"; };
-		AF838075DD43BB30BAE2C666BCC0D958 /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
+		717DEC41FB937270759E2A238FB13846 /* IBlockAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockAttribute.swift; sourceTree = "<group>"; };
+		7442C52B26FACD9D1E6B55F28B539FAF /* ICategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategory.swift; sourceTree = "<group>"; };
+		78497F3CB8B4AEA7FECBBE6DFF63C443 /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
+		7987ADDB97A98B8BC113E275AE2BBF95 /* IOrderPromotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotion.swift; sourceTree = "<group>"; };
+		79B66200679F51CA94ED65DF2878508B /* ICatalogSeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogSeller.swift; sourceTree = "<group>"; };
+		7C21947FA85930FDA6B6005A945D56ED /* IBundleProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBundleProduct.swift; sourceTree = "<group>"; };
+		850B24DAB509143FCDF5C898BCE3A06F /* IPagination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPagination.swift; sourceTree = "<group>"; };
+		86A42D67851F75BEB7E50E401867053B /* IOrderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderService.swift; sourceTree = "<group>"; };
+		8B3DE356806AD05DAF6F683FE9C48437 /* ICrmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmService.swift; sourceTree = "<group>"; };
+		8D7B6AD67B0214A0C2FD70A689F15B85 /* IBlockContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockContent.swift; sourceTree = "<group>"; };
+		8F54922C391B5C2665635AE9290268A1 /* IOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrder.swift; sourceTree = "<group>"; };
+		91B0C9C8D8D7EA34B7606A201B611DC6 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
+		91FEDB0642C37174DA48B9FD8117AE3A /* IOrderBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderBillingInfo.swift; sourceTree = "<group>"; };
+		92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderError.swift; sourceTree = "<group>"; };
+		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
+		987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentServiceConfig.swift; sourceTree = "<group>"; };
+		9995ACC9D4D65850097D0EE9D57B5869 /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6C0BD72F94E430E47FB852467028A3 /* IFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFlashSale.swift; sourceTree = "<group>"; };
+		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C5472E2226FE8706D749859794D4BD /* IOrderPromotionApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotionApply.swift; sourceTree = "<group>"; };
+		A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
+		B3B4E77CE48065D0CC19420BF8993C46 /* IOrderGift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderGift.swift; sourceTree = "<group>"; };
+		B4B82E1536CA7F73BAE2B117E20712C7 /* ICrmContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmContact.swift; sourceTree = "<group>"; };
 		B506072ECF1971CDC062CFAF2326FE6C /* Pods-TekServiceInterfaces_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B76137427963285E9C647A0EEEB2BC7B /* IDiscoveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDiscoveryService.swift; sourceTree = "<group>"; };
-		BE4141EE4434698C9716C41B50FAF77A /* IPaymentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentService.swift; sourceTree = "<group>"; };
-		C0064BAC67554993408C43E6CFE1E10F /* ISeoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISeoInfo.swift; sourceTree = "<group>"; };
-		C0B8DAD9FC255BDCBD1FC627D0404B65 /* TekServiceInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekServiceInterfaces.release.xcconfig; sourceTree = "<group>"; };
-		C161CCBCF67DF831046707924E07885A /* TekServiceInterfaces-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-prefix.pch"; sourceTree = "<group>"; };
+		B55A35BE28D6AB703A40C6C8FF467447 /* IOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderItem.swift; sourceTree = "<group>"; };
+		B872DE0FF980D34FD2C2E63A98EA2B2D /* IOrderResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderResponse.swift; sourceTree = "<group>"; };
+		B8940825AD90FDA06F2539E8A09A4BCE /* TekServiceInterfaces-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekServiceInterfaces-umbrella.h"; sourceTree = "<group>"; };
+		B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionProtocol.swift; sourceTree = "<group>"; };
+		BAF0931B016F3BB6D1EFE45A6031FAB3 /* IGroupConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGroupConfig.swift; sourceTree = "<group>"; };
+		BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
+		BDD101DAC549CC7E91F90457D8185500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BE867F7C4771F8BF3FE726C76B439C77 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
+		BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C2F89330786C9F11E87A9A916CF16398 /* IProductType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductType.swift; sourceTree = "<group>"; };
-		C49F5E4A6B8C9E860C627D4E55961009 /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
-		C4BAFDE9ADCD015494282510BADBD45A /* IBlockResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockResult.swift; sourceTree = "<group>"; };
-		C4C8DB223AD6D251E51DFEA328131A5F /* IMarketChildOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMarketChildOrder.swift; sourceTree = "<group>"; };
-		C5CA96B3B46CE52014E06A82CB90425E /* IStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStatus.swift; sourceTree = "<group>"; };
-		C662719A8C9B426CB1B750B50D0F08D4 /* IProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProvider.swift; sourceTree = "<group>"; };
-		C798C5B04AF0A4F4191FBE588B8F88E4 /* IObjective.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IObjective.swift; sourceTree = "<group>"; };
-		CAC14620A6F723D82EFCBF4EE1F81827 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
-		CAD75BF9B93868F0AA8D71486B998C36 /* IBlockAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockAttribute.swift; sourceTree = "<group>"; };
-		CE946ED85A3D7EB411EA20FFA2D83827 /* ICrmCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmCustomer.swift; sourceTree = "<group>"; };
-		CF43A337ECD094ADEBBAD8E158C9B18B /* IBlockContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockContent.swift; sourceTree = "<group>"; };
-		CF4B6496AB918D00C8851FA08D1D958B /* IVariant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVariant.swift; sourceTree = "<group>"; };
-		CFDF005B04B86161804B0426F590304C /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
+		C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserAddress.swift; sourceTree = "<group>"; };
+		C35A363272E18849BDB40E4F9979BD49 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		C55D4DCED7BE4C10BFB18D1B8B858DE6 /* ITimeRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
+		C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingService.swift; sourceTree = "<group>"; };
+		C897BA622C3171A06624A01A9B085520 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
+		CB587FA0F2562EF7D96ACF4CAF620CAC /* IOptionValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOptionValue.swift; sourceTree = "<group>"; };
+		CD9231D1C9F74ABAF3F7C2487F888CFA /* IOrderListResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListResult.swift; sourceTree = "<group>"; };
 		D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D075A19BF0E785C380BBBCC44A242493 /* ICrmBankAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBankAccount.swift; sourceTree = "<group>"; };
 		D0B334D78496060DF0F238BCCE846ADB /* Pods-TekServiceInterfaces_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TekServiceInterfaces_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1A40CA3BEE0B4D4A3D8113EE4BC9866 /* ICrmContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmContact.swift; sourceTree = "<group>"; };
-		D2113E86B23616696DEF943CFB1957EC /* ICategoryBrandConfigs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategoryBrandConfigs.swift; sourceTree = "<group>"; };
-		D70EBDB0990E0D51F623CBDB0A7D167D /* IConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IConfiguration.swift; sourceTree = "<group>"; };
-		D8BC93B2CE251D724654ED1BE0455307 /* ITotalAvailableByStocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ITotalAvailableByStocks.swift; sourceTree = "<group>"; };
-		DA47DA2177193E1BE7F5E1DEA28ED05D /* IListingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IListingService.swift; sourceTree = "<group>"; };
-		DADFBDDB1AEE072A70F6B2DE20C5FC2D /* IOrderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderError.swift; sourceTree = "<group>"; };
-		DDB4C65DC47112EAD597555CB27658A6 /* IOrderGift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderGift.swift; sourceTree = "<group>"; };
-		E04198C95BFD5A43D779A0864460A2FE /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
-		E0B3D12C8833E3AA0786FB052979E9C1 /* IFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFlashSale.swift; sourceTree = "<group>"; };
-		E2B9103AB3555E16669C0F74AF0759AC /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
-		E49935AA20A14B65B6EE3B40A4564CFB /* IProductsSearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductsSearchResult.swift; sourceTree = "<group>"; };
-		E54F0D0939BDD2B1D7E90F32E3973231 /* IOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderItem.swift; sourceTree = "<group>"; };
-		E5EF9AAEA7EDDAF805F72B98FE5C05A4 /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
-		E632395F0B6512E4A61CC6ABBEB1ACC8 /* IBlockParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockParams.swift; sourceTree = "<group>"; };
-		E6C74B6BFBD02D8450DF69DAC55C241F /* TekServiceInterfaces-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekServiceInterfaces-dummy.m"; sourceTree = "<group>"; };
-		E7037B8220E0AEF9D963BC34639E465C /* IBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBrand.swift; sourceTree = "<group>"; };
-		E7EE91AE9D151BAEE05F5C6E258DDC0C /* IKeyword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IKeyword.swift; sourceTree = "<group>"; };
-		EC2A10194B8E753EB7E10CE85F93E225 /* IStock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStock.swift; sourceTree = "<group>"; };
-		F0D36967CDF04102957E5E96A780EA77 /* IOrderListResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListResult.swift; sourceTree = "<group>"; };
-		F2AFEB563B942E7487BD623B1A73F842 /* IProductDetailService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProductDetailService.swift; sourceTree = "<group>"; };
-		F60DFFEE3AF995F9EABAB49AADBE01F8 /* TransactionError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionError.swift; sourceTree = "<group>"; };
-		F6630AA1EBF94D0123283DB6B667B5AD /* IFilterValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFilterValue.swift; sourceTree = "<group>"; };
-		F89A2180F8FB7638401378B4CDB8FAC1 /* ICategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICategory.swift; sourceTree = "<group>"; };
-		FA5BD1EC8F9CC90D9ED5F1550AB2E31E /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
+		D38A49A2DF2F9FA23C31EAEAD070C064 /* IPpmService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPpmService.swift; sourceTree = "<group>"; };
+		D3DB25057354FCA0FA000CE02985CE1C /* IBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlock.swift; sourceTree = "<group>"; };
+		D4E592FCAED3E9A4AB04A08B55B30C27 /* IMarketChildOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMarketChildOrder.swift; sourceTree = "<group>"; };
+		D6A41D7285CFB5A8B9CCCA3AE3F5DC40 /* ICrmBankAccount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBankAccount.swift; sourceTree = "<group>"; };
+		D82967AADB6A73CED11EF99C0859F19B /* IOrderShippingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderShippingInfo.swift; sourceTree = "<group>"; };
+		D9E7F71D77F0F99793B7EF7241778C12 /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
+		DCAFD5F2EE2EC77BAFD3967E16DC89B2 /* IOrderVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderVoucher.swift; sourceTree = "<group>"; };
+		DD177CD5B592AC3B068FDD37C14AF67B /* TekServiceInterfaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekServiceInterfaces-Info.plist"; sourceTree = "<group>"; };
+		DDC24325E4FABFF26E88D2F41F6228E5 /* ICrmError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmError.swift; sourceTree = "<group>"; };
+		E29C41A9DEB0B10532A8FE5F13ABD88F /* IBenefit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
+		E31268E8AC87AB60A8BE0970F13F72DF /* IProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IProvider.swift; sourceTree = "<group>"; };
+		E7173ACC88503B8609A4A756A49D6ADE /* ISeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISeller.swift; sourceTree = "<group>"; };
+		EA1D08239B959CDC10A4687C47694C8E /* ICrmCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmCustomer.swift; sourceTree = "<group>"; };
+		F062126A21AD45277AD90894B7CB12F8 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IStnService.swift; sourceTree = "<group>"; };
+		F593AB23565C6F4D1EE41C002270DDD2 /* ILocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ILocationService.swift; sourceTree = "<group>"; };
+		F7354F304C580622596AC51D977C85B0 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
+		F8741FE50269567B44BD32FCC155604B /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
+		F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
+		F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderStaff.swift; sourceTree = "<group>"; };
+		FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockParams.swift; sourceTree = "<group>"; };
+		FCD66664A999A27E598911B6DE434920 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
 		FE1C3A520FD0F6CF706CE8A6340E38B5 /* Pods-TekServiceInterfaces_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TekServiceInterfaces_Tests.modulemap"; sourceTree = "<group>"; };
-		FF7B7D2C453BEADAD20BF7D6D7E32A6A /* IBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlock.swift; sourceTree = "<group>"; };
+		FE240183FAEDF0AC8DFCE552AAADCF02 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FDB8868E767E7874FE09AB0FBD52C69 /* Frameworks */ = {
+		168E33C4F218CFBB06B085E3752B7CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E546B91112132D99D8AA608933E20B4D /* Foundation.framework in Frameworks */,
+				6FAFB0AA2BBA7F74ACCF914727B65747 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,47 +252,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B10C0C24BD660DE75EF98869BCD7437 /* Support Files */ = {
+		1004AAE414E19BD01EC82830F7D83803 /* StnService */ = {
 			isa = PBXGroup;
 			children = (
-				13A01D5CF9F30EF1CCBFE949280B051B /* TekServiceInterfaces.modulemap */,
-				E6C74B6BFBD02D8450DF69DAC55C241F /* TekServiceInterfaces-dummy.m */,
-				E5EF9AAEA7EDDAF805F72B98FE5C05A4 /* TekServiceInterfaces-Info.plist */,
-				C161CCBCF67DF831046707924E07885A /* TekServiceInterfaces-prefix.pch */,
-				3A675829661A2BFD2B8F23D8E073CF66 /* TekServiceInterfaces-umbrella.h */,
-				33AAB41F47D16CF1363ACF6E0FAB0989 /* TekServiceInterfaces.debug.xcconfig */,
-				C0B8DAD9FC255BDCBD1FC627D0404B65 /* TekServiceInterfaces.release.xcconfig */,
+				F062126A21AD45277AD90894B7CB12F8 /* IStnService.swift */,
+				3DFF211726862170A688BA5113B31061 /* IModels */,
+			);
+			name = StnService;
+			path = TekServiceInterfaces/Classes/StnService;
+			sourceTree = "<group>";
+		};
+		36A31A747B44EBE2400F64757C81A9AA /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */,
+				19B69166DF931B3BFFE53A94DCAE456D /* TransactionError.swift */,
+			);
+			name = Errors;
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		3858ED8B8937A0219581422DA9CE4781 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79B66200679F51CA94ED65DF2878508B /* ICatalogSeller.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AAEE16FD385A35E39495E4D6950C6C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EE45E88A55728764F5AE913D7B2688D /* IAddress.swift */,
+				C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */,
+				027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DCBA7B01C71D05A6C7E007DD3C78335 /* IModels */ = {
+			isa = PBXGroup;
+			children = (
+				54244E36D1753F449BE2EB2F5E7A800C /* IBanner.swift */,
+				0C394D43EC40BC40AB2713FCF1E84739 /* IBannerResult.swift */,
+			);
+			name = IModels;
+			path = IModels;
+			sourceTree = "<group>";
+		};
+		3DFF211726862170A688BA5113B31061 /* IModels */ = {
+			isa = PBXGroup;
+			children = (
+				D9E7F71D77F0F99793B7EF7241778C12 /* IExtraDataNotification.swift */,
+				F8741FE50269567B44BD32FCC155604B /* INotification.swift */,
+				5926C1454CAC376ED1073B4FB88844CD /* INotificationResult.swift */,
+				4D585F3EE8012E20A7497EB326CA11ED /* IOrderNotificationData.swift */,
+			);
+			name = IModels;
+			path = IModels;
+			sourceTree = "<group>";
+		};
+		3EA9B6349F49805A0B4976CA05191A21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C897BA622C3171A06624A01A9B085520 /* TekServiceInterfaces.modulemap */,
+				3E47DD18D7D5B725823C0A8847ADA153 /* TekServiceInterfaces-dummy.m */,
+				DD177CD5B592AC3B068FDD37C14AF67B /* TekServiceInterfaces-Info.plist */,
+				78497F3CB8B4AEA7FECBBE6DFF63C443 /* TekServiceInterfaces-prefix.pch */,
+				B8940825AD90FDA06F2539E8A09A4BCE /* TekServiceInterfaces-umbrella.h */,
+				351C9FDD13743D32AF055CB741B1958C /* TekServiceInterfaces.debug.xcconfig */,
+				3A3DC203DE4072EB69231F712C27C630 /* TekServiceInterfaces.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TekServiceInterfaces";
 			sourceTree = "<group>";
 		};
-		1A1777C924ED0723002EDA7F /* Errors */ = {
+		4181E9122D0891564E75D38BFB03C75F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				580AFA39BBE4FBEE0448E8123F4707AE /* PaymentError.swift */,
-				F60DFFEE3AF995F9EABAB49AADBE01F8 /* TransactionError.swift */,
+				E29C41A9DEB0B10532A8FE5F13ABD88F /* IBenefit.swift */,
+				D3DB25057354FCA0FA000CE02985CE1C /* IBlock.swift */,
+				717DEC41FB937270759E2A238FB13846 /* IBlockAttribute.swift */,
+				8D7B6AD67B0214A0C2FD70A689F15B85 /* IBlockContent.swift */,
+				2238A2AA3A14D775A575A1A32E8ACA68 /* IBlockFilter.swift */,
+				6F0A1DB9BC30C9367956658D66C588D5 /* IBlockItem.swift */,
+				FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */,
+				066E3BAA7D808E2427AF0529D2836570 /* IBlockResult.swift */,
+				3F9D627BC980D1999DFE18F0D30D6092 /* IBlockSorting.swift */,
+				6560D8930780C6C0186F823AEEDAC9BD /* IBrand.swift */,
+				7C21947FA85930FDA6B6005A945D56ED /* IBundleProduct.swift */,
+				7442C52B26FACD9D1E6B55F28B539FAF /* ICategory.swift */,
+				F7354F304C580622596AC51D977C85B0 /* ICondition.swift */,
+				23366BC76E58EF89E302DF7FA6361A0E /* IDetail.swift */,
+				6C4B56B989BC2C39ABA358F959D31593 /* IFilter.swift */,
+				9F6C0BD72F94E430E47FB852467028A3 /* IFlashSale.swift */,
+				BAF0931B016F3BB6D1EFE45A6031FAB3 /* IGroupConfig.swift */,
+				0F0BF1344F53696CC896F3D230AA6F2F /* IInfo.swift */,
+				BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */,
+				A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */,
+				CB587FA0F2562EF7D96ACF4CAF620CAC /* IOptionValue.swift */,
+				850B24DAB509143FCDF5C898BCE3A06F /* IPagination.swift */,
+				360198880E07902BE89DB9F95E521AB0 /* IPrice.swift */,
+				3BF4ED2B655718D2FEABDBBB5433D7B7 /* IProduct.swift */,
+				083BE82E24A90309DF443E8ECE81F859 /* IPromotion.swift */,
+				E31268E8AC87AB60A8BE0970F13F72DF /* IProvider.swift */,
+				E7173ACC88503B8609A4A756A49D6ADE /* ISeller.swift */,
+				1C7A2BEC6B8F37A8F2CB74849AE9A239 /* IVariant.swift */,
+				F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */,
 			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
-		363B54CADB384F3E38A295FDD1420349 /* CrmService */ = {
-			isa = PBXGroup;
-			children = (
-				0BA739B95A6DF01ABA9F9DB0D4D0EA1A /* ICrmService.swift */,
-				AAE8A3B1862354766ECD6C019F6CB2CC /* Models */,
-			);
-			name = CrmService;
-			path = TekServiceInterfaces/Classes/CrmService;
-			sourceTree = "<group>";
-		};
-		396FE58F466B8279C65081D35EA91058 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				13089C5E5EA567F2DABEAC15FE383877 /* IAddress.swift */,
-				2A34F714BD1C5127277B5A26C354312B /* IShippingService.swift */,
-				CAC14620A6F723D82EFCBF4EE1F81827 /* IWard.swift */,
-			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -377,35 +374,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45B8840ECB9442747CEC52A79F035BF4 /* DiscoveryService */ = {
+		50F40C6B5FEB53C88AB5EBBD64E01350 /* CrmService */ = {
 			isa = PBXGroup;
 			children = (
-				B76137427963285E9C647A0EEEB2BC7B /* IDiscoveryService.swift */,
-				A881EEABDE7E2C4F97E88A98BFF1B1E1 /* Models */,
+				8B3DE356806AD05DAF6F683FE9C48437 /* ICrmService.swift */,
+				F0465C467D52E041B080FD54607DDFAC /* Models */,
 			);
-			name = DiscoveryService;
-			path = TekServiceInterfaces/Classes/DiscoveryService;
+			name = CrmService;
+			path = TekServiceInterfaces/Classes/CrmService;
 			sourceTree = "<group>";
 		};
-		47165B5E84E2ED84DE2C34ABD061A364 /* List */ = {
+		5F57FD4C872C9566BB96BE6D3B93708E /* PaymentMethod */ = {
 			isa = PBXGroup;
 			children = (
-				75ED7382F829A7D74CD90CD0B074D8A6 /* IExtra.swift */,
-				582E2C701976DC30D60BB439569C8116 /* IListingResult.swift */,
-				8F9238E271C693AAEAE7AA554BB26B51 /* IPriceRange.swift */,
-				E49935AA20A14B65B6EE3B40A4564CFB /* IProductsSearchResult.swift */,
-				BE1BDEEEE0893690816609F03A620CBC /* Filter */,
+				C35A363272E18849BDB40E4F9979BD49 /* PaymentMethod.swift */,
+				313DA6021238B260ECBCC59E8F62E936 /* PaymentRequestProtocol.swift */,
+				B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */,
 			);
-			path = List;
+			name = PaymentMethod;
+			path = PaymentMethod;
 			sourceTree = "<group>";
 		};
-		47CAD9B6277C7C3D1F2B972AADED4EFE /* CategoryBrand */ = {
+		600C0174A69941C089FFE2F06903885F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9AAE8793CCCAC386B874C4527AE39B05 /* ICategoryBrand.swift */,
-				D2113E86B23616696DEF943CFB1957EC /* ICategoryBrandConfigs.swift */,
+				2A47554B2545085B6142F22984D56F51 /* IPaymentTransactionResult.swift */,
 			);
-			path = CategoryBrand;
+			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		605FD4C26AA65ADDAB10D61D59D699D1 /* Pods-TekServiceInterfaces_Tests */ = {
@@ -425,209 +421,92 @@
 			path = "Target Support Files/Pods-TekServiceInterfaces_Tests";
 			sourceTree = "<group>";
 		};
-		70020F1E6B36D330BB868463C5A2CEAD /* PPMService */ = {
+		749DB83CA1E75A12C2D4AAA180B9F48E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9629AEBBA1960AC619BD7AC1A52AE5DB /* IPpmService.swift */,
-				D9926688C5F09B418E5FFED9788327DD /* Models */,
+				C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */,
+				4E69DEBC04445DE331321925006721DA /* IUserInfo.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		778198C2C25B02EEACAD12430648339C /* TekServiceInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				50F40C6B5FEB53C88AB5EBBD64E01350 /* CrmService */,
+				D7276728B455B0A35947E2BC6EFDC4DB /* DiscoveryService */,
+				CB7588AAEBB4423537D54150FEB3CB68 /* LocationService */,
+				BC0CEB61855C23C29FB496363C219FDC /* OrderService */,
+				BBF869408365A3D48E589BD94D20469D /* PageBuilderService */,
+				D65C7245104F02C9F6B812AC2D827165 /* PaymentService */,
+				7A52AA6C0C6454FCACA9394619D8C092 /* Pod */,
+				9D6436AA1B632B985010B6154BF380F1 /* PPMService */,
+				1004AAE414E19BD01EC82830F7D83803 /* StnService */,
+				3EA9B6349F49805A0B4976CA05191A21 /* Support Files */,
+				A20D1204D5FE5F9F6005791FD3AB9D68 /* TekCatalogService */,
+				D65714BDA92760A607869FF0E662D4FC /* UserService */,
+			);
+			name = TekServiceInterfaces;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A52AA6C0C6454FCACA9394619D8C092 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDD101DAC549CC7E91F90457D8185500 /* LICENSE */,
+				00EA2A36A85E02531BC70821392CEED3 /* README.md */,
+				BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D6436AA1B632B985010B6154BF380F1 /* PPMService */ = {
+			isa = PBXGroup;
+			children = (
+				D38A49A2DF2F9FA23C31EAEAD070C064 /* IPpmService.swift */,
+				FFB91323A75F73DFAE1829F7BF60E7B1 /* Models */,
 			);
 			name = PPMService;
 			path = TekServiceInterfaces/Classes/PPMService;
 			sourceTree = "<group>";
 		};
-		7149956D157B6DED3697A46A76681B3B /* ListingService */ = {
+		A20D1204D5FE5F9F6005791FD3AB9D68 /* TekCatalogService */ = {
 			isa = PBXGroup;
 			children = (
-				2959C28700F1581E99760014B9C4FC2E /* ICategoryBrandsService.swift */,
-				9785B4E77513C809A1A6301FE9A64DBD /* ICategoryService.swift */,
-				7D415C3C95F91748E99F3ED1530FE08F /* IKeywordsService.swift */,
-				DA47DA2177193E1BE7F5E1DEA28ED05D /* IListingService.swift */,
-				F2AFEB563B942E7487BD623B1A73F842 /* IProductDetailService.swift */,
-				102CA1B618EBE670E3E79B8EC8C1BE49 /* IRecommendationService.swift */,
-				9C1BAE933ECD9066553497E51D731A86 /* ISearchService.swift */,
-				CEE2E4EA4D93890897C6EC3637F22E22 /* Models */,
-			);
-			name = ListingService;
-			path = TekServiceInterfaces/Classes/ListingService;
-			sourceTree = "<group>";
-		};
-		7B4E4F4C526E4740BD556BD2FA00457F /* TekCatalogService */ = {
-			isa = PBXGroup;
-			children = (
-				41298E78C7F030A58494726EC30B419A /* ICatalogService.swift */,
-				FBFC8215653F6E0485C26230301AA0D6 /* Models */,
+				009C82D2999F6CD5A6B09DDA84A7835E /* ICatalogService.swift */,
+				3858ED8B8937A0219581422DA9CE4781 /* Models */,
 			);
 			name = TekCatalogService;
 			path = TekServiceInterfaces/Classes/TekCatalogService;
 			sourceTree = "<group>";
 		};
-		817507F84B6DCE07F4D670F9C8C898E9 /* LocationService */ = {
+		B5946777092336A0C899B96240A0F24A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19D52494845F97A72581EE0D5240E08C /* ILocationService.swift */,
-				396FE58F466B8279C65081D35EA91058 /* Models */,
+				778198C2C25B02EEACAD12430648339C /* TekServiceInterfaces */,
 			);
-			name = LocationService;
-			path = TekServiceInterfaces/Classes/LocationService;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		84D648653E3DB619C840DADD692002E4 /* PageBuilderService */ = {
+		BBF869408365A3D48E589BD94D20469D /* PageBuilderService */ = {
 			isa = PBXGroup;
 			children = (
-				4F7F099619288F7EA05BF3AEDB035328 /* IPageBuilderService.swift */,
-				C6FE5A790F2D10686E26781ABE952845 /* IModels */,
+				4CC6558A82002B9026FF1E67EFF92B1F /* IPageBuilderService.swift */,
+				3DCBA7B01C71D05A6C7E007DD3C78335 /* IModels */,
 			);
 			name = PageBuilderService;
 			path = TekServiceInterfaces/Classes/PageBuilderService;
 			sourceTree = "<group>";
 		};
-		89F996F6DE7CECD872E11116F9595221 /* Development Pods */ = {
+		BC0CEB61855C23C29FB496363C219FDC /* OrderService */ = {
 			isa = PBXGroup;
 			children = (
-				CA2569FF86F4729E6824C933BDD11483 /* TekServiceInterfaces */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8CAEC7DDC4658A5794DDBA6F8742472A /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				CAD75BF9B93868F0AA8D71486B998C36 /* IBlockAttribute.swift */,
-				3250729DEDCCCCC205C3DD497460C685 /* IBlockFilter.swift */,
-				E632395F0B6512E4A61CC6ABBEB1ACC8 /* IBlockParams.swift */,
-				605C30CBBDE318EA2847542819B612D6 /* IBlockSorting.swift */,
-				F89A2180F8FB7638401378B4CDB8FAC1 /* ICategory.swift */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		923FAC368FEBE3F4F84C204294D61E0A /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				0977D0A9BADE39D07779E03941AE6233 /* IActiveFlashSale.swift */,
-				490EEEDE06DDAF476A480A08AC220386 /* IAttributeGroup.swift */,
-				87C6107DD3DD011C59B83C53FA8BE800 /* IAttributeSet.swift */,
-				8F9B86AF8CB6F8181613C1E7ACA93102 /* IAttributeValue.swift */,
-				895EB5AD099C588B24354C63A0A2F89C /* IAvailableByStoreObject.swift */,
-				E7037B8220E0AEF9D963BC34639E465C /* IBrand.swift */,
-				2EC2B1E8441DE3FF2B0CC41189D7B2ED /* IBundleProduct.swift */,
-				A74309BCAEA0E421C378F0E066459585 /* IColor.swift */,
-				D70EBDB0990E0D51F623CBDB0A7D167D /* IConfiguration.swift */,
-				236BF96F1CBC08419E6E8403A5E2C84F /* ICoreFlashSale.swift */,
-				0F6A3B9BF2F2CB345DCC27EBD1BA85FF /* IDefinitionFlashSale.swift */,
-				E0B3D12C8833E3AA0786FB052979E9C1 /* IFlashSale.swift */,
-				31A9EDAB8540B452A4BC3BFBB3CF977C /* IImage.swift */,
-				C798C5B04AF0A4F4191FBE588B8F88E4 /* IObjective.swift */,
-				059D2506CA926B9375583A2F3F7D8525 /* IOption.swift */,
-				44457651ADB3ED01FCBA66E93DA69BA3 /* IParentBundle.swift */,
-				58D5D67179ECFF35D0996A010DCD23DD /* IPrice.swift */,
-				39A442AEE17EAE7A03ABF11B13D06C8A /* IProduct.swift */,
-				66D265385CB0661FE802656429E3E083 /* IProductGroup.swift */,
-				3FB5D394EA11A47DBF3CBF425424A523 /* IProductLine.swift */,
-				C2F89330786C9F11E87A9A916CF16398 /* IProductType.swift */,
-				4786F0C017E0291DCE734B1A6D71E938 /* IPromotion.swift */,
-				A1D30CAB9F926ABB7AEDD93A591406F4 /* IPromotionPrice.swift */,
-				C662719A8C9B426CB1B750B50D0F08D4 /* IProvider.swift */,
-				43ADD303E9CEF0A43F9BDF8400831955 /* IRating.swift */,
-				A17D98EEFB8B2C428E7C49E765AB50A2 /* ISeller.swift */,
-				C0064BAC67554993408C43E6CFE1E10F /* ISeoInfo.swift */,
-				8E50A2EFD7AB4149EBCC910A60D47974 /* ISkuCondition.swift */,
-				C5CA96B3B46CE52014E06A82CB90425E /* IStatus.swift */,
-				EC2A10194B8E753EB7E10CE85F93E225 /* IStock.swift */,
-				D8BC93B2CE251D724654ED1BE0455307 /* ITotalAvailableByStocks.swift */,
-				8ADFD3F78459E9196CBACA2B976843B6 /* IType.swift */,
-				CF4B6496AB918D00C8851FA08D1D958B /* IVariant.swift */,
-				73AC1B80F0A4C6E1182CDCCC92BBEE64 /* IVariantImage.swift */,
-				0CC2FC492C6838A1DDFDDCAAE179CFC4 /* IWarranty.swift */,
-			);
-			path = Product;
-			sourceTree = "<group>";
-		};
-		940EE337DDB44900E12B70E95CA9C5F5 /* UserService */ = {
-			isa = PBXGroup;
-			children = (
-				A9D6F49CE2CC5530996EF030A49F96B1 /* IUserService.swift */,
-				F2AAD161A2E477B909E0E02750091E8B /* Models */,
-			);
-			name = UserService;
-			path = TekServiceInterfaces/Classes/UserService;
-			sourceTree = "<group>";
-		};
-		95B48B44C5C2986608C52DB5AA796DCB /* PaymentService */ = {
-			isa = PBXGroup;
-			children = (
-				1A1777C924ED0723002EDA7F /* Errors */,
-				B658F03F8D06B3FB40423B71F2905AF7 /* Models */,
-				9D0328A30B3940C01AA88BD39754FD77 /* PaymentMethod */,
-				FB2DF76E5A6BF8B6D6E5AD62F7FA6BA0 /* Protocols */,
-			);
-			name = PaymentService;
-			path = TekServiceInterfaces/Classes/PaymentService;
-			sourceTree = "<group>";
-		};
-		9D0328A30B3940C01AA88BD39754FD77 /* PaymentMethod */ = {
-			isa = PBXGroup;
-			children = (
-				E2B9103AB3555E16669C0F74AF0759AC /* PaymentMethod.swift */,
-				5BC7547D87DFF85B897722FE3111BDF9 /* PaymentRequestProtocol.swift */,
-				AE7B3A8310979E9826E90E2C42A61A0A /* TransactionProtocol.swift */,
-			);
-			path = PaymentMethod;
-			sourceTree = "<group>";
-		};
-		A881EEABDE7E2C4F97E88A98BFF1B1E1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FF7B7D2C453BEADAD20BF7D6D7E32A6A /* IBlock.swift */,
-				CF43A337ECD094ADEBBAD8E158C9B18B /* IBlockContent.swift */,
-				27A9F99D43AAAA59332CDCA221224469 /* IBlockItem.swift */,
-				C4BAFDE9ADCD015494282510BADBD45A /* IBlockResult.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AAE8A3B1862354766ECD6C019F6CB2CC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D075A19BF0E785C380BBBCC44A242493 /* ICrmBankAccount.swift */,
-				AF838075DD43BB30BAE2C666BCC0D958 /* ICrmBrandAwareness.swift */,
-				D1A40CA3BEE0B4D4A3D8113EE4BC9866 /* ICrmContact.swift */,
-				CE946ED85A3D7EB411EA20FFA2D83827 /* ICrmCustomer.swift */,
-				8E4B9173FF6AE9DC150221B2A1D189C0 /* ICrmError.swift */,
-				FA5BD1EC8F9CC90D9ED5F1550AB2E31E /* ICrmInformation.swift */,
-				49CDB413DF9E30C9CB2D1C5A7DA12CC1 /* ICrmPayload.swift */,
-				6B77FBABA8E093AA237045A69F15F706 /* ICrmResponseMessage.swift */,
-				0A9F6EE12F60785FC73B69440FDFE88B /* ICrmVat.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		ABBA073CA5783ACE1636DBA19897481E /* StnService */ = {
-			isa = PBXGroup;
-			children = (
-				ADF0BCC33A064B59CE9A1CE4B19C267F /* IStnService.swift */,
-				E3ADFD91687DF16ACFD79EB3A3BBF0B7 /* IModels */,
-			);
-			name = StnService;
-			path = TekServiceInterfaces/Classes/StnService;
-			sourceTree = "<group>";
-		};
-		AC35A1EF94C8AC7A4AEE03C80DE32296 /* OrderService */ = {
-			isa = PBXGroup;
-			children = (
-				7B609347CD91C431ABB587DF98A6CEE9 /* IOrderService.swift */,
-				CD959F4BB6DF0DE8006E23E4622D11FD /* Models */,
+				86A42D67851F75BEB7E50E401867053B /* IOrderService.swift */,
+				F5B497D0B70150475F0E631047EB91BF /* Models */,
 			);
 			name = OrderService;
 			path = TekServiceInterfaces/Classes/OrderService;
-			sourceTree = "<group>";
-		};
-		B658F03F8D06B3FB40423B71F2905AF7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				64E5C5E406140B92FD5EA8A5D93C1D23 /* IPaymentTransactionResult.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		BC1F6384DF5C03CBA1C73582496F9921 /* Products */ = {
@@ -639,15 +518,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE1BDEEEE0893690816609F03A620CBC /* Filter */ = {
-			isa = PBXGroup;
-			children = (
-				9A705D553D8D0220F446E5DB8CB955F2 /* IFilter.swift */,
-				F6630AA1EBF94D0123283DB6B667B5AD /* IFilterValue.swift */,
-			);
-			path = Filter;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,97 +526,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C6E012F4C29DC585D62A72176F566746 /* Pod */ = {
+		C8ECCEF143203AA8EF0B8F3B00D23878 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				9B721FBAD49BD93FB2730AF4CE38F592 /* LICENSE */,
-				8701CB456A6318AFFE9F970FEF4FB46F /* README.md */,
-				67A8A993EB061C45AA2CF42D1EFD6FC8 /* TekServiceInterfaces.podspec */,
+				6CD9B04C8AB77A84386B3C322F36AC14 /* IPaymentObserver.swift */,
+				304BAFF9716EF65EEB4F04B5565F6401 /* IPaymentService.swift */,
+				987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */,
 			);
-			name = Pod;
+			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		C6FE5A790F2D10686E26781ABE952845 /* IModels */ = {
+		CB7588AAEBB4423537D54150FEB3CB68 /* LocationService */ = {
 			isa = PBXGroup;
 			children = (
-				6C5C0AE4AC4C97988AB506D732B0D3C5 /* IBanner.swift */,
-				3D479631818B88F0C1AFF4B9F3C24FA4 /* IBannerResult.swift */,
+				F593AB23565C6F4D1EE41C002270DDD2 /* ILocationService.swift */,
+				3AAEE16FD385A35E39495E4D6950C6C6 /* Models */,
 			);
-			path = IModels;
-			sourceTree = "<group>";
-		};
-		C8923F2FEF4AD5B535089FDC94944AAF /* Keyword */ = {
-			isa = PBXGroup;
-			children = (
-				E7EE91AE9D151BAEE05F5C6E258DDC0C /* IKeyword.swift */,
-				94A8B649BD080984511E7061FAD54352 /* IKeywordCategory.swift */,
-			);
-			path = Keyword;
-			sourceTree = "<group>";
-		};
-		CA2569FF86F4729E6824C933BDD11483 /* TekServiceInterfaces */ = {
-			isa = PBXGroup;
-			children = (
-				363B54CADB384F3E38A295FDD1420349 /* CrmService */,
-				45B8840ECB9442747CEC52A79F035BF4 /* DiscoveryService */,
-				7149956D157B6DED3697A46A76681B3B /* ListingService */,
-				817507F84B6DCE07F4D670F9C8C898E9 /* LocationService */,
-				AC35A1EF94C8AC7A4AEE03C80DE32296 /* OrderService */,
-				84D648653E3DB619C840DADD692002E4 /* PageBuilderService */,
-				95B48B44C5C2986608C52DB5AA796DCB /* PaymentService */,
-				C6E012F4C29DC585D62A72176F566746 /* Pod */,
-				70020F1E6B36D330BB868463C5A2CEAD /* PPMService */,
-				ABBA073CA5783ACE1636DBA19897481E /* StnService */,
-				0B10C0C24BD660DE75EF98869BCD7437 /* Support Files */,
-				7B4E4F4C526E4740BD556BD2FA00457F /* TekCatalogService */,
-				940EE337DDB44900E12B70E95CA9C5F5 /* UserService */,
-			);
-			name = TekServiceInterfaces;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CD959F4BB6DF0DE8006E23E4622D11FD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				C4C8DB223AD6D251E51DFEA328131A5F /* IMarketChildOrder.swift */,
-				996173A7E82AEA7AA6FE8556D431B4FF /* IOrder.swift */,
-				5F983FE09CC0DF6420D7255FE4AC781C /* IOrderBillingInfo.swift */,
-				A4A6FB65E799B078E075BF44CF89CBEF /* IOrderCreator.swift */,
-				7D5558F4ECE480BE97E302D206500847 /* IOrderCustomer.swift */,
-				DADFBDDB1AEE072A70F6B2DE20C5FC2D /* IOrderError.swift */,
-				4C704DB6B9C3F93191AB114C325A371D /* IOrderExtraService.swift */,
-				DDB4C65DC47112EAD597555CB27658A6 /* IOrderGift.swift */,
-				E54F0D0939BDD2B1D7E90F32E3973231 /* IOrderItem.swift */,
-				3F7A56C127CCDC65FAF16C5BB165E0F0 /* IOrderListItem.swift */,
-				F0D36967CDF04102957E5E96A780EA77 /* IOrderListResult.swift */,
-				02EEB0380E892A70E55C053BD07AFAD6 /* IOrderPayment.swift */,
-				88FA9B3680D9AF780BF722F837C60A0E /* IOrderPromotion.swift */,
-				389CC979A8E5BCEB3C2F9D5CFBF8EA28 /* IOrderPromotionApply.swift */,
-				5605EF96316DAA9FC7AF79E3F7D2F678 /* IOrderResponse.swift */,
-				6391BF706540EF81EA27C290921FA679 /* IOrderShippingInfo.swift */,
-				8290BBD3239387F941F509B1A7077B13 /* IOrderStaff.swift */,
-				7E85259C0766FCBB9319FCB7A35784A5 /* IOrderVoucher.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		CEE2E4EA4D93890897C6EC3637F22E22 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8CAEC7DDC4658A5794DDBA6F8742472A /* Category */,
-				47CAD9B6277C7C3D1F2B972AADED4EFE /* CategoryBrand */,
-				C8923F2FEF4AD5B535089FDC94944AAF /* Keyword */,
-				47165B5E84E2ED84DE2C34ABD061A364 /* List */,
-				923FAC368FEBE3F4F84C204294D61E0A /* Product */,
-			);
-			path = Models;
+			name = LocationService;
+			path = TekServiceInterfaces/Classes/LocationService;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				89F996F6DE7CECD872E11116F9595221 /* Development Pods */,
+				B5946777092336A0C899B96240A0F24A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BC1F6384DF5C03CBA1C73582496F9921 /* Products */,
 				433CD808DF4D750B100781EF17055DD8 /* Targets Support Files */,
@@ -761,57 +566,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9926688C5F09B418E5FFED9788327DD /* Models */ = {
+		D65714BDA92760A607869FF0E662D4FC /* UserService */ = {
 			isa = PBXGroup;
 			children = (
-				3B3C6D7E78BFF363F71BC137D689353D /* IAppliedPromotion.swift */,
-				C49F5E4A6B8C9E860C627D4E55961009 /* IBenefit.swift */,
-				E04198C95BFD5A43D779A0864460A2FE /* ICondition.swift */,
-				9083E60CB3928A001CC3945BFEF8E8E2 /* ICoreDefinition.swift */,
-				0A82EC972FC4EE7863547F2B7A52E58F /* IDefinition.swift */,
-				95CAA8D247B9F6C0D3580C0761FFC943 /* IItem.swift */,
-				CFDF005B04B86161804B0426F590304C /* IMoney.swift */,
-				7F5C139AB8D6B894654CF8395B9D418C /* ITimeRange.swift */,
-				A5EEE6A6D025A4966FEFFED64D8F3351 /* IVoucher.swift */,
+				19E8EE239FF07B6CB6A2F6EAC11B8C0D /* IUserService.swift */,
+				749DB83CA1E75A12C2D4AAA180B9F48E /* Models */,
 			);
+			name = UserService;
+			path = TekServiceInterfaces/Classes/UserService;
+			sourceTree = "<group>";
+		};
+		D65C7245104F02C9F6B812AC2D827165 /* PaymentService */ = {
+			isa = PBXGroup;
+			children = (
+				36A31A747B44EBE2400F64757C81A9AA /* Errors */,
+				600C0174A69941C089FFE2F06903885F /* Models */,
+				5F57FD4C872C9566BB96BE6D3B93708E /* PaymentMethod */,
+				C8ECCEF143203AA8EF0B8F3B00D23878 /* Protocols */,
+			);
+			name = PaymentService;
+			path = TekServiceInterfaces/Classes/PaymentService;
+			sourceTree = "<group>";
+		};
+		D7276728B455B0A35947E2BC6EFDC4DB /* DiscoveryService */ = {
+			isa = PBXGroup;
+			children = (
+				3D8B8DF56A3C375FF4969FEB476D999A /* IDiscoveryService.swift */,
+				4181E9122D0891564E75D38BFB03C75F /* Models */,
+			);
+			name = DiscoveryService;
+			path = TekServiceInterfaces/Classes/DiscoveryService;
+			sourceTree = "<group>";
+		};
+		F0465C467D52E041B080FD54607DDFAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6A41D7285CFB5A8B9CCCA3AE3F5DC40 /* ICrmBankAccount.swift */,
+				937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */,
+				B4B82E1536CA7F73BAE2B117E20712C7 /* ICrmContact.swift */,
+				EA1D08239B959CDC10A4687C47694C8E /* ICrmCustomer.swift */,
+				DDC24325E4FABFF26E88D2F41F6228E5 /* ICrmError.swift */,
+				9995ACC9D4D65850097D0EE9D57B5869 /* ICrmInformation.swift */,
+				91B0C9C8D8D7EA34B7606A201B611DC6 /* ICrmPayload.swift */,
+				2F80EBA2B14B0EB4A68EBF24FB57C4A0 /* ICrmResponseMessage.swift */,
+				048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */,
+			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E3ADFD91687DF16ACFD79EB3A3BBF0B7 /* IModels */ = {
+		F5B497D0B70150475F0E631047EB91BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				37CBA470B6E453DBE298E70603130F79 /* IExtraDataNotification.swift */,
-				1FF3802064C3716C21F1DE53AB009E58 /* INotification.swift */,
-				9CD00DECFDCF866AD528B4602BA6778E /* INotificationResult.swift */,
-				743E9F74168419AFE1BED4F137EDA622 /* IOrderNotificationData.swift */,
+				D4E592FCAED3E9A4AB04A08B55B30C27 /* IMarketChildOrder.swift */,
+				8F54922C391B5C2665635AE9290268A1 /* IOrder.swift */,
+				91FEDB0642C37174DA48B9FD8117AE3A /* IOrderBillingInfo.swift */,
+				5F829F456547A767C26CA6DAC51CEBC4 /* IOrderCreator.swift */,
+				3FB4991B78CDF0BDEC211DD34AEC80B2 /* IOrderCustomer.swift */,
+				92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */,
+				468660E66E73E882732BF2249B6F6C17 /* IOrderExtraService.swift */,
+				B3B4E77CE48065D0CC19420BF8993C46 /* IOrderGift.swift */,
+				B55A35BE28D6AB703A40C6C8FF467447 /* IOrderItem.swift */,
+				BE867F7C4771F8BF3FE726C76B439C77 /* IOrderListItem.swift */,
+				CD9231D1C9F74ABAF3F7C2487F888CFA /* IOrderListResult.swift */,
+				5C4BA68166CD78C46A3821E6CF86E29A /* IOrderPayment.swift */,
+				7987ADDB97A98B8BC113E275AE2BBF95 /* IOrderPromotion.swift */,
+				A8C5472E2226FE8706D749859794D4BD /* IOrderPromotionApply.swift */,
+				B872DE0FF980D34FD2C2E63A98EA2B2D /* IOrderResponse.swift */,
+				D82967AADB6A73CED11EF99C0859F19B /* IOrderShippingInfo.swift */,
+				F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */,
+				DCAFD5F2EE2EC77BAFD3967E16DC89B2 /* IOrderVoucher.swift */,
 			);
-			path = IModels;
-			sourceTree = "<group>";
-		};
-		F2AAD161A2E477B909E0E02750091E8B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4DF42800D8CC4166AFB6A714DA69429B /* IUserAddress.swift */,
-				A640B8550B2060E44AC41B2AA3E85210 /* IUserInfo.swift */,
-			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FB2DF76E5A6BF8B6D6E5AD62F7FA6BA0 /* Protocols */ = {
+		FFB91323A75F73DFAE1829F7BF60E7B1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				12DEFFCB2864336CB00FDC20E2CBB1CB /* IPaymentObserver.swift */,
-				BE4141EE4434698C9716C41B50FAF77A /* IPaymentService.swift */,
-				1A17785024ED27EE002EDA7F /* IPaymentServiceConfig.swift */,
+				05031BED3AB98A9275E852E0493839CB /* IAppliedPromotion.swift */,
+				FCD66664A999A27E598911B6DE434920 /* ICondition.swift */,
+				4BD12C3F49F8A514A20F8CDBC719087B /* ICoreDefinition.swift */,
+				FE240183FAEDF0AC8DFCE552AAADCF02 /* IDefinition.swift */,
+				C55D4DCED7BE4C10BFB18D1B8B858DE6 /* ITimeRange.swift */,
 			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		FBFC8215653F6E0485C26230301AA0D6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				40B70F4F5AA5E85C79BE851760FC5DE7 /* ICatalogSeller.swift */,
-			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -826,11 +665,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		536A7DF0C4313E508D5A20BFDA0BD0F0 /* Headers */ = {
+		5CE909A5DD0C0829BFBDF1AA11BD892A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEADD702A2A1EDCD77F75B71616AA4D3 /* TekServiceInterfaces-umbrella.h in Headers */,
+				8FE2EDEEC8AD4C4F49F0C3B2CF498EAE /* TekServiceInterfaces-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,12 +697,12 @@
 		};
 		FD6B3D1A1A4C86C96695EA7372F32837 /* TekServiceInterfaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15127B738CD61125B073F139D755B509 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
+			buildConfigurationList = C5E0DCFEE24A9B788023F0A689316CAD /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */;
 			buildPhases = (
-				536A7DF0C4313E508D5A20BFDA0BD0F0 /* Headers */,
-				8335613132E7A49C9FD7D6B2F9B67CD4 /* Sources */,
-				1FDB8868E767E7874FE09AB0FBD52C69 /* Frameworks */,
-				9B566C694AD9F7376BFEB615DCDD8233 /* Resources */,
+				5CE909A5DD0C0829BFBDF1AA11BD892A /* Headers */,
+				A5EE4CC49355B4E3B99EE764B3B7BC30 /* Sources */,
+				168E33C4F218CFBB06B085E3752B7CAF /* Frameworks */,
+				DC2C95F56F98526F932FBA8875100565 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -910,7 +749,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B566C694AD9F7376BFEB615DCDD8233 /* Resources */ = {
+		DC2C95F56F98526F932FBA8875100565 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -920,146 +759,110 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8335613132E7A49C9FD7D6B2F9B67CD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D39A51475F87E58C9E5B25D7DAA66A8 /* IActiveFlashSale.swift in Sources */,
-				8BF17F456A57F965B439FF80D7CA2647 /* IAddress.swift in Sources */,
-				2862BF274E71F6F9966CC2DF662705F4 /* IAppliedPromotion.swift in Sources */,
-				9F2B28EEC483F863982DC70450C4AFAD /* IAttributeGroup.swift in Sources */,
-				D89AD0FED437D98F9CDDCB607C6BDCBC /* IAttributeSet.swift in Sources */,
-				5ACD8872BBD0CDBD526998D4E1045D27 /* IAttributeValue.swift in Sources */,
-				D9D3DB39008CBD3FC356AEBA097326FC /* IAvailableByStoreObject.swift in Sources */,
-				DB632B922A09F69351BD9EBF25A3B921 /* IBanner.swift in Sources */,
-				838EFEE06B29C9EC0E7A03FADDF8BDCE /* IBannerResult.swift in Sources */,
-				E174AB65CD3D8E87F9835B9DA6BA22B7 /* IBenefit.swift in Sources */,
-				BBE42032469C16E1C43AE7A9DF5408C0 /* IBlock.swift in Sources */,
-				FA710C26544C599AFBF24E20997D58FB /* IBlockAttribute.swift in Sources */,
-				D6E8E76173E0C7B474CC36B1D42828F4 /* IBlockContent.swift in Sources */,
-				E514A4BAA019ACA7F8B01BCBAFE71907 /* IBlockFilter.swift in Sources */,
-				2FA38A68A317B973D85D93BDBBAB56E7 /* IBlockItem.swift in Sources */,
-				EFDC171D5E8D84394117159940EA6B3A /* IBlockParams.swift in Sources */,
-				FE590673A4B2C4B288B81F398C1877AF /* IBlockResult.swift in Sources */,
-				05342F4D5D5098572DD21B8E43278560 /* IBlockSorting.swift in Sources */,
-				404A015521F490941C423BA7813D3C2B /* IBrand.swift in Sources */,
-				749B85F3063EAFF3277BB02D47ACC341 /* IBundleProduct.swift in Sources */,
-				6D4E4C35C9167485CF212969A3EA063D /* ICatalogSeller.swift in Sources */,
-				BD9C6A3E9184F9AEEF883D82DA5E043E /* ICatalogService.swift in Sources */,
-				65E4268E476B6CAE2F64501ABF1EC655 /* ICategory.swift in Sources */,
-				59506B523625A262465C648346AE4281 /* ICategoryBrand.swift in Sources */,
-				08E5DB0AFC9269E836E418AA5DCB93A3 /* ICategoryBrandConfigs.swift in Sources */,
-				495E30B1D90F04F31FA07B154394BB11 /* ICategoryBrandsService.swift in Sources */,
-				FD6408AF96E929FBCC5F20F16E4B3C0F /* ICategoryService.swift in Sources */,
-				96CBE78BF5A2ED890F9D922D8234FDD7 /* IColor.swift in Sources */,
-				C7C3F28109D9BEAAFC379F46E84FD82F /* ICondition.swift in Sources */,
-				9269E4F50FF014B6D35EE1E21F03FC01 /* IConfiguration.swift in Sources */,
-				5740AD0DB56A5C697ACF6A4D2B980EA3 /* ICoreDefinition.swift in Sources */,
-				47469DE48106B1198F902794E370B5AB /* ICoreFlashSale.swift in Sources */,
-				13B2D136728B6651BECD321D40A527B8 /* ICrmBankAccount.swift in Sources */,
-				6E4E76B785444E3C550D857E84817694 /* ICrmBrandAwareness.swift in Sources */,
-				11FF04EDB881050E0A4B5656C396DF38 /* ICrmContact.swift in Sources */,
-				93C896AE169CBCCA0D514610A6D13ED0 /* ICrmCustomer.swift in Sources */,
-				F67B14F8FD8302C401E81C6B7D5C8812 /* ICrmError.swift in Sources */,
-				A633A1DD8D81665FE4020D59DF33D81E /* ICrmInformation.swift in Sources */,
-				C05647F6F8D9CAE4B9DE9EF147843F0A /* ICrmPayload.swift in Sources */,
-				36FE1A79FA0EFB200D5E79717FD3CCF9 /* ICrmResponseMessage.swift in Sources */,
-				0E7F9C7BE35343A6384B0A62562BB47E /* ICrmService.swift in Sources */,
-				06A527A75947FF29C5FBD7FABCD53787 /* ICrmVat.swift in Sources */,
-				B4F73452BC99C40D4F1183B1B2511F6E /* IDefinition.swift in Sources */,
-				B56CD54845361D1FFB746F8B271CA663 /* IDefinitionFlashSale.swift in Sources */,
-				87CC5A91CB59BAACCB9C49B075BC23AD /* IDiscoveryService.swift in Sources */,
-				1A43EC235D504E56DC1F7771E19AF906 /* IExtra.swift in Sources */,
-				0C2848E7EF79E3BFD6E17E25BC80AE48 /* IExtraDataNotification.swift in Sources */,
-				165D8720682DE8758D269B1453CC2445 /* IFilter.swift in Sources */,
-				418F4BF163F6B45828FC995B9C4B8461 /* IFilterValue.swift in Sources */,
-				8DF576CBF7B70488880060783139944B /* IFlashSale.swift in Sources */,
-				FAA4490CE48D7DED992B70EC04A61E46 /* IImage.swift in Sources */,
-				E67150BA5B5F8FADFEE123D156F0A626 /* IItem.swift in Sources */,
-				7D807A76716839CE5DB1ACEC36B1E0A4 /* IKeyword.swift in Sources */,
-				3C3E2FFFE6F11B159152344141914728 /* IKeywordCategory.swift in Sources */,
-				EC99BAEF90F4E01B0F5A2E85B0E20D64 /* IKeywordsService.swift in Sources */,
-				DD9DC5A3FBA44233187571BA694CAFE3 /* IListingResult.swift in Sources */,
-				0D1E9E8F7EE9C1E4940F1CE8FB6C2235 /* IListingService.swift in Sources */,
-				141A68B0F767A999AEBB48625124F582 /* ILocationService.swift in Sources */,
-				AD8BDAA4A1658A948BFE59F98B828879 /* IMarketChildOrder.swift in Sources */,
-				8A9AA431A993B4911D017D762D175BD7 /* IMoney.swift in Sources */,
-				FAF3D9383EFE258B178E8B82B3587B3E /* INotification.swift in Sources */,
-				AE62C5F55F8B7944D1DD3FF9024F140B /* INotificationResult.swift in Sources */,
-				A1BE1747BC28DEB9E73C943DCED4C0DF /* IObjective.swift in Sources */,
-				3D9857A63A8F0D44096CC0E3089A9215 /* IOption.swift in Sources */,
-				C73F90DC6CC4246BFF0343E226352C88 /* IOrder.swift in Sources */,
-				699A0F8361CBF9BC4C2989D449F66A37 /* IOrderBillingInfo.swift in Sources */,
-				EB3E4B6EA2D49D18884E000C1B21B468 /* IOrderCreator.swift in Sources */,
-				6D6D7FB5C936A37ACD6DC1F41AF6DC22 /* IOrderCustomer.swift in Sources */,
-				E80309AA9CE3C29C43C11A2A56EB66DF /* IOrderError.swift in Sources */,
-				30E6F1E1341F8C946CA9E6D564CFAE7E /* IOrderExtraService.swift in Sources */,
-				8634A6662A62DC400D14E4ABF60ED320 /* IOrderGift.swift in Sources */,
-				B7B93D052676D755C75E37EE47523E30 /* IOrderItem.swift in Sources */,
-				A6D7266D0A109FDAAF2626429B2D71F3 /* IOrderListItem.swift in Sources */,
-				923917278C684F404CA5D5AFA9391D57 /* IOrderListResult.swift in Sources */,
-				AFA10DA08DB6E5487923BFD74DACDB24 /* IOrderNotificationData.swift in Sources */,
-				CF352A7B5029C1881D1F813F045E347C /* IOrderPayment.swift in Sources */,
-				6E39941D49ED3823319F822DFE09A8B7 /* IOrderPromotion.swift in Sources */,
-				F746A04F45FB71BC4FDDB64B7F4D1501 /* IOrderPromotionApply.swift in Sources */,
-				46A969F8AFF0083C8FA1EBF1393B8DFE /* IOrderResponse.swift in Sources */,
-				A2CD7796A2A3D7999A3CE075052A45F1 /* IOrderService.swift in Sources */,
-				C58710B3E227FC94472C9C591D5B6DAB /* IOrderShippingInfo.swift in Sources */,
-				F3D3FCDD5E7B10A9CB82EAA75E535B07 /* IOrderStaff.swift in Sources */,
-				9D15532DC63FA9230DEF4AB1734F82EE /* IOrderVoucher.swift in Sources */,
-				BE5CD4F363A61AB18D6498700B4943E8 /* IPageBuilderService.swift in Sources */,
-				F885BCE785AE2D1B7C12C85F63F35778 /* IParentBundle.swift in Sources */,
-				F30935258B1E0872B4C655F5ABC574BE /* IPaymentObserver.swift in Sources */,
-				4C56D720679EE55FE5A0D9ADFED9F0E9 /* IPaymentService.swift in Sources */,
-				615DE5435169FD3ABB62A6C82BC83D6C /* IPaymentTransactionResult.swift in Sources */,
-				BD3F6916D210A283699086950FF935EE /* IPpmService.swift in Sources */,
-				57C7CC07B87CE4162E23265E600F63B3 /* IPrice.swift in Sources */,
-				1870FC73AEDC26854BA35B9F74BFDF3E /* IPriceRange.swift in Sources */,
-				0FF2D53ED71F5FCF7606A0BF3CC42997 /* IProduct.swift in Sources */,
-				D2DE8FEC2067A2797296943BFDDCC852 /* IProductDetailService.swift in Sources */,
-				DD1AA9039A3BEE22F0029D79E7B4C43F /* IProductGroup.swift in Sources */,
-				9278A8E4FB594A96C93E83CB8B73A0FD /* IProductLine.swift in Sources */,
-				27F66FFD757109476E8EF9B78E9EB4DF /* IProductsSearchResult.swift in Sources */,
-				6DD8FC23BCDAB1B985B2B41946C04D1D /* IProductType.swift in Sources */,
-				2EA93306D86C6A88CC593D741F4EE635 /* IPromotion.swift in Sources */,
-				0F840B5383358A8CFFC106AEBE019D53 /* IPromotionPrice.swift in Sources */,
-				284622AC358E0EE88843DC2C1FE18592 /* IProvider.swift in Sources */,
-				9FDC4EC526868C63D8076340D9F8B247 /* IRating.swift in Sources */,
-				CDFDC66969BD913BB3A3DF92A9357ABF /* IRecommendationService.swift in Sources */,
-				BB121D5A439857C1C7FBB71989DCEC90 /* ISearchService.swift in Sources */,
-				B0703F6461595FD131260F8DA63591B6 /* ISeller.swift in Sources */,
-				7B6F7FCC082CEA9B47EAE66099F4452A /* ISeoInfo.swift in Sources */,
-				C7B44C589D40F0F26D2B68E8F0D31CF8 /* IShippingService.swift in Sources */,
-				D217480EC0EF00FF50DE02028CC077E8 /* ISkuCondition.swift in Sources */,
-				CDA0475205A6B2288C592CC484568D64 /* IStatus.swift in Sources */,
-				1A17785124ED27EE002EDA7F /* IPaymentServiceConfig.swift in Sources */,
-				B2E897E506C37E06CEC4AE4F59292591 /* IStnService.swift in Sources */,
-				CDB050F28C98CC949EBE44D1C00307A2 /* IStock.swift in Sources */,
-				8FECC7B6AF72802287C16E3673D222A3 /* ITimeRange.swift in Sources */,
-				8A5A38DD2FBAE67F39F508936F6AA35F /* ITotalAvailableByStocks.swift in Sources */,
-				3DF2A275BB905A4BAB491F1DC0336CC5 /* IType.swift in Sources */,
-				CAD8B8CEAB940A73392694050C722C14 /* IUserAddress.swift in Sources */,
-				D50A43587F869E312EF50F1DDE8A1FA3 /* IUserInfo.swift in Sources */,
-				6B02A8C23094E12B9621F5BCF0B36B29 /* IUserService.swift in Sources */,
-				F8E92A5CDDD61420D0A814F2EB2072C4 /* IVariant.swift in Sources */,
-				F739DAC991CF5B4D25D7E4D076F5FC45 /* IVariantImage.swift in Sources */,
-				37BEA687945F9E99EC260AB06D7CF7AE /* IVoucher.swift in Sources */,
-				7EE2F79A95163856630767C26ADD5C97 /* IWard.swift in Sources */,
-				E8BA53727E5C3A5E3E741E40416796CF /* IWarranty.swift in Sources */,
-				099DF35261994F465EF6247033521A9B /* PaymentError.swift in Sources */,
-				FBC86C6CE85CED9758783754BFE16AA1 /* PaymentMethod.swift in Sources */,
-				64BBFD1B19470F30E94CAA1309FC465B /* PaymentRequestProtocol.swift in Sources */,
-				BC8D79C068FABF7F72F351CEFB67AFF1 /* TekServiceInterfaces-dummy.m in Sources */,
-				14EA9C4761F8A0A6782B1948EB3F3C43 /* TransactionError.swift in Sources */,
-				612AC66FFEDE9592E3475DCD13798D31 /* TransactionProtocol.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9CAE71FD7A98200617B28EDF78BFC016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB822CE6423EE2E3B620033162952FEA /* Pods-TekServiceInterfaces_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EE4CC49355B4E3B99EE764B3B7BC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32AA463C9B6ADFA7DA44E6FC79EB8DA /* IAddress.swift in Sources */,
+				AE52C606F2643451954D99F082CD9BA5 /* IAppliedPromotion.swift in Sources */,
+				E5700CB196617CAA5CE204E428327A1C /* IBanner.swift in Sources */,
+				17A07CCA5612C469500BD1573572E648 /* IBannerResult.swift in Sources */,
+				FA355FF0C8FD120E019A21AC130E62D2 /* IBenefit.swift in Sources */,
+				DC1E57879F6CABCE2E55B8C1A5F77E5B /* IBlock.swift in Sources */,
+				44BF7D8320A4163A80E77E8B1C2682F9 /* IBlockAttribute.swift in Sources */,
+				6C792D8ECD53F59D2DE244B18CE818F3 /* IBlockContent.swift in Sources */,
+				2707463E3825FEE7B395BA7CA06EBB3A /* IBlockFilter.swift in Sources */,
+				DD7AD4BFFED3163BEB14D2CFEFAA8D17 /* IBlockItem.swift in Sources */,
+				C35264593CEC4C88147F0A6C052A9249 /* IBlockParams.swift in Sources */,
+				05C60B0CC9B6249F0518E5B06BB1EADC /* IBlockResult.swift in Sources */,
+				CCCC2EC8E903F0BBA18178BFA058B7C2 /* IBlockSorting.swift in Sources */,
+				7E2DAEAC8405F46CE575E811B61BC24B /* IBrand.swift in Sources */,
+				EB734ED016F94B515044DDA32668D617 /* IBundleProduct.swift in Sources */,
+				CCCEF3E3086C83EDCC19C3A5DE9B9428 /* ICatalogSeller.swift in Sources */,
+				48FA16D02D8FFF4D488735DADEF9F912 /* ICatalogService.swift in Sources */,
+				774BD3EA81B65990E81DAF36B0E1B7B6 /* ICategory.swift in Sources */,
+				C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */,
+				C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */,
+				83D41DB15013D1F840244FEE71AABCBC /* ICoreDefinition.swift in Sources */,
+				B657B726BCD243B9EB3C38427F05D22D /* ICrmBankAccount.swift in Sources */,
+				B41597A9A2CF1F61277A02518ED0838D /* ICrmBrandAwareness.swift in Sources */,
+				08FA6F252CB819B58B7B724B2559CDC8 /* ICrmContact.swift in Sources */,
+				2E70881D7A3B2C4B98B29C009965F348 /* ICrmCustomer.swift in Sources */,
+				3C0DC2FE1B240BA1785742E528789385 /* ICrmError.swift in Sources */,
+				74A83730DD3A1438D41B9F5F976D10E0 /* ICrmInformation.swift in Sources */,
+				54EE970B6358104EB55BA88791D2CEB5 /* ICrmPayload.swift in Sources */,
+				9C138060F045151E09CAAFBBF8628639 /* ICrmResponseMessage.swift in Sources */,
+				29B3E8B5A7FCA1BAB7A8F471598E2E6A /* ICrmService.swift in Sources */,
+				B02E54F8F5CB0AE7EB10932E26B0A7F5 /* ICrmVat.swift in Sources */,
+				2B411C846AAEBB8A5965F89139B600D4 /* IDefinition.swift in Sources */,
+				C0827DA638952B3B4E93A43AC0A7CECE /* IDetail.swift in Sources */,
+				3DD7E0F7D8740B3D6BC01118EBEEB2AC /* IDiscoveryService.swift in Sources */,
+				891C199B6D63CD477E82B829DD867539 /* IExtraDataNotification.swift in Sources */,
+				10C63322A8667D7A7EE8D3789F158B42 /* IFilter.swift in Sources */,
+				025EB139F16F2BDFDB14DB490703746B /* IFlashSale.swift in Sources */,
+				36115F588A3F5D9120D708F82351149C /* IGroupConfig.swift in Sources */,
+				228F2212D28FDEE51E907D05FDD27F35 /* IInfo.swift in Sources */,
+				74F97252657B4A477AF3718A8515DE1D /* IItem.swift in Sources */,
+				8BBBA3F1E6ADD2C74576650671E25A4A /* ILocationService.swift in Sources */,
+				9190F8081271FBB0B2704C413BF72879 /* IMarketChildOrder.swift in Sources */,
+				2BA7D276DCE6AC6A97CEF11AD17080BD /* IMoney.swift in Sources */,
+				ECAA7E61156BF78901977583565E6830 /* INotification.swift in Sources */,
+				F37E829893F44739E3EEB944D7E06973 /* INotificationResult.swift in Sources */,
+				EC13015B7E50E3A3628448B1FCBB9596 /* IOptionValue.swift in Sources */,
+				F12D5F12EEE92D51BEFF3197B76587C3 /* IOrder.swift in Sources */,
+				E8301CC4594176D4794E47404CFDCBBD /* IOrderBillingInfo.swift in Sources */,
+				85835C5E29CFFE6FF80AFEA20CADD97B /* IOrderCreator.swift in Sources */,
+				10958097DA42353732B2C24AAA937301 /* IOrderCustomer.swift in Sources */,
+				C88BD8CA237FD7AD122795FAC204A0F9 /* IOrderError.swift in Sources */,
+				0FD48E265CC44F3C5E6CDEC8A08B9532 /* IOrderExtraService.swift in Sources */,
+				BFC93BB8802BFA098A7A4FFBD2B95FEE /* IOrderGift.swift in Sources */,
+				FDDF6CC1335FBBD67D0FF6227FE7EED9 /* IOrderItem.swift in Sources */,
+				A83E4979E3F6CA11DE9429C5F98AF791 /* IOrderListItem.swift in Sources */,
+				237F9F8A6ADCAE3B52466D1C0460F21A /* IOrderListResult.swift in Sources */,
+				4BEAEE868CD9117CAA184CC2BA3034DA /* IOrderNotificationData.swift in Sources */,
+				3193AA68B58A7016C4B878CEFA4A45B1 /* IOrderPayment.swift in Sources */,
+				EE3800B129BE092D00BF66748F5F20A8 /* IOrderPromotion.swift in Sources */,
+				CC103011A140BD85507F591625B98C96 /* IOrderPromotionApply.swift in Sources */,
+				992CA3F502FE18E72BA6CB4C67FC895F /* IOrderResponse.swift in Sources */,
+				6277CBE3A3839BDA9A562330A4240207 /* IOrderService.swift in Sources */,
+				577868B52D3859007E043B661EB0D463 /* IOrderShippingInfo.swift in Sources */,
+				36D5E0E9F41A5F2ED4688C831515751E /* IOrderStaff.swift in Sources */,
+				B5A452ED2A95A276339D367E5D4F54D5 /* IOrderVoucher.swift in Sources */,
+				918A68F6433996231AC7176BC27F8BB4 /* IPageBuilderService.swift in Sources */,
+				FF8B9F69C8E4AE01C631EC0A909F857F /* IPagination.swift in Sources */,
+				F2481AFC8A379C52050E2B2AE6542880 /* IPaymentObserver.swift in Sources */,
+				E147C270F9FF242A104C2C04356FEBC2 /* IPaymentService.swift in Sources */,
+				986EA842CE34CB90659432B3AF5D908D /* IPaymentServiceConfig.swift in Sources */,
+				566A0303DB03E686795A30267A71F825 /* IPaymentTransactionResult.swift in Sources */,
+				79031E3C35A8B59CEEEE460334F68DC4 /* IPpmService.swift in Sources */,
+				3F18382771A5A3987104354B2859974B /* IPrice.swift in Sources */,
+				19282AEDC35FA21C040A0704501C986D /* IProduct.swift in Sources */,
+				EFBE760ADC7D5DE28E395A69613AD33C /* IPromotion.swift in Sources */,
+				FBC062F3460CE1489A0630345E3D9F77 /* IProvider.swift in Sources */,
+				B85F601D9F0B8D4E3A6ADB64647A1C8F /* ISeller.swift in Sources */,
+				E7565BBCEEFCEFCF6AC8045C50084F96 /* IShippingService.swift in Sources */,
+				C40BC9025AC39647B4A2F1F3FA33E986 /* IStnService.swift in Sources */,
+				DFEB7839308D8F3EEC579967EDD72030 /* ITimeRange.swift in Sources */,
+				61D7F7FE3D35C49F17B8B582814861C0 /* IUserAddress.swift in Sources */,
+				E66B0A9B2A59D2CDB2294BE69CF49ABC /* IUserInfo.swift in Sources */,
+				FBF6BD5072710107ABF8CDFE8AE76FC0 /* IUserService.swift in Sources */,
+				5064FDB80EE334FD6887929F8F28FE45 /* IVariant.swift in Sources */,
+				0FF675746E226950B4E917A5C4E5ACFE /* IVoucher.swift in Sources */,
+				6D0296E77FD188D08B022231FC11D0C2 /* IWard.swift in Sources */,
+				90E3140787CAF45E78AA625C8DA9A757 /* PaymentError.swift in Sources */,
+				3A63C6752878A4EECC59442EF8C8B454 /* PaymentMethod.swift in Sources */,
+				835D89AF5CDAB30F0914051A33A847A8 /* PaymentRequestProtocol.swift in Sources */,
+				38701042C27BF27E98C83B61A815D4F7 /* TekServiceInterfaces-dummy.m in Sources */,
+				F05ED854EAC8CDC8B239B21A5A5B6390 /* TransactionError.swift in Sources */,
+				836AA4BC805B352E08C693108E2D65C0 /* TransactionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,39 +878,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02E3DCF7D9B9E065B1EFF9AFDF0EAA88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0B8DAD9FC255BDCBD1FC627D0404B65 /* TekServiceInterfaces.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
-				PRODUCT_MODULE_NAME = TekServiceInterfaces;
-				PRODUCT_NAME = TekServiceInterfaces;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1294,15 +1064,49 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B263CA4305B4110F7CB2E831722D849A /* Debug */ = {
+		F12AF23A8A552729B4C0871ADB5E30FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33AAB41F47D16CF1363ACF6E0FAB0989 /* TekServiceInterfaces.debug.xcconfig */;
+			baseConfigurationReference = 3A3DC203DE4072EB69231F712C27C630 /* TekServiceInterfaces.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TekServiceInterfaces/TekServiceInterfaces.modulemap";
+				PRODUCT_MODULE_NAME = TekServiceInterfaces;
+				PRODUCT_NAME = TekServiceInterfaces;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F63E5481E8D066DA8C6780628AE962D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351C9FDD13743D32AF055CB741B1958C /* TekServiceInterfaces.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1335,15 +1139,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15127B738CD61125B073F139D755B509 /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B263CA4305B4110F7CB2E831722D849A /* Debug */,
-				02E3DCF7D9B9E065B1EFF9AFDF0EAA88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1B2D44DF97C252FCE0F07FD4460CE29F /* Build configuration list for PBXNativeTarget "Pods-TekServiceInterfaces_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1358,6 +1153,15 @@
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E0DCFEE24A9B788023F0A689316CAD /* Build configuration list for PBXNativeTarget "TekServiceInterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63E5481E8D066DA8C6780628AE962D9 /* Debug */,
+				F12AF23A8A552729B4C0871ADB5E30FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
