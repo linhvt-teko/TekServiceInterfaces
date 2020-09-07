@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct SearchFilter {
+public struct SearchFilter: Encodable {
     public var sellingCodes: [String]?
     public var priceGte: Int?
     public var priceLte: Int?

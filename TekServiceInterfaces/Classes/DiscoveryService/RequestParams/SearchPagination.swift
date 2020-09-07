@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct SearchPagination {
+public struct SearchPagination: Encodable {
     public var pageNumber: Int
     public var itemsPerPage: Int
     

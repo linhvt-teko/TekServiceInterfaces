@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct SearchAttribute {
+public struct SearchAttribute: Encodable {
     public var code: String?
     public var values: [String]?
     

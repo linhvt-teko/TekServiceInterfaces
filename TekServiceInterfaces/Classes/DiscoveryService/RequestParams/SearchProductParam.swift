@@ -13,7 +13,7 @@ public enum ReturnFilterable: String {
     case price          = "FILTER_TYPE_PRICE"
 }
 
-public struct SearchProductParam {
+public struct SearchProductParam: Encodable {
     public var terminalCode: String?
     public var query: String?
     public var filter: SearchFilter?
@@ -47,6 +47,28 @@ public struct SearchProductParam {
         self.block = block
     }
     
+    enum CodingKeys: String, CodingKey {
+        case terminalCode, query, filter, pagination, sorting, userId, phoneNumber, location, returnFilterable, block
+    }
+    
+    public func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(terminalCode, forKey: .terminalCode)
+        try container.encode(query, forKey: .query)
+        try container.encode(filter, forKey: .filter)
+        try container.encode(pagination, forKey: .pagination)
+        try container.encode(sorting, forKey: .sorting)
+        try container.encode(userId, forKey: .userId)
+        try container.encode(phoneNumber, forKey: .phoneNumber)
+        try container.encode(location, forKey: .location)
+        try container.encode(returnFilterable.map { $0.rawValue }, forKey: .returnFilterable)
+        try container.encode(block, forKey: .block)
+    }
+    
+    public func toDictionary() -> [String: Any]? {
+        guard let data = try? JSONEncoder().encode(self) else { return nil }
+        return (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)).flatMap { $0 as? [String: Any] }
+    }
 }
 
 

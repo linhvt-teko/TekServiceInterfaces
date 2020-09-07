@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct SearchBlock {
+public struct SearchBlock: Encodable {
     public var blockId: String? = nil
     public var itemId: String? = nil
     

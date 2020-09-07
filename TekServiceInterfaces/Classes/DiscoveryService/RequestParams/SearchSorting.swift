@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct SearchSorting {
+public struct SearchSorting: Encodable {
     public var sort: String?
     public var order: String?
     
