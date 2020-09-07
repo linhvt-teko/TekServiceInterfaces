@@ -10,6 +10,7 @@ import Foundation
 
 public protocol ICondition {
     var coupon: String? { get }
+    var paymentMethods: [String] { get }
     var orderValueMin: Double? { get }
     var orderValueMax: Double? { get }
     var blockSize: Int? { get }

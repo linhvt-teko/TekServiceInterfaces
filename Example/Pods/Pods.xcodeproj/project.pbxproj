@@ -72,7 +72,6 @@
 		B85F601D9F0B8D4E3A6ADB64647A1C8F /* ISeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7173ACC88503B8609A4A756A49D6ADE /* ISeller.swift */; };
 		BFC93BB8802BFA098A7A4FFBD2B95FEE /* IOrderGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4E77CE48065D0CC19420BF8993C46 /* IOrderGift.swift */; };
 		C0827DA638952B3B4E93A43AC0A7CECE /* IDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23366BC76E58EF89E302DF7FA6361A0E /* IDetail.swift */; };
-		C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD66664A999A27E598911B6DE434920 /* ICondition.swift */; };
 		C35264593CEC4C88147F0A6C052A9249 /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */; };
 		C40BC9025AC39647B4A2F1F3FA33E986 /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F062126A21AD45277AD90894B7CB12F8 /* IStnService.swift */; };
 		C88BD8CA237FD7AD122795FAC204A0F9 /* IOrderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */; };
@@ -117,7 +116,7 @@
 
 /* Begin PBXFileReference section */
 		009C82D2999F6CD5A6B09DDA84A7835E /* ICatalogService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogService.swift; sourceTree = "<group>"; };
-		00EA2A36A85E02531BC70821392CEED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00EA2A36A85E02531BC70821392CEED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentError.swift; sourceTree = "<group>"; };
 		027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
 		048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
@@ -176,13 +175,13 @@
 		91B0C9C8D8D7EA34B7606A201B611DC6 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
 		91FEDB0642C37174DA48B9FD8117AE3A /* IOrderBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderBillingInfo.swift; sourceTree = "<group>"; };
 		92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderError.swift; sourceTree = "<group>"; };
-		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
 		987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentServiceConfig.swift; sourceTree = "<group>"; };
 		9995ACC9D4D65850097D0EE9D57B5869 /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6C0BD72F94E430E47FB852467028A3 /* IFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFlashSale.swift; sourceTree = "<group>"; };
-		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C5472E2226FE8706D749859794D4BD /* IOrderPromotionApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotionApply.swift; sourceTree = "<group>"; };
 		A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
 		B3B4E77CE48065D0CC19420BF8993C46 /* IOrderGift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderGift.swift; sourceTree = "<group>"; };
@@ -194,9 +193,9 @@
 		B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionProtocol.swift; sourceTree = "<group>"; };
 		BAF0931B016F3BB6D1EFE45A6031FAB3 /* IGroupConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGroupConfig.swift; sourceTree = "<group>"; };
 		BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
-		BDD101DAC549CC7E91F90457D8185500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDD101DAC549CC7E91F90457D8185500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE867F7C4771F8BF3FE726C76B439C77 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
-		BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserAddress.swift; sourceTree = "<group>"; };
 		C35A363272E18849BDB40E4F9979BD49 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
@@ -227,7 +226,6 @@
 		F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
 		F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderStaff.swift; sourceTree = "<group>"; };
 		FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IBlockParams.swift; sourceTree = "<group>"; };
-		FCD66664A999A27E598911B6DE434920 /* ICondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
 		FE1C3A520FD0F6CF706CE8A6340E38B5 /* Pods-TekServiceInterfaces_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TekServiceInterfaces_Tests.modulemap"; sourceTree = "<group>"; };
 		FE240183FAEDF0AC8DFCE552AAADCF02 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,7 +266,6 @@
 				011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */,
 				19B69166DF931B3BFFE53A94DCAE456D /* TransactionError.swift */,
 			);
-			name = Errors;
 			path = Errors;
 			sourceTree = "<group>";
 		};
@@ -277,7 +274,6 @@
 			children = (
 				79B66200679F51CA94ED65DF2878508B /* ICatalogSeller.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -288,7 +284,6 @@
 				C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */,
 				027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -298,7 +293,6 @@
 				54244E36D1753F449BE2EB2F5E7A800C /* IBanner.swift */,
 				0C394D43EC40BC40AB2713FCF1E84739 /* IBannerResult.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -310,7 +304,6 @@
 				5926C1454CAC376ED1073B4FB88844CD /* INotificationResult.swift */,
 				4D585F3EE8012E20A7497EB326CA11ED /* IOrderNotificationData.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -362,7 +355,6 @@
 				1C7A2BEC6B8F37A8F2CB74849AE9A239 /* IVariant.swift */,
 				F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -391,7 +383,6 @@
 				313DA6021238B260ECBCC59E8F62E936 /* PaymentRequestProtocol.swift */,
 				B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */,
 			);
-			name = PaymentMethod;
 			path = PaymentMethod;
 			sourceTree = "<group>";
 		};
@@ -400,7 +391,6 @@
 			children = (
 				2A47554B2545085B6142F22984D56F51 /* IPaymentTransactionResult.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -427,7 +417,6 @@
 				C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */,
 				4E69DEBC04445DE331321925006721DA /* IUserInfo.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -533,7 +522,6 @@
 				304BAFF9716EF65EEB4F04B5565F6401 /* IPaymentService.swift */,
 				987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */,
 			);
-			name = Protocols;
 			path = Protocols;
 			sourceTree = "<group>";
 		};
@@ -611,7 +599,6 @@
 				2F80EBA2B14B0EB4A68EBF24FB57C4A0 /* ICrmResponseMessage.swift */,
 				048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -637,7 +624,6 @@
 				F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */,
 				DCAFD5F2EE2EC77BAFD3967E16DC89B2 /* IOrderVoucher.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -645,12 +631,10 @@
 			isa = PBXGroup;
 			children = (
 				05031BED3AB98A9275E852E0493839CB /* IAppliedPromotion.swift */,
-				FCD66664A999A27E598911B6DE434920 /* ICondition.swift */,
 				4BD12C3F49F8A514A20F8CDBC719087B /* ICoreDefinition.swift */,
 				FE240183FAEDF0AC8DFCE552AAADCF02 /* IDefinition.swift */,
 				C55D4DCED7BE4C10BFB18D1B8B858DE6 /* ITimeRange.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -789,8 +773,6 @@
 				CCCEF3E3086C83EDCC19C3A5DE9B9428 /* ICatalogSeller.swift in Sources */,
 				48FA16D02D8FFF4D488735DADEF9F912 /* ICatalogService.swift in Sources */,
 				774BD3EA81B65990E81DAF36B0E1B7B6 /* ICategory.swift in Sources */,
-				C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */,
-				C25629CCAA05C54874BD1541B5F85B06 /* ICondition.swift in Sources */,
 				83D41DB15013D1F840244FEE71AABCBC /* ICoreDefinition.swift in Sources */,
 				B657B726BCD243B9EB3C38427F05D22D /* ICrmBankAccount.swift in Sources */,
 				B41597A9A2CF1F61277A02518ED0838D /* ICrmBrandAwareness.swift in Sources */,
@@ -1064,8 +1046,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
