@@ -87,6 +87,13 @@
 		C596B754769F809D8CAA48DA2FFAD47B /* IPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BE82E24A90309DF443E8ECE81F859 /* IPromotion.swift */; };
 		C5CEE4D2ADD0D87FC84DA082CBAD5A1A /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */; };
 		C882375B59158E638BE102481953AF9D /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */; };
+		CA99245D2506484E00932EF6 /* IListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99245B2506483200932EF6 /* IListing.swift */; };
+		CA9924662506498B00932EF6 /* SearchProductParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99245F2506498A00932EF6 /* SearchProductParam.swift */; };
+		CA9924672506498B00932EF6 /* SearchAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9924602506498B00932EF6 /* SearchAttribute.swift */; };
+		CA9924682506498B00932EF6 /* SearchPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9924612506498B00932EF6 /* SearchPagination.swift */; };
+		CA9924692506498B00932EF6 /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9924622506498B00932EF6 /* SearchFilter.swift */; };
+		CA99246A2506498B00932EF6 /* SearchSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9924632506498B00932EF6 /* SearchSorting.swift */; };
+		CA99246B2506498B00932EF6 /* SearchBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9924642506498B00932EF6 /* SearchBlock.swift */; };
 		CB347FEDE20645E45945B5F5E02F0374 /* TekServiceInterfaces-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8940825AD90FDA06F2539E8A09A4BCE /* TekServiceInterfaces-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB7D06DC7083E178E5AD36C44103DCAA /* ICrmBrandAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */; };
 		CCDBF4AA7A91E6E49C1420809471FCFD /* IBlockParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B7F8F557A80C8061397E460FD5A71 /* IBlockParams.swift */; };
@@ -117,7 +124,7 @@
 
 /* Begin PBXFileReference section */
 		009C82D2999F6CD5A6B09DDA84A7835E /* ICatalogService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICatalogService.swift; sourceTree = "<group>"; };
-		00EA2A36A85E02531BC70821392CEED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00EA2A36A85E02531BC70821392CEED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentError.swift; sourceTree = "<group>"; };
 		027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IWard.swift; sourceTree = "<group>"; };
 		048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmVat.swift; sourceTree = "<group>"; };
@@ -176,13 +183,13 @@
 		91B0C9C8D8D7EA34B7606A201B611DC6 /* ICrmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmPayload.swift; sourceTree = "<group>"; };
 		91FEDB0642C37174DA48B9FD8117AE3A /* IOrderBillingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderBillingInfo.swift; sourceTree = "<group>"; };
 		92D1C14C57CBA21B0F4403D97688F201 /* IOrderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderError.swift; sourceTree = "<group>"; };
-		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekServiceInterfaces.framework; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933E00521A1CAFD705344BDB69709F7E /* TekServiceInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TekServiceInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937926BBEB55F73E0CE8A6103B68BD05 /* ICrmBrandAwareness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmBrandAwareness.swift; sourceTree = "<group>"; };
 		987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPaymentServiceConfig.swift; sourceTree = "<group>"; };
 		9995ACC9D4D65850097D0EE9D57B5869 /* ICrmInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICrmInformation.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6C0BD72F94E430E47FB852467028A3 /* IFlashSale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IFlashSale.swift; sourceTree = "<group>"; };
-		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekServiceInterfaces_Tests.framework; path = "Pods-TekServiceInterfaces_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E0C88659747B8BFE5F0FA76323C947 /* Pods_TekServiceInterfaces_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekServiceInterfaces_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C5472E2226FE8706D749859794D4BD /* IOrderPromotionApply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderPromotionApply.swift; sourceTree = "<group>"; };
 		A94A05E884EA603C5F9F640B18FF6B9B /* IMoney.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
 		ABE160BAAB25B86543400BB606D3E463 /* IDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
@@ -195,14 +202,21 @@
 		B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransactionProtocol.swift; sourceTree = "<group>"; };
 		BAF0931B016F3BB6D1EFE45A6031FAB3 /* IGroupConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGroupConfig.swift; sourceTree = "<group>"; };
 		BB7F4F78B388C9FDEB9AF72FBF14899C /* IItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
-		BDD101DAC549CC7E91F90457D8185500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDD101DAC549CC7E91F90457D8185500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE867F7C4771F8BF3FE726C76B439C77 /* IOrderListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListItem.swift; sourceTree = "<group>"; };
-		BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF5D4007AC2321AC42E1DD3D011DA7D2 /* TekServiceInterfaces.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TekServiceInterfaces.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C165EA078F84F5A95E10BAFBD3041D8B /* Pods-TekServiceInterfaces_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekServiceInterfaces_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IUserAddress.swift; sourceTree = "<group>"; };
 		C35A363272E18849BDB40E4F9979BD49 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
 		C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IShippingService.swift; sourceTree = "<group>"; };
 		C897BA622C3171A06624A01A9B085520 /* TekServiceInterfaces.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekServiceInterfaces.modulemap; sourceTree = "<group>"; };
+		CA99245B2506483200932EF6 /* IListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IListing.swift; sourceTree = "<group>"; };
+		CA99245F2506498A00932EF6 /* SearchProductParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProductParam.swift; sourceTree = "<group>"; };
+		CA9924602506498B00932EF6 /* SearchAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAttribute.swift; sourceTree = "<group>"; };
+		CA9924612506498B00932EF6 /* SearchPagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPagination.swift; sourceTree = "<group>"; };
+		CA9924622506498B00932EF6 /* SearchFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilter.swift; sourceTree = "<group>"; };
+		CA9924632506498B00932EF6 /* SearchSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSorting.swift; sourceTree = "<group>"; };
+		CA9924642506498B00932EF6 /* SearchBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBlock.swift; sourceTree = "<group>"; };
 		CB587FA0F2562EF7D96ACF4CAF620CAC /* IOptionValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOptionValue.swift; sourceTree = "<group>"; };
 		CD9231D1C9F74ABAF3F7C2487F888CFA /* IOrderListResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderListResult.swift; sourceTree = "<group>"; };
 		D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekServiceInterfaces_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -267,7 +281,6 @@
 				011BE805277A22793EEF64EE2ACEE716 /* PaymentError.swift */,
 				19B69166DF931B3BFFE53A94DCAE456D /* TransactionError.swift */,
 			);
-			name = Errors;
 			path = Errors;
 			sourceTree = "<group>";
 		};
@@ -276,7 +289,6 @@
 			children = (
 				79B66200679F51CA94ED65DF2878508B /* ICatalogSeller.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -287,7 +299,6 @@
 				C6AB97DE71E1E570114128637ED52B26 /* IShippingService.swift */,
 				027BD15008976B0CCAC30F7D3051D2C7 /* IWard.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -297,7 +308,6 @@
 				54244E36D1753F449BE2EB2F5E7A800C /* IBanner.swift */,
 				0C394D43EC40BC40AB2713FCF1E84739 /* IBannerResult.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -309,7 +319,6 @@
 				5926C1454CAC376ED1073B4FB88844CD /* INotificationResult.swift */,
 				4D585F3EE8012E20A7497EB326CA11ED /* IOrderNotificationData.swift */,
 			);
-			name = IModels;
 			path = IModels;
 			sourceTree = "<group>";
 		};
@@ -360,8 +369,8 @@
 				E7173ACC88503B8609A4A756A49D6ADE /* ISeller.swift */,
 				1C7A2BEC6B8F37A8F2CB74849AE9A239 /* IVariant.swift */,
 				F89187F903440A5426D42BBC25D317BE /* IVoucher.swift */,
+				CA99245B2506483200932EF6 /* IListing.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -390,7 +399,6 @@
 				313DA6021238B260ECBCC59E8F62E936 /* PaymentRequestProtocol.swift */,
 				B99E56E8E95A7DA02ED7D3AB6519391B /* TransactionProtocol.swift */,
 			);
-			name = PaymentMethod;
 			path = PaymentMethod;
 			sourceTree = "<group>";
 		};
@@ -399,7 +407,6 @@
 			children = (
 				2A47554B2545085B6142F22984D56F51 /* IPaymentTransactionResult.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -426,7 +433,6 @@
 				C2FE35B22CA29D8E5468E66E96B6FFA3 /* IUserAddress.swift */,
 				4E69DEBC04445DE331321925006721DA /* IUserInfo.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -525,7 +531,6 @@
 				ABE160BAAB25B86543400BB606D3E463 /* IDefinition.swift */,
 				FAB26216BE018D9534FA1A86D5103835 /* ITimeRange.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -544,8 +549,20 @@
 				304BAFF9716EF65EEB4F04B5565F6401 /* IPaymentService.swift */,
 				987D5B3CB6B8ACB5623C26E37FC06521 /* IPaymentServiceConfig.swift */,
 			);
-			name = Protocols;
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CA99245E2506497600932EF6 /* RequestParams */ = {
+			isa = PBXGroup;
+			children = (
+				CA9924602506498B00932EF6 /* SearchAttribute.swift */,
+				CA9924642506498B00932EF6 /* SearchBlock.swift */,
+				CA9924622506498B00932EF6 /* SearchFilter.swift */,
+				CA9924632506498B00932EF6 /* SearchSorting.swift */,
+				CA9924612506498B00932EF6 /* SearchPagination.swift */,
+				CA99245F2506498A00932EF6 /* SearchProductParam.swift */,
+			);
+			path = RequestParams;
 			sourceTree = "<group>";
 		};
 		CB7588AAEBB4423537D54150FEB3CB68 /* LocationService */ = {
@@ -602,6 +619,7 @@
 		D7276728B455B0A35947E2BC6EFDC4DB /* DiscoveryService */ = {
 			isa = PBXGroup;
 			children = (
+				CA99245E2506497600932EF6 /* RequestParams */,
 				3D8B8DF56A3C375FF4969FEB476D999A /* IDiscoveryService.swift */,
 				4181E9122D0891564E75D38BFB03C75F /* Models */,
 			);
@@ -622,7 +640,6 @@
 				2F80EBA2B14B0EB4A68EBF24FB57C4A0 /* ICrmResponseMessage.swift */,
 				048E842D7958D14429E3DC59F6486F89 /* ICrmVat.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -648,7 +665,6 @@
 				F9D966EDF2A888FE95031511EC37B159 /* IOrderStaff.swift */,
 				DCAFD5F2EE2EC77BAFD3967E16DC89B2 /* IOrderVoucher.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -719,6 +735,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6FA3F449B1526A40C8C8BBF649320CDC = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -795,14 +816,18 @@
 				9915B28E92FAB1A62D44E74319A0CCEC /* IDetail.swift in Sources */,
 				C532ED23471D168C15A03461C0E718AD /* IDiscoveryService.swift in Sources */,
 				16ED5F1E780105A7935F6281055ECF2B /* IExtraDataNotification.swift in Sources */,
+				CA9924672506498B00932EF6 /* SearchAttribute.swift in Sources */,
 				E1E926A382AFAF2F3D11E7C116F0A385 /* IFilter.swift in Sources */,
 				227AF147D29CA86A7B6102DE06D707F2 /* IFlashSale.swift in Sources */,
 				1B4CDFE359AC95B1B69496D8188741F2 /* IGroupConfig.swift in Sources */,
 				2BB28EA30C9707F43D432F1A13F5C4CA /* IInfo.swift in Sources */,
 				C5CEE4D2ADD0D87FC84DA082CBAD5A1A /* IItem.swift in Sources */,
+				CA9924662506498B00932EF6 /* SearchProductParam.swift in Sources */,
 				A698515B2ADD46DCF770EBD12C15CFEB /* ILocationService.swift in Sources */,
 				3FC8D669D2354DEEC1FA2DBD5A4CB5C3 /* IMarketChildOrder.swift in Sources */,
+				CA99246B2506498B00932EF6 /* SearchBlock.swift in Sources */,
 				C882375B59158E638BE102481953AF9D /* IMoney.swift in Sources */,
+				CA99246A2506498B00932EF6 /* SearchSorting.swift in Sources */,
 				83A007BDB453A62E4BA99D868F577282 /* INotification.swift in Sources */,
 				DE9809C9BBE069F18A43D59BC272B470 /* INotificationResult.swift in Sources */,
 				01F4DD9C1A48AE5932BDFBD25143F304 /* IOptionValue.swift in Sources */,
@@ -823,6 +848,7 @@
 				080899AA6FC1A90199F81102F4273AB3 /* IOrderResponse.swift in Sources */,
 				5886BA4F0C5611339AE0BC640E9AC5B7 /* IOrderService.swift in Sources */,
 				BEF60188AD480C90F0B0B83160CD891E /* IOrderShippingInfo.swift in Sources */,
+				CA9924682506498B00932EF6 /* SearchPagination.swift in Sources */,
 				68F1126F426E92025377C8DFDB25FE12 /* IOrderStaff.swift in Sources */,
 				5EE5E5478FD5448716173879A53976FB /* IOrderVoucher.swift in Sources */,
 				7F5D7403C939E5B20F161742F32030E4 /* IPageBuilderService.swift in Sources */,
@@ -831,12 +857,14 @@
 				7415BA278851388D840925A7F00112F0 /* IPaymentService.swift in Sources */,
 				AC9F9D460CD5644381CB055EB0A9379E /* IPaymentServiceConfig.swift in Sources */,
 				2C36BCB6595E26EE91160AA1F5F02F19 /* IPaymentTransactionResult.swift in Sources */,
+				CA9924692506498B00932EF6 /* SearchFilter.swift in Sources */,
 				650DB79999CFF553DC3C3F78A292E461 /* IPpmService.swift in Sources */,
 				0BD9B1D1814658DD47D82AE065BD6168 /* IPrice.swift in Sources */,
 				F47251A4737501BF46B1BAF3729AEFCA /* IProduct.swift in Sources */,
 				C596B754769F809D8CAA48DA2FFAD47B /* IPromotion.swift in Sources */,
 				057A73502F03710B58C1D7E7ACBDB470 /* IProvider.swift in Sources */,
 				85020915DEB34747D992F66BDFFB8C85 /* ISeller.swift in Sources */,
+				CA99245D2506484E00932EF6 /* IListing.swift in Sources */,
 				65125F4EBCDF6E672C9C3B2996A371D2 /* IShippingService.swift in Sources */,
 				0712ABEB84C6163E3F06E4A9DA7D98BC /* IStnService.swift in Sources */,
 				57C288B3B2BBAA9FA16757B847E0567E /* ITimeRange.swift in Sources */,
@@ -976,6 +1004,7 @@
 			baseConfigurationReference = D01460ED120E9615B5DBEB6F8FC304B6 /* Pods-TekServiceInterfaces_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -999,6 +1028,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1044,6 +1074,7 @@
 			baseConfigurationReference = 60388570966F25DDA5A14C83A1CDE303 /* Pods-TekServiceInterfaces_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1067,6 +1098,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1126,8 +1159,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

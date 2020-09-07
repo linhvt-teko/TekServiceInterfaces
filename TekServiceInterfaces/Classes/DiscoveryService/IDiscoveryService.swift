@@ -8,7 +8,57 @@
 import Foundation
 
 public typealias BlockResponseHandler = (_ result: IBlockResult?, _ isSuccess: Bool) -> ()
+public typealias SearchProductHandler = (_ result: IListing?, _ isSuccess: Bool) -> ()
+public typealias GetProductDetailHandler = (_ product: IProduct?, _ isSuccess: Bool) -> ()
 
 public protocol IDiscoveryService {
     func blocks(userId: String?, phone: String?, completion: @escaping BlockResponseHandler)
+    func searchProducts(query: String,
+                        block: SearchBlock,
+                        filter: SearchFilter?,
+                        sorting: SearchSorting?,
+                        pagination: SearchPagination?,
+                        location: String?,
+                        returnFilterable: [ReturnFilterable],
+                        handler: @escaping SearchProductHandler)
+    
+    func getProductDetail(sku: String, location: String?, handler: @escaping GetProductDetailHandler)
+
+}
+
+public extension IDiscoveryService {
+    
+    func getProductList(for block: SearchBlock,
+                        filter: SearchFilter?,
+                        sorting: SearchSorting?,
+                        pagination: SearchPagination?,
+                        handler: @escaping SearchProductHandler) {
+        searchProducts(query: "",
+                       block: block,
+                       filter: filter,
+                       sorting: sorting,
+                       pagination: pagination,
+                       location: nil,
+                       returnFilterable: [],
+                       handler: handler)
+    }
+    
+    func searchByKeyword(query: String,
+                        for block: SearchBlock,
+                        filter: SearchFilter?,
+                        sorting: SearchSorting?,
+                        pagination: SearchPagination?,
+                        handler: @escaping SearchProductHandler) {
+        searchProducts(query: query,
+                       block: block,
+                       filter: filter,
+                       sorting: sorting,
+                       pagination: pagination,
+                       location: nil,
+                       returnFilterable: [],
+                       handler: handler)
+
+    }
+
+    
 }
